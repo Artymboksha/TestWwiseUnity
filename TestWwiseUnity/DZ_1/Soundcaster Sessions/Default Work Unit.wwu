@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1C041683-6D7C-4E1B-A1D5-EBD8C32C230F}" SchemaVersion="123">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{1C041683-6D7C-4E1B-A1D5-EBD8C32C230F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{B57718AA-9C86-449C-9081-0FCCA19BB1F3}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="amb_urban_play" ID="{9FBAD08A-13A2-4A58-BD54-0AD3A4114749}" WorkUnitID="{17066A59-8258-48C7-A356-B93263158E41}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="amb_urban_train_play" ID="{71F8E2BD-153D-49A5-8423-131FBC3D233F}" WorkUnitID="{17066A59-8258-48C7-A356-B93263158E41}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="M4_Play" ID="{8C72FD96-B815-4BA2-9932-480A44B01729}" WorkUnitID="{0CCD27C9-09FF-4C56-984A-ED171AABEA36}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="amb_urban_stop" ID="{A1959339-AC21-4F03-883F-EF9E7C84AD22}" WorkUnitID="{17066A59-8258-48C7-A356-B93263158E41}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="amb_urban_train_stop" ID="{057F42C0-8303-4C2E-8E6D-0F7AD7F7DED6}" WorkUnitID="{17066A59-8258-48C7-A356-B93263158E41}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="M4_Stop" ID="{3554C320-17D8-4F33-A2F5-DA54F27E74ED}" WorkUnitID="{0CCD27C9-09FF-4C56-984A-ED171AABEA36}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="WInd" ID="{77D7E0CE-6F2C-40FF-9BF3-228156480BB9}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Train" ID="{A3B70BAF-D487-450D-9293-D7C556DB918C}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ammo" ID="{3D05EAFE-8192-4DC4-A736-69BAA492A905}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="out" ID="{9831D3A7-B7EA-4BE3-96DB-57B75D661507}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="New Soundcaster Session_01" ID="{588C2043-8F6D-4456-AC60-287F95019FAD}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="M4_Play" ID="{8C72FD96-B815-4BA2-9932-480A44B01729}" WorkUnitID="{0CCD27C9-09FF-4C56-984A-ED171AABEA36}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="amb_urban_play" ID="{9FBAD08A-13A2-4A58-BD54-0AD3A4114749}" WorkUnitID="{17066A59-8258-48C7-A356-B93263158E41}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="M4_Stop" ID="{3554C320-17D8-4F33-A2F5-DA54F27E74ED}" WorkUnitID="{0CCD27C9-09FF-4C56-984A-ED171AABEA36}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="amb_urban_stop" ID="{A1959339-AC21-4F03-883F-EF9E7C84AD22}" WorkUnitID="{17066A59-8258-48C7-A356-B93263158E41}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="out" ID="{9831D3A7-B7EA-4BE3-96DB-57B75D661507}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AE5F188C-31C7-4676-867E-77E32CCEA4FA}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{AE5F188C-31C7-4676-867E-77E32CCEA4FA}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Ambience" ID="{890FC02B-DCD0-486C-87BF-C5488A31BEB0}" PersistMode="Reference"/>
+				<WorkUnit Name="Weapon" ID="{0CCD27C9-09FF-4C56-984A-ED171AABEA36}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

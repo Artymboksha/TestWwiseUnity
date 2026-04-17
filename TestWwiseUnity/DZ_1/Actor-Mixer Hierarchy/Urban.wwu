@@ -1,0 +1,2256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}" SchemaVersion="123" RootDocumentID="{475E8F0B-A974-453E-8FD2-BAAB1B452EB5}" ParentDocumentID="{61C69B53-1664-41D1-85BA-2A4497D2507D}">
+	<AudioObjects>
+		<WorkUnit Name="Urban" ID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}" OwnerID="{61C69B53-1664-41D1-85BA-2A4497D2507D}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="2"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Main" ID="{A4712F0C-CD57-4303-A053-0833334A397F}" ShortID="202477926">
+					<ChildrenList>
+						<BlendContainer Name="Main" ID="{662B3D17-970E-44E5-8024-90F36239BC2A}" ShortID="3908325">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="Wind" ID="{CB95FB54-1E9E-4713-8299-35763A1AD9CC}" ShortID="454991853">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="amb_urban_main_Wind, General, Wind Urban Strong Wind Blows Howling, Metal Squeaks 01 SND71919" ID="{AB9B1370-F4E0-4FC7-B7EB-8DF885BC5363}" ShortID="894461787">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wind, General, Wind Urban Strong Wind Blows Howling, Metal Squeaks 01 SND71919" ID="{A475A651-6F52-46E0-8AAF-2A32AC4B8DE5}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="1170.49"/>
+														<Property Name="LoopBegin" Type="Real64" Value="7.11408598810179"/>
+														<Property Name="LoopEnd" Type="Real64" Value="41.2617005111825"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="5.80618864105846"/>
+														<Property Name="TrimEnd" Type="Real64" Value="42.4710951291598"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Urban\Main\Wind, General, Wind Urban Strong Wind Blows Howling, Metal Squeaks 01 SND71919.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="539655229"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{C1D7F1B2-2AB4-4694-BFAC-025E810BF73A}" ShortID="449783168">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																		<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{E475CC68-D240-47C6-A990-7DE67248F72B}" ShortID="651705517">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="MakeUpGain"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="WInd" ID="{77D7E0CE-6F2C-40FF-9BF3-228156480BB9}" WorkUnitID="{334E9016-CF44-4C70-8946-DE18FF21B792}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{8925DC85-07AA-4A78-AF42-93EDE57CDF84}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0.08657</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>37.9454926624738</XPos>
+																						<YPos>0.0536189222776521</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>57.02306</XPos>
+																						<YPos>-2.38258</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>-5.82222</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="Wind, General, Wind Urban Strong Wind Blows Howling, Metal Squeaks 01 SND71919" ID="{A475A651-6F52-46E0-8AAF-2A32AC4B8DE5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="amb_urban_main_Wind, General, Gusts, Snow, Leaves, Howling SND11619 3" ID="{8BC0ECC0-43AC-4FBC-AA1D-0D31F8814FD6}" ShortID="63742393">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wind, General, Gusts, Snow, Leaves, Howling SND11619 3" ID="{16A17B0D-BE43-4F00-881C-A6353349D073}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="1099.683"/>
+														<Property Name="LoopBegin" Type="Real64" Value="1.00229247003539"/>
+														<Property Name="LoopEnd" Type="Real64" Value="9.28686647030431"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0939649190658177"/>
+														<Property Name="TrimEnd" Type="Real64" Value="10.3987846792498"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Urban\Main\Wind, General, Gusts, Snow, Leaves, Howling SND11619 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="384427282"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{C0F2C570-65A3-4B8F-85AD-4905971E79A9}" ShortID="707067077">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="MakeUpGain"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="WInd" ID="{77D7E0CE-6F2C-40FF-9BF3-228156480BB9}" WorkUnitID="{334E9016-CF44-4C70-8946-DE18FF21B792}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{4DFE9007-65F6-4970-9DA8-85FD27D1D68C}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-96</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>46.12159</XPos>
+																						<YPos>-192</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>59.95807</XPos>
+																						<YPos>-7.96548</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>76.31027</XPos>
+																						<YPos>-2.24165</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>2.74101</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="Wind, General, Gusts, Snow, Leaves, Howling SND11619 3" ID="{16A17B0D-BE43-4F00-881C-A6353349D073}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{AF22A1F7-CBF4-483E-A970-266CE20B60FF}" ShortID="595317221">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="MakeUpGain"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="WInd" ID="{77D7E0CE-6F2C-40FF-9BF3-228156480BB9}" WorkUnitID="{334E9016-CF44-4C70-8946-DE18FF21B792}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{F8E2A185-C8AC-4203-A8B9-1CF093A34734}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-0.08629</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0.05752</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</BlendContainer>
+								<BlendContainer Name="Specks" ID="{C587F5CD-69AC-42B7-94B1-A62D4AB8C75B}" ShortID="420943662">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Crown" ID="{1887A206-026B-436B-A460-78E0CF3C7C72}" ShortID="875449433">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D5229DBE-D34C-4E65-892E-8B408E7FC60D}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="4"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{E0514DF1-AD68-4FF5-B85E-A042495729E0}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{21E5457D-1614-44E3-AF29-4BD5B4B8EE54}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_urban_main_crow_01" ID="{A7BE8EBB-A463-4EE4-A759-DCDCEA0075DF}" ShortID="790569250">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds, Crow, Call, Cawing, Single SND49400" ID="{AA0AD1F0-F14E-447B-8A8D-B961E2858AA1}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.057924500387958"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.656477671063524"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0937825244376462"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.11435708973279"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambience\Urban\Main\Birds, Crow, Call, Cawing, Single SND49400.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="811950197"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds, Crow, Call, Cawing, Single SND49400" ID="{AA0AD1F0-F14E-447B-8A8D-B961E2858AA1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_urban_main_crow_02" ID="{A3BDD623-DC2B-43CA-9736-1626878EB4D3}" ShortID="497251433">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds, Crow, Call, Cawing, Single SND49400 1" ID="{30AA141C-7E87-4155-80F7-82F1FA78EC9F}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0433876422735361"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.598749463374797"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.15619551218473"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambience\Urban\Main\Birds, Crow, Call, Cawing, Single SND49400 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="699574247"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds, Crow, Call, Cawing, Single SND49400 1" ID="{30AA141C-7E87-4155-80F7-82F1FA78EC9F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_urban_main_crow_03" ID="{B33AE6A3-4C41-47B5-B6C3-B8AD7145F324}" ShortID="306916219">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds, Crow, Call, Cawing, Single SND49400 2" ID="{C107D9B8-5B79-48F7-AFBE-5B21154ED38E}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0341136795163494"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.753602192952083"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.38315455701345"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambience\Urban\Main\Birds, Crow, Call, Cawing, Single SND49400 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="829489727"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds, Crow, Call, Cawing, Single SND49400 2" ID="{C107D9B8-5B79-48F7-AFBE-5B21154ED38E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_urban_main_crow_04" ID="{20BBB419-7EC0-41D1-AC63-858927C03292}" ShortID="361129162">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds, Crow, Call, Cawing, Single SND49400 3" ID="{23E155A6-9700-43FA-ADE9-7618CF91DF84}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.053749556555028"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.385461105580344"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0337854355488747"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambience\Urban\Main\Birds, Crow, Call, Cawing, Single SND49400 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="456805709"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds, Crow, Call, Cawing, Single SND49400 3" ID="{23E155A6-9700-43FA-ADE9-7618CF91DF84}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Car" ID="{400F15F7-A215-4668-988F-164F89509153}" ShortID="194111226">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0000629B-346A-4C96-96AC-BBEB58187FB1}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="4"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A908378C-12B2-4474-9CF5-3EE698EE9E7C}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{2632CB16-A3AC-4D44-B72D-1720DE0B9267}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_urban_main_Vehicles_01" ID="{2158C5A4-A67D-4799-A57D-65E3B415CCCD}" ShortID="355533141">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vehicles, Car, Ford Mondeo 2014, Large, Family Car, Pass By, Medium SND107064" ID="{9725E00F-88C4-41CA-8608-66C5556BF1E8}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.77820055165522"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="3.89281742389385"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="7.4732480126188"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambience\Urban\Main\Vehicles, Car, Ford Mondeo 2014, Large, Family Car, Pass By, Medium SND107064.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="23883577"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Vehicles, Car, Ford Mondeo 2014, Large, Family Car, Pass By, Medium SND107064" ID="{9725E00F-88C4-41CA-8608-66C5556BF1E8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_urban_main_Vehicles_02" ID="{5ADB0D31-5D33-42A2-98C8-209E980DB04D}" ShortID="514188725">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vehicles, Generic By, Car Pass, Slow, Asphalt SND3229 5" ID="{342093E5-FC35-45E1-9336-6CCC6E22FB6E}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.05588791241333"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.66825729217964"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambience\Urban\Main\Vehicles, Generic By, Car Pass, Slow, Asphalt SND3229 5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="967402316"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Vehicles, Generic By, Car Pass, Slow, Asphalt SND3229 5" ID="{342093E5-FC35-45E1-9336-6CCC6E22FB6E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_urban_main_Vehicles_03" ID="{A44360D7-C879-429C-A12C-F90DC6054012}" ShortID="514361117">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vehicles, Generic By, Car Pass, Van, Pass, Followed By Truck, Followed By Car SND34016 3" ID="{FA0C1D2D-4857-448C-A0E1-C82E4DC2D29A}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.41741630358574"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="3.01044170673076"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambience\Urban\Main\Vehicles, Generic By, Car Pass, Van, Pass, Followed By Truck, Followed By Car SND34016 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="5304509"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Vehicles, Generic By, Car Pass, Van, Pass, Followed By Truck, Followed By Car SND34016 3" ID="{FA0C1D2D-4857-448C-A0E1-C82E4DC2D29A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_urban_main_Vehicles_04" ID="{995A6C7C-3834-4DAC-8F15-6CC2C45BCCE9}" ShortID="71720249">
+													<PropertyList>
+														<Property Name="MakeUpGain" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vehicles, Military, WW2, Car, VW Kübelwagen, Pass By, Slow Speed, Perspective 1  SND11075 3" ID="{81DC90C2-516C-49E3-A645-80A0163FA041}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="2.23110865867376"/>
+																<Property Name="FadeInShape" Type="int16" Value="8"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.78514235243838"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambience\Urban\Main\Vehicles, Military, WW2, Car, VW Kübelwagen, Pass By, Slow Speed, Perspective 1  SND11075 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="350555364"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Vehicles, Military, WW2, Car, VW Kübelwagen, Pass By, Slow Speed, Perspective 1  SND11075 3" ID="{81DC90C2-516C-49E3-A645-80A0163FA041}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Horn" ID="{929D80FC-239A-4972-9939-55E960FFEC1B}" ShortID="720536759">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A5798BF3-3F1C-4042-867C-4DC4E6E9021D}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="4"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5A2C090E-1203-4019-999D-2CDB4A810ADC}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D0BB8533-23DD-4E7E-8E44-6DD67B7F1759}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_urban_main_horn_01" ID="{420B0A78-D0DB-4F7F-900B-39F47FD4DC16}" ShortID="517568770">
+													<PropertyList>
+														<Property Name="MakeUpGain" Type="Real64">
+															<ValueList>
+																<Value>-14</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mitsubishi Imiev Electric Car Horn Short by jakobthiesen Id-174841" ID="{D7720C35-9E18-475A-B580-56CFC116EF48}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.114388977530335"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.4368371634592"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.4368371634592"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambience\Urban\Main\Mitsubishi Imiev Electric Car Horn Short by jakobthiesen Id-174841.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="433752717"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mitsubishi Imiev Electric Car Horn Short by jakobthiesen Id-174841" ID="{D7720C35-9E18-475A-B580-56CFC116EF48}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_urban_main_horn_02" ID="{277084B6-8CE9-48A9-94E1-D9C8D83613E7}" ShortID="634854181">
+													<PropertyList>
+														<Property Name="MakeUpGain" Type="Real64">
+															<ValueList>
+																<Value>-16</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="VEHCar-LR_Australia-Vehicle, Car, Car Horn, Loud, Distance, Morning, Melbourne, _FTUS_AIOL_192k24b" ID="{D1FAE1B1-FA7B-4FF0-BB27-DCF0E25DD11F}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.376048784989577"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.49559648220356"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambience\Urban\Main\VEHCar-LR_Australia-Vehicle, Car, Car Horn, Loud, Distance, Morning, Melbourne, _FTUS_AIOL_192k24b.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="652452574"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="VEHCar-LR_Australia-Vehicle, Car, Car Horn, Loud, Distance, Morning, Melbourne, _FTUS_AIOL_192k24b" ID="{D1FAE1B1-FA7B-4FF0-BB27-DCF0E25DD11F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_urban_main_horn_03" ID="{F9B3BD7F-3E66-45A4-B3F7-8DA89145D25B}" ShortID="63904633">
+													<PropertyList>
+														<Property Name="MakeUpGain" Type="Real64">
+															<ValueList>
+																<Value>-15</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vehicles, Horn, Car Protest, Exterior, Center Of The Protest, More Distant Horns, Back Perspective 01 SND70915" ID="{FDE1119C-82FC-4B42-846A-4D772135382E}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.340837790415837"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.46912840696482"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.49733564567566"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambience\Urban\Main\Vehicles, Horn, Car Protest, Exterior, Center Of The Protest, More Distant Horns, Back Perspective 01 SND70915.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="20233282"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Vehicles, Horn, Car Protest, Exterior, Center Of The Protest, More Distant Horns, Back Perspective 01 SND70915" ID="{FDE1119C-82FC-4B42-846A-4D772135382E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_urban_main_horn_04" ID="{2263A598-5C8B-45FF-B5FA-2FDF04DC6488}" ShortID="94043766">
+													<PropertyList>
+														<Property Name="MakeUpGain" Type="Real64">
+															<ValueList>
+																<Value>-14</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vehicles, Horn, Car, Audi Q5, Short, Exterior, Multiple SND3345 1" ID="{60C41EF9-026C-4292-BC27-64A3FCAED037}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.222085467091313"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.769641015264723"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambience\Urban\Main\Vehicles, Horn, Car, Audi Q5, Short, Exterior, Multiple SND3345 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="147636027"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Vehicles, Horn, Car, Audi Q5, Short, Exterior, Multiple SND3345 1" ID="{60C41EF9-026C-4292-BC27-64A3FCAED037}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Distant crowns" ID="{1F237724-AE9E-44D6-87AD-2CD888E75D15}" ShortID="1003665172">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>3.5</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A84A0F2A-8078-4D54-88EF-4AFF1D9DD869}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_urban_main_distan crowns_01" ID="{FDFB6346-F6FE-4DF2-91B3-D67788423EF9}" ShortID="3854450">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds, Crow, Ravens, Call, Distant Response, With Dog Growls, Movement SND50127-kHsRvrb_02-06" ID="{E018D6F1-9C24-4245-9458-8C2CBC5C2448}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.425035602007157"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.37656691746834"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambience\Urban\Main\Birds, Crow, Ravens, Call, Distant Response, With Dog Growls, Movement SND50127-kHsRvrb_02-06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="194457529"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds, Crow, Ravens, Call, Distant Response, With Dog Growls, Movement SND50127-kHsRvrb_02-06" ID="{E018D6F1-9C24-4245-9458-8C2CBC5C2448}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_urban_main_distan crowns_02" ID="{A85C8969-A67B-40F0-9628-A756C28A5505}" ShortID="490181782">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds, Crow, Ravens, Call, Distant Response, With Dog Growls, Movement SND50127-kHsRvrb_02-09" ID="{4FC8B3C9-C2B8-40EF-A69F-ECF9F74D305E}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.315325252011291"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.21134849287506"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.63594493539924"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambience\Urban\Main\Birds, Crow, Ravens, Call, Distant Response, With Dog Growls, Movement SND50127-kHsRvrb_02-09.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="851954209"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds, Crow, Ravens, Call, Distant Response, With Dog Growls, Movement SND50127-kHsRvrb_02-09" ID="{4FC8B3C9-C2B8-40EF-A69F-ECF9F74D305E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_urban_main_distan crowns_03" ID="{0145B662-BF38-4085-BB20-28A65A237729}" ShortID="575942067">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds, Crow, Ravens, Talking, Intensively, Wings, Distant Wolves, Howling SND50040-02" ID="{5D559621-885D-4CFD-B3D7-E0955D10419D}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.169052699692229"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.836894552931827"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambience\Urban\Main\Birds, Crow, Ravens, Talking, Intensively, Wings, Distant Wolves, Howling SND50040-02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="934341727"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds, Crow, Ravens, Talking, Intensively, Wings, Distant Wolves, Howling SND50040-02" ID="{5D559621-885D-4CFD-B3D7-E0955D10419D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{D2D062B2-00E6-42DD-BDD2-A09683E2F64F}">
+											<ChildrenList>
+												<Path2D Name="Point_01" ID="{09734F6D-1938-4BCF-85AB-EFBD02AB92F2}">
+													<PointList>
+														<Point>
+															<XPos>81.72589</XPos>
+															<YPos>75.42373</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Point_02" ID="{001FDD49-ED0C-4940-8CFE-A3EED0A07CC8}">
+													<PointList>
+														<Point>
+															<XPos>-2.03046</XPos>
+															<YPos>84.46328</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Point_03" ID="{596666DB-07A6-407F-B16A-FBED7CF257B7}">
+													<PointList>
+														<Point>
+															<XPos>-77.15736</XPos>
+															<YPos>76.55367</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Point_04" ID="{2FE4D015-3A7E-482B-98FA-15691A6EFD15}">
+													<PointList>
+														<Point>
+															<XPos>-76.14213</XPos>
+															<YPos>-12.14689</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Point_05" ID="{87A2D3A8-F969-47E2-A57F-364B1C0E6CD2}">
+													<PointList>
+														<Point>
+															<XPos>53.29949</XPos>
+															<YPos>-65.81921</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Point_06" ID="{0E51D736-AE69-4705-A3E8-2369A7104597}">
+													<PointList>
+														<Point>
+															<XPos>79.69543</XPos>
+															<YPos>-1.9774</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+								</BlendContainer>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="Train" ID="{DF9C1714-3339-47F0-B367-376921F76EC4}" ShortID="133054099">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="New Random Container" ID="{F8B29CA8-19FE-42E5-B78B-08879A07DA39}" ShortID="513492906">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>10.5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="amb_urban_main_station" ID="{CCBE3E5F-5B9B-48C5-9AC9-9B985646754F}" ShortID="1030966660">
+											<PropertyList>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TRNDiesl-LR_Usa-Train, Train Pass By, High Speed City Train, Railway Crossing Alert Beeping, Barrier Up Down, Night, Arvada, Denver, _FTUS_AIOL_192k24b 1" ID="{7C0D7088-E7B7-4692-8161-34DB058E949D}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="1737.818"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.352074441067514"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="2.64055830800638"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="21.0540508128978"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Urban\Main\TRNDiesl-LR_Usa-Train, Train Pass By, High Speed City Train, Railway Crossing Alert Beeping, Barrier Up Down, Night, Arvada, Denver, _FTUS_AIOL_192k24b 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="386570759"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{7F8188EA-C311-448A-AF61-6E00D2E8708B}" ShortID="104333391">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="MakeUpGain"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="Train" ID="{A3B70BAF-D487-450D-9293-D7C556DB918C}" WorkUnitID="{334E9016-CF44-4C70-8946-DE18FF21B792}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{7CC72E81-006F-4964-93AE-04BBCCBA3841}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0.02885</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>60.16771</XPos>
+																						<YPos>0.0116</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>79.66457</XPos>
+																						<YPos>-2.04945</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>-4.09962</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="TRNDiesl-LR_Usa-Train, Train Pass By, High Speed City Train, Railway Crossing Alert Beeping, Barrier Up Down, Night, Arvada, Denver, _FTUS_AIOL_192k24b 1" ID="{7C0D7088-E7B7-4692-8161-34DB058E949D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="amb_urban_main_Train" ID="{B7841E70-D3CE-4982-819C-5E693ED6FE25}" ShortID="87126125">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TRNDiesl-WYZX_Vietnam-Train, Fast Train Pass By, Railway, Train Horn, Train Honk, Vinh, VR, 01_FTUS_AIOL_096k24b" ID="{594829C9-679A-4EFA-B162-6A5135397222}">
+													<PropertyList>
+														<Property Name="CrossfadeShape" Type="int16" Value="8"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="3.71762402852377"/>
+														<Property Name="FadeInShape" Type="int16" Value="8"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="8.7271873965793"/>
+														<Property Name="FadeOutShape" Type="int16" Value="1"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="13.42258"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Urban\Main\TRNDiesl-WYZX_Vietnam-Train, Fast Train Pass By, Railway, Train Horn, Train Honk, Vinh, VR, 01_FTUS_AIOL_096k24b.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="214901691"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{AAC9D345-4D5E-4356-9BB4-785DF95716C3}" ShortID="864791247">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="MakeUpGain"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="Train" ID="{A3B70BAF-D487-450D-9293-D7C556DB918C}" WorkUnitID="{334E9016-CF44-4C70-8946-DE18FF21B792}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{3FFB3AA4-8BC0-4D7B-A3EF-A8B85D05701C}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-2.39411</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="TRNDiesl-WYZX_Vietnam-Train, Fast Train Pass By, Railway, Train Horn, Train Honk, Vinh, VR, 01_FTUS_AIOL_096k24b" ID="{594829C9-679A-4EFA-B162-6A5135397222}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{DF564CC5-61B8-4CE7-B13A-101B274A98AD}" ShortID="268477475">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="MakeUpGain"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Train" ID="{A3B70BAF-D487-450D-9293-D7C556DB918C}" WorkUnitID="{334E9016-CF44-4C70-8946-DE18FF21B792}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{686193C1-CAA3-42D4-8F7E-F16588B073DA}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0.02885</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0.11543</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</BlendContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Emitters" ID="{3B0A8795-CB99-4E00-8C1E-5D0CD1FD1E5B}" ShortID="17509957">
+					<ChildrenList>
+						<ActorMixer Name="amb_car" ID="{C04A30D8-7D3F-4FBA-A92C-AED54DF8007C}" ShortID="1037118738">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Basic_20m" ID="{EFFBE36E-76CE-423C-9AB0-CEF75DF1F08A}" WorkUnitID="{6D07D69D-18D1-49DC-86D7-A322ADD4E3CF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Vehicles, Car, Fiat 600 D 1968, Engine, Start, Idle, Stop, Perspective 3 SND154152 4" ID="{833FFDAA-5153-49EE-9459-243B7D1FD87E}" ShortID="445920154">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Vehicles, Car, Fiat 600 D 1968, Engine, Start, Idle, Stop, Perspective 3 SND154152 4" ID="{B93835AA-FC85-4D28-9E27-5054CA393801}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2048.928"/>
+												<Property Name="LoopBegin" Type="Real64" Value="2.16557735507771"/>
+												<Property Name="LoopEnd" Type="Real64" Value="18.1794517782179"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Vehicles, Car, Fiat 600 D 1968, Engine, Start, Idle, Stop, Perspective 3 SND154152 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="77106517"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Vehicles, Car, Fiat 600 D 1968, Engine, Start, Idle, Stop, Perspective 3 SND154152 4" ID="{B93835AA-FC85-4D28-9E27-5054CA393801}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{FCF1FCCF-346A-4E41-882B-52E0E6CCFCF4}"/>
+							</PositioningInfo>
+						</ActorMixer>
+						<BlendContainer Name="amb_pipe" ID="{EA3B19BB-EBBF-4AE6-9418-CE95785A6CE2}" ShortID="755364419">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Basic_20m" ID="{EFFBE36E-76CE-423C-9AB0-CEF75DF1F08A}" WorkUnitID="{6D07D69D-18D1-49DC-86D7-A322ADD4E3CF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Wind, Interior, Wind, Through Pipe 02 SND148150 1" ID="{D214D523-42B2-488F-A594-7B7C130E5C62}" ShortID="944089069">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wind, Interior, Wind, Through Pipe 02 SND148150 1" ID="{98DB4B3A-6AA6-4F70-BDE0-7FBB97544F01}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Wind, Interior, Wind, Through Pipe 02 SND148150 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="604509140"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wind, Interior, Wind, Through Pipe 02 SND148150 1" ID="{98DB4B3A-6AA6-4F70-BDE0-7FBB97544F01}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Water, Drip, Single Drip SND55616 2" ID="{359532E7-CFC1-4B56-995F-F79760CF9C26}" ShortID="359092700">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-27</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Water, Drip, Single Drip SND55616 2" ID="{088F43BD-EFDE-42BD-9440-C606F6450DB1}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2528.885"/>
+												<Property Name="LoopBegin" Type="Real64" Value="3.26848904022389"/>
+												<Property Name="LoopEnd" Type="Real64" Value="16.1965313408846"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Water, Drip, Single Drip SND55616 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="376836566"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Water, Drip, Single Drip SND55616 2" ID="{088F43BD-EFDE-42BD-9440-C606F6450DB1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Water_drop" ID="{DC536D9C-7A30-4333-ABAE-CD2951AE0E80}" ShortID="1065569883">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>9</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A4B247CA-A759-4248-8C82-C403EDB65AE3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-16</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5.5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9F996F5A-2DBB-4359-BCF6-1BB8481FF5C9}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 2" ID="{7140452B-8CDE-48C2-94E1-A4FCE0B74601}" ShortID="517980866">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 2" ID="{A183DEB6-04DE-4DA7-AC0F-0068795147EB}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0970720450083414"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.322476667328743"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Urban\Emitters\Water, Drip, Isolated Waterdrops, Droplet SND122414 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="529383586"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 2" ID="{A183DEB6-04DE-4DA7-AC0F-0068795147EB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 3" ID="{EE2DD4B5-AAA9-4923-A38B-66AF9F047696}" ShortID="423956118">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 3" ID="{F80FAD05-7363-47F8-AC74-8919F93E171D}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.139976038266036"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.37031630576263"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Urban\Emitters\Water, Drip, Isolated Waterdrops, Droplet SND122414 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="495981728"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 3" ID="{F80FAD05-7363-47F8-AC74-8919F93E171D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 4" ID="{6B6A19CE-B088-4FBA-A146-EA8B769C4D11}" ShortID="382253400">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 4" ID="{64B554F8-F82B-4B69-93ED-136E74EC5DCA}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0951734782949006"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.336144631507033"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Urban\Emitters\Water, Drip, Isolated Waterdrops, Droplet SND122414 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="856059271"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 4" ID="{64B554F8-F82B-4B69-93ED-136E74EC5DCA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 5" ID="{94B31B4A-0814-41BC-BF39-14F4CBB67D93}" ShortID="762211628">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 5" ID="{46B645F8-5760-42AF-BD88-12C2EA174C19}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.163009532427384"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.570533375893607"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Urban\Emitters\Water, Drip, Isolated Waterdrops, Droplet SND122414 5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="217694245"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 5" ID="{46B645F8-5760-42AF-BD88-12C2EA174C19}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 6" ID="{DA020D62-5DE8-4144-9B89-E2BA7018EF6B}" ShortID="635957038">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 6" ID="{34BEE49B-A043-4628-A080-2774A0C40763}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.149847604123886"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.5912905520423"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Urban\Emitters\Water, Drip, Isolated Waterdrops, Droplet SND122414 6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="90544903"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 6" ID="{34BEE49B-A043-4628-A080-2774A0C40763}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 7" ID="{142AF5DB-33E8-4FC6-90C7-44743FC753B2}" ShortID="368313472">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 7" ID="{00AF02F4-CC49-42CE-9766-60D89462A11E}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.130990205174786"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.591881616646287"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Urban\Emitters\Water, Drip, Isolated Waterdrops, Droplet SND122414 7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="331668524"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 7" ID="{00AF02F4-CC49-42CE-9766-60D89462A11E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 8" ID="{FD51182D-FAA0-4F74-963D-C66A9B204244}" ShortID="755576439">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 8" ID="{58F80DCC-DA65-4B41-8E51-B1D9F63485E4}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0821586466778469"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.426824214905668"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Urban\Emitters\Water, Drip, Isolated Waterdrops, Droplet SND122414 8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="948516311"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 8" ID="{58F80DCC-DA65-4B41-8E51-B1D9F63485E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 9" ID="{1D324310-D80C-493E-AEAE-FB2933AC1F8B}" ShortID="457061047">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 9" ID="{6925945B-E588-4CE8-BAA1-8B96D3594451}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.114495654900869"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.465745094741132"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Urban\Emitters\Water, Drip, Isolated Waterdrops, Droplet SND122414 9.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="243147138"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Water, Drip, Isolated Waterdrops, Droplet SND122414 9" ID="{6925945B-E588-4CE8-BAA1-8B96D3594451}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="amb_radio" ID="{DD933CFD-FB37-44B2-BC33-A2328C212709}" ShortID="197264796">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Basic_20m" ID="{EFFBE36E-76CE-423C-9AB0-CEF75DF1F08A}" WorkUnitID="{6D07D69D-18D1-49DC-86D7-A322ADD4E3CF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Radio Noise 4 by DSG Id-338154" ID="{A929B0EA-1AEE-4C9B-9EAD-5E644FE87FDE}" ShortID="819419023">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-32</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Radio Noise 4 by DSG Id-338154" ID="{9783D915-FF4C-417C-9CDE-AF7585D917BD}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Radio Noise 4 by DSG Id-338154.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="280128166"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Radio Noise 4 by DSG Id-338154" ID="{9783D915-FF4C-417C-9CDE-AF7585D917BD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Belgiums About Buying Cutting Wood Amateur Radio by klankbeeld Id-718369" ID="{D09FB2DF-06E2-4645-9736-819A4EA83B4E}" ShortID="945965591">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Belgiums About Buying Cutting Wood Amateur Radio by klankbeeld Id-718369" ID="{FD3C01F3-B467-4E18-8A52-D3BF7628E678}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Belgiums About Buying Cutting Wood Amateur Radio by klankbeeld Id-718369.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="957278115"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Belgiums About Buying Cutting Wood Amateur Radio by klankbeeld Id-718369" ID="{FD3C01F3-B467-4E18-8A52-D3BF7628E678}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Communications, Static, Radio, Station Search, Crackling, Wrong Frequency 01 SND90717" ID="{2BA41F0B-760F-4F89-9EE4-B12D985E029F}" ShortID="838886275">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Communications, Static, Radio, Station Search, Crackling, Wrong Frequency 01 SND90717" ID="{94DAA8A0-1470-492B-A97C-CA352210F248}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Communications, Static, Radio, Station Search, Crackling, Wrong Frequency 01 SND90717.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="350575222"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Communications, Static, Radio, Station Search, Crackling, Wrong Frequency 01 SND90717" ID="{94DAA8A0-1470-492B-A97C-CA352210F248}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{207C6D06-23AE-4945-B1C3-37121AC7A290}" ShortID="377135863">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</BlendContainer>
+						<BlendContainer Name="Amb_transformer_booth" ID="{94039F42-3A20-49E9-AA69-E64A2C56AB15}" ShortID="418253731">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Basic_20m" ID="{EFFBE36E-76CE-423C-9AB0-CEF75DF1F08A}" WorkUnitID="{6D07D69D-18D1-49DC-86D7-A322ADD4E3CF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Electricity, Buzz &amp; Hum, Electric Stutters SND76455" ID="{0D4B8CA6-D2C5-4BFF-9C2E-A382B03352E8}" ShortID="84231235">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-25</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electricity, Buzz &amp; Hum, Electric Stutters SND76455" ID="{9012F050-7275-4473-BEBA-0295E236420A}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Electricity, Buzz &amp; Hum, Electric Stutters SND76455.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="959692900"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electricity, Buzz &amp; Hum, Electric Stutters SND76455" ID="{9012F050-7275-4473-BEBA-0295E236420A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electricity, Buzz &amp; Hum, Lights, Electrical Hum SND53025" ID="{4D1E68B0-7446-4D29-9F06-2D234F6E809A}" ShortID="591192219">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electricity, Buzz &amp; Hum, Lights, Electrical Hum SND53025" ID="{6644E0A0-7B02-41E6-8521-473983C9A137}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Electricity, Buzz &amp; Hum, Lights, Electrical Hum SND53025.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="517766478"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electricity, Buzz &amp; Hum, Lights, Electrical Hum SND53025" ID="{6644E0A0-7B02-41E6-8521-473983C9A137}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electricity, Buzz &amp; Hum, Fluorescent Light, Neon Tube, Buzz &amp; Electrical Hum SND36893" ID="{3821D4A5-15FA-4EA4-993E-B42A4697D213}" ShortID="887055966">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electricity, Buzz &amp; Hum, Fluorescent Light, Neon Tube, Buzz &amp; Electrical Hum SND36893" ID="{F20461DB-E306-407A-B628-4BC972947C2C}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Electricity, Buzz &amp; Hum, Fluorescent Light, Neon Tube, Buzz &amp; Electrical Hum SND36893.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="160879446"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electricity, Buzz &amp; Hum, Fluorescent Light, Neon Tube, Buzz &amp; Electrical Hum SND36893" ID="{F20461DB-E306-407A-B628-4BC972947C2C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<RandomSequenceContainer Name="amb_bark" ID="{E69052D0-37AF-46FE-B81B-5F096B668610}" ShortID="1000341444">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2C1896D2-09D8-4BC3-87B4-7B71DF6B8BA7}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Basic_40m" ID="{00F5F9AE-60A2-45B3-9842-0E7E59F04AE1}" WorkUnitID="{6D07D69D-18D1-49DC-86D7-A322ADD4E3CF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 2" ID="{24C7B82D-C84F-47FB-A05A-9309B4690BAC}" ShortID="295137312">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 2" ID="{333745A4-E90D-4B87-AD01-C0FB3BA3269B}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.078661546868793"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.725434265567758"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.157323093737586"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.77063447398385"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="820965519"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 2" ID="{333745A4-E90D-4B87-AD01-C0FB3BA3269B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 4" ID="{D959AC7B-5226-4834-B758-F1F5E98CB153}" ShortID="820359525">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 4" ID="{C9F165B6-E937-4FA5-9524-E96059F6A8A0}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0474466792607712"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.925210245585038"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.130478367967121"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.94531393997278"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="389811714"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 4" ID="{C9F165B6-E937-4FA5-9524-E96059F6A8A0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 5" ID="{75753464-6A10-47D2-BE38-53AFD05BE399}" ShortID="1051876857">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 5" ID="{A947DD10-289B-4201-91FA-CC4826C0EDEE}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0427297549059162"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.45400364587536"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.288425845614934"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.67714290421696"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="42112297"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 5" ID="{A947DD10-289B-4201-91FA-CC4826C0EDEE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 6" ID="{DFDE95CE-1421-40F6-93E3-663A94C00FD5}" ShortID="71365189">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 6" ID="{25000F19-3C5B-468C-A7DE-13FDAEEE3244}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0227522365117477"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.446512641543049"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.639906651892904"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.51871177253615"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="104729057"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 6" ID="{25000F19-3C5B-468C-A7DE-13FDAEEE3244}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 7" ID="{6C1E32CC-8E5A-4579-9F89-D4541EB5FF4C}" ShortID="454376245">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 7" ID="{18A278A9-0FDB-423B-8D90-D62710B80140}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.156560282585985"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.702405592142525"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.275038334272676"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.14106756759363"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 7.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="625123552"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 7" ID="{18A278A9-0FDB-423B-8D90-D62710B80140}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 8" ID="{71483697-F95F-4314-A0CD-40CB8B33C998}" ShortID="850985793">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 8" ID="{5B017574-7AF0-42B6-AC01-E617250C4427}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.080881592917577"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.716905028133069"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.176468930001986"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.93748174311751"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 8.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1039639948"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 8" ID="{5B017574-7AF0-42B6-AC01-E617250C4427}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 9" ID="{D88FEED4-FDF5-4C1F-B2E2-3D0DD04531D4}" ShortID="638043033">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 9" ID="{53E1EF92-FA7C-44FA-B761-DBD4406EDFE4}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0541059748601105"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.551880943573127"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.209209769459094"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.46001839357581"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 9.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="818818573"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 9" ID="{53E1EF92-FA7C-44FA-B761-DBD4406EDFE4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 10" ID="{7011B7FE-49C5-45C3-B3CD-92809AB1E63F}" ShortID="85746871">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 10" ID="{CAAC027A-C47E-4AB5-868B-47E54F46836A}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0973903607513945"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.53023640853537"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.292171082254184"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="911000357"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 10" ID="{CAAC027A-C47E-4AB5-868B-47E54F46836A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 11" ID="{1F2F19FD-62C7-4FF2-9DBC-5D74F6984198}" ShortID="443013604">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 11" ID="{65AFD2A5-4E64-45CA-B96E-3E0D23EF9C81}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0551463183710131"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.977928045779298"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.46322907431651"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.23526412752658"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 11.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="125998053"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 11" ID="{65AFD2A5-4E64-45CA-B96E-3E0D23EF9C81}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 12" ID="{952B2436-D65E-4689-85CA-03BF64F8E107}" ShortID="917049605">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 12" ID="{16889FE1-4222-44AD-ABB8-C5D5B6A33371}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.135264802787264"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.08211842229811"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.301744560063896"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 12.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="98789783"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 12" ID="{16889FE1-4222-44AD-ABB8-C5D5B6A33371}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 13" ID="{708813F7-9DFC-4BA2-A7B5-3CCA43D68B2A}" ShortID="776368917">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 13" ID="{AECCBEDE-205E-4D58-86B2-FC7820897455}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0423829323154385"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.909602932000564"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.606401954667045"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.8159455233617"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 13.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="33679128"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 13" ID="{AECCBEDE-205E-4D58-86B2-FC7820897455}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 14" ID="{B9836521-AA77-43B6-A0E5-A05E856D876A}" ShortID="482863913">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 14" ID="{419A4201-8D35-438D-9CC1-34BAB88C7941}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0846271797762079"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.757413258997061"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.296195129216727"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.60368497601471"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 14.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="817841933"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 14" ID="{419A4201-8D35-438D-9CC1-34BAB88C7941}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

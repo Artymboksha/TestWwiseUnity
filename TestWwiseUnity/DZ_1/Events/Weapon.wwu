@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0CCD27C9-09FF-4C56-984A-ED171AABEA36}" SchemaVersion="123" RootDocumentID="{AE5F188C-31C7-4676-867E-77E32CCEA4FA}" ParentDocumentID="{AE5F188C-31C7-4676-867E-77E32CCEA4FA}">
+	<Events>
+		<WorkUnit Name="Weapon" ID="{0CCD27C9-09FF-4C56-984A-ED171AABEA36}" OwnerID="{AE5F188C-31C7-4676-867E-77E32CCEA4FA}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="M4_Play" ID="{8C72FD96-B815-4BA2-9932-480A44B01729}">
+					<ChildrenList>
+						<Action Name="" ID="{2E2BCCA8-3527-4102-A9BF-D647360808B1}" ShortID="785692407">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="New Blend Container" ID="{76AE8D16-FE84-4522-888B-2CF608AF50BC}" WorkUnitID="{E0CCEE36-F8D1-4990-A325-0CCB8943528D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="M4_Stop" ID="{3554C320-17D8-4F33-A2F5-DA54F27E74ED}">
+					<ChildrenList>
+						<Action Name="" ID="{41060AF5-43A5-43D0-9779-615A791ED60B}" ShortID="797611565">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="8"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="New Blend Container" ID="{76AE8D16-FE84-4522-888B-2CF608AF50BC}" WorkUnitID="{E0CCEE36-F8D1-4990-A325-0CCB8943528D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1EA2E851-E538-4B5B-8F38-DBE442B8DDB4}" ShortID="378605488">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="tail" ID="{5A1AF728-CC3C-42C5-A2DA-3902227CCFBE}" WorkUnitID="{E0CCEE36-F8D1-4990-A325-0CCB8943528D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

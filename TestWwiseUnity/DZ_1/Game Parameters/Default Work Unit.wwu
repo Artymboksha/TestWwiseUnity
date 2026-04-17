@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{334E9016-CF44-4C70-8946-DE18FF21B792}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{334E9016-CF44-4C70-8946-DE18FF21B792}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Ammo" ID="{3D05EAFE-8192-4DC4-A736-69BAA492A905}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="WInd" ID="{77D7E0CE-6F2C-40FF-9BF3-228156480BB9}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Train" ID="{A3B70BAF-D487-450D-9293-D7C556DB918C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

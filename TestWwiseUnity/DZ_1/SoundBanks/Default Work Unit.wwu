@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E9EE1388-5FA7-4576-9CD2-20C806FCE012}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{E9EE1388-5FA7-4576-9CD2-20C806FCE012}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Ambience" ID="{6D9197AA-F8E3-4F0B-9178-0B1CE86E6306}" ShortID="759841095">
+					<ChildrenList>
+						<SoundBank Name="AMB_Urban" ID="{B49924AF-A416-4A44-866F-BEF51680F14C}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Urban" ID="{17066A59-8258-48C7-A356-B93263158E41}" WorkUnitID="{17066A59-8258-48C7-A356-B93263158E41}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

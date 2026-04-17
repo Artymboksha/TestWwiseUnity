@@ -1,0 +1,72 @@
+Event	ID	Name			Wwise Object Path	Notes
+	79443166	amb_urban_car_play			\Default Work Unit\Ambience\Urban\Emitters\amb_urban_car_play	
+	615520941	amb_bark_play			\Default Work Unit\Ambience\Urban\Emitters\amb_bark_play	
+	627636653	amb_pipe_stop			\Default Work Unit\Ambience\Urban\Emitters\amb_pipe_stop	
+	696522398	amb_urban_train_play			\Default Work Unit\Ambience\Urban\Main\amb_urban_train_play	
+	819666031	amb_urban_play			\Default Work Unit\Ambience\Urban\Main\amb_urban_play	
+	898276677	amb_transformer_booth_stop			\Default Work Unit\Ambience\Urban\Emitters\amb_transformer_booth_stop	
+	1082893790	amb_radio_paly			\Default Work Unit\Ambience\Urban\Emitters\amb_radio_paly	
+	1117439136	amb_urban_car_stop			\Default Work Unit\Ambience\Urban\Emitters\amb_urban_car_stop	
+	1692838752	amb_urban_train_stop			\Default Work Unit\Ambience\Urban\Main\amb_urban_train_stop	
+	1732715259	amb_bark_stop			\Default Work Unit\Ambience\Urban\Emitters\amb_bark_stop	
+	2163396527	amb_pipe_play			\Default Work Unit\Ambience\Urban\Emitters\amb_pipe_play	
+	2209834263	amb_transformer_booth_play			\Default Work Unit\Ambience\Urban\Emitters\amb_transformer_booth_play	
+	3533032082	amb_radio_stop			\Default Work Unit\Ambience\Urban\Emitters\amb_radio_stop	
+	3537193581	amb_urban_stop			\Default Work Unit\Ambience\Urban\Main\amb_urban_stop	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1537061107	WInd			\Default Work Unit\WInd	
+	3412057565	Train			\Default Work Unit\Train	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	5304509	amb_urban_main_Vehicles_03	C:\Wwise\DZ_1\.cache\4A\{4AFB8770-87D5-AC7D-0938-3645307900A5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Main\Main\Specks\Car\amb_urban_main_Vehicles_03		845428
+	20233282	amb_urban_main_horn_03	C:\Wwise\DZ_1\.cache\81\{81754B9E-DC26-34CC-DF91-93A64434C8D5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Main\Main\Specks\Horn\amb_urban_main_horn_03		287584
+	23883577	amb_urban_main_Vehicles_01	C:\Wwise\DZ_1\.cache\C5\{C51FADA6-B182-FB15-C41B-F8362E0E0B33}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Main\Main\Specks\Car\amb_urban_main_Vehicles_01		1434960
+	33679128	Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 13	C:\Wwise\DZ_1\.cache\04\{04CF6C39-5B7A-6DEC-CF19-B22A4F0A22DB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_bark\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 13		232328
+	42112297	Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 5	C:\Wwise\DZ_1\.cache\65\{65B5D925-D3A3-B2BF-439D-8001A538D031}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_bark\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 5		266728
+	90544903	Water, Drip, Isolated Waterdrops, Droplet SND122414 6	C:\Wwise\DZ_1\.cache\ED\{EDA68D4A-C239-8D7D-31BB-7EB53D17B06C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_pipe\Water_drop\Water, Drip, Isolated Waterdrops, Droplet SND122414 6		84852
+	98789783	Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 12	C:\Wwise\DZ_1\.cache\76\{76D97688-97F4-ACB3-488F-B216E06CBE12}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_bark\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 12		649368
+	104729057	Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 6	C:\Wwise\DZ_1\.cache\46\{464D23DC-5A83-A80B-453A-5896F94B3EF1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_bark\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 6		168824
+	125998053	Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 11	C:\Wwise\DZ_1\.cache\92\{9261BFF4-2B20-020F-0B04-85C86D1C9867}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_bark\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 11		340324
+	147636027	amb_urban_main_horn_04	C:\Wwise\DZ_1\.cache\31\{312CA352-7ABA-699F-D4FF-A798ED64577D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Main\Main\Specks\Horn\amb_urban_main_horn_04		258144
+	160879446	Electricity, Buzz & Hum, Fluorescent Light, Neon Tube, Buzz & Electrical Hum SND36893	C:\Wwise\DZ_1\.cache\B4\{B4713856-FA5A-E909-347A-766C38CE082F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\Amb_transformer_booth\Electricity, Buzz & Hum, Fluorescent Light, Neon Tube, Buzz & Electrical Hum SND36893		8263760
+	194457529	amb_urban_main_distan crowns_01	C:\Wwise\DZ_1\.cache\94\{94B663C1-BDA2-6559-7701-6599EC4F970B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Main\Main\Specks\Distant crowns\amb_urban_main_distan crowns_01		369696
+	214901691	amb_urban_main_Train	C:\Wwise\DZ_1\.cache\EC\{EC4D25FF-319C-64A7-6540-DD7368813F31}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Main\Train\New Random Container\amb_urban_main_Train		2577232
+	217694245	Water, Drip, Isolated Waterdrops, Droplet SND122414 5	C:\Wwise\DZ_1\.cache\3E\{3E90859E-29FB-C76C-A32C-391F0E3F7A2B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_pipe\Water_drop\Water, Drip, Isolated Waterdrops, Droplet SND122414 5		78340
+	243147138	Water, Drip, Isolated Waterdrops, Droplet SND122414 9	C:\Wwise\DZ_1\.cache\30\{30436C7F-959A-ECA6-8786-7D5AB83BD36B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_pipe\Water_drop\Water, Drip, Isolated Waterdrops, Droplet SND122414 9		67536
+	280128166	Radio Noise 4 by DSG Id-338154	C:\Wwise\DZ_1\.cache\71\{71C222C0-68D1-DF88-1528-EE41A144200E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_radio\Radio Noise 4 by DSG Id-338154		2092260
+	331668524	Water, Drip, Isolated Waterdrops, Droplet SND122414 7	C:\Wwise\DZ_1\.cache\95\{9531E0C7-77E0-CE55-1A20-9E4789F88BE1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_pipe\Water_drop\Water, Drip, Isolated Waterdrops, Droplet SND122414 7		88588
+	350555364	amb_urban_main_Vehicles_04	C:\Wwise\DZ_1\.cache\FB\{FBB808E7-42A4-A7D8-5E6C-B462E6CCA28D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Main\Main\Specks\Car\amb_urban_main_Vehicles_04		1009216
+	350575222	Communications, Static, Radio, Station Search, Crackling, Wrong Frequency 01 SND90717	C:\Wwise\DZ_1\.cache\7D\{7D576AA9-48E9-CF13-F724-392817E4F45C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_radio\Communications, Static, Radio, Station Search, Crackling, Wrong Frequency 01 SND90717		9605284
+	376836566	Water, Drip, Single Drip SND55616 2	C:\Wwise\DZ_1\.cache\43\{432B7F00-1CF1-AD73-3EE8-AEC5F20FBCBE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_pipe\Water, Drip, Single Drip SND55616 2		3967156
+	384427282	amb_urban_main_Wind, General, Gusts, Snow, Leaves, Howling SND11619 3	C:\Wwise\DZ_1\.cache\49\{49E8486A-5C78-00CD-2F3D-32E59004DD44}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Main\Main\Wind\amb_urban_main_Wind, General, Gusts, Snow, Leaves, Howling SND11619 3		1978668
+	386570759	amb_urban_main_station	C:\Wwise\DZ_1\.cache\08\{08573F50-E308-D34A-E4B3-1A08081AF03D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Main\Train\New Random Container\amb_urban_main_station		4042472
+	389811714	Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 4	C:\Wwise\DZ_1\.cache\81\{812ED4DA-0E7E-FB92-3C16-62A91819EBDF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_bark\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 4		348544
+	433752717	amb_urban_main_horn_01	C:\Wwise\DZ_1\.cache\39\{39E58DD1-FB19-5B0A-8E15-E1A6A5A6B921}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Main\Main\Specks\Horn\amb_urban_main_horn_01		275968
+	456805709	amb_urban_main_crow_04	C:\Wwise\DZ_1\.cache\42\{42CB0C59-0851-2987-EF5D-EE44C054BFD7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Main\Main\Specks\Crown\amb_urban_main_crow_04		200596
+	495981728	Water, Drip, Isolated Waterdrops, Droplet SND122414 3	C:\Wwise\DZ_1\.cache\45\{45C0B046-EC73-ADAD-B6E9-14311F514A1F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_pipe\Water_drop\Water, Drip, Isolated Waterdrops, Droplet SND122414 3		44320
+	517766478	Electricity, Buzz & Hum, Lights, Electrical Hum SND53025	C:\Wwise\DZ_1\.cache\BD\{BD2F0C87-8F9B-B44C-D21F-881FA6817860}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\Amb_transformer_booth\Electricity, Buzz & Hum, Lights, Electrical Hum SND53025		5457948
+	529383586	Water, Drip, Isolated Waterdrops, Droplet SND122414 2	C:\Wwise\DZ_1\.cache\83\{836EA29C-267E-BF94-E453-C58B1513EF2B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_pipe\Water_drop\Water, Drip, Isolated Waterdrops, Droplet SND122414 2		43372
+	539655229	amb_urban_main_Wind, General, Wind Urban Strong Wind Blows Howling, Metal Squeaks 01 SND71919	C:\Wwise\DZ_1\.cache\9B\{9BAD623E-F416-30D6-78DB-30A7C2B860B8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Main\Main\Wind\amb_urban_main_Wind, General, Wind Urban Strong Wind Blows Howling, Metal Squeaks 01 SND71919		7039804
+	604509140	Wind, Interior, Wind, Through Pipe 02 SND148150 1	C:\Wwise\DZ_1\.cache\0E\{0E98EA20-6A41-C3F5-E8EE-CDBFFAFB57B4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_pipe\Wind, Interior, Wind, Through Pipe 02 SND148150 1		5829296
+	625123552	Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 7	C:\Wwise\DZ_1\.cache\F2\{F267D6BC-6DAE-9CAC-AA07-1DC876ED85B5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_bark\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 7		358372
+	652452574	amb_urban_main_horn_02	C:\Wwise\DZ_1\.cache\39\{3945D98F-0AD1-721B-28F7-06A5A28AFC2B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Main\Main\Specks\Horn\amb_urban_main_horn_02		768056
+	699574247	amb_urban_main_crow_02	C:\Wwise\DZ_1\.cache\7A\{7A008855-3167-BCA8-CE50-F8612AAB9770}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Main\Main\Specks\Crown\amb_urban_main_crow_02		165036
+	811950197	amb_urban_main_crow_01	C:\Wwise\DZ_1\.cache\42\{424D40FA-AD5A-E418-19E7-870D3E5FE6CD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Main\Main\Specks\Crown\amb_urban_main_crow_01		196044
+	817841933	Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 14	C:\Wwise\DZ_1\.cache\87\{878E57FC-4BE9-67C9-A3AC-A45ADE3BF866}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_bark\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 14		251132
+	818818573	Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 9	C:\Wwise\DZ_1\.cache\EC\{EC8EED39-BE0D-10BA-AD40-63FC67C7A6DA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_bark\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 9		432252
+	820965519	Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 2	C:\Wwise\DZ_1\.cache\82\{821371D9-A65E-22A5-5BD4-D7E4C17EC530}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_bark\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 2		501852
+	829489727	amb_urban_main_crow_03	C:\Wwise\DZ_1\.cache\45\{45ED9C8B-B96C-2D37-3F98-1C9877780A93}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Main\Main\Specks\Crown\amb_urban_main_crow_03		265660
+	851954209	amb_urban_main_distan crowns_02	C:\Wwise\DZ_1\.cache\E2\{E228EABE-82D0-2D14-E1D6-60EF729F5EAB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Main\Main\Specks\Distant crowns\amb_urban_main_distan crowns_02		314196
+	856059271	Water, Drip, Isolated Waterdrops, Droplet SND122414 4	C:\Wwise\DZ_1\.cache\3E\{3E0C7F09-F4F6-1B7E-774B-10467AD3DCC5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_pipe\Water_drop\Water, Drip, Isolated Waterdrops, Droplet SND122414 4		46360
+	911000357	Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 10	C:\Wwise\DZ_1\.cache\1C\{1C2CE17F-D5B5-2FA5-66BD-D72AE76C6E25}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_bark\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 10		311744
+	934341727	amb_urban_main_distan crowns_03	C:\Wwise\DZ_1\.cache\AE\{AE730F28-E5AC-41CF-6E65-96A3968586B5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Main\Main\Specks\Distant crowns\amb_urban_main_distan crowns_03		225696
+	948516311	Water, Drip, Isolated Waterdrops, Droplet SND122414 8	C:\Wwise\DZ_1\.cache\BF\{BFA681C3-F1D9-98FE-A0C6-F5BDC15C6BEC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_pipe\Water_drop\Water, Drip, Isolated Waterdrops, Droplet SND122414 8		66272
+	957278115	Belgiums About Buying Cutting Wood Amateur Radio by klankbeeld Id-718369	C:\Wwise\DZ_1\.cache\EE\{EE1488C0-9BFC-8124-29C8-296503DE8320}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_radio\Belgiums About Buying Cutting Wood Amateur Radio by klankbeeld Id-718369		3510420
+	959692900	Electricity, Buzz & Hum, Electric Stutters SND76455	C:\Wwise\DZ_1\.cache\6A\{6A80607B-6A00-4E01-1BB3-ECB801A958AA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\Amb_transformer_booth\Electricity, Buzz & Hum, Electric Stutters SND76455		6914348
+	967402316	amb_urban_main_Vehicles_02	C:\Wwise\DZ_1\.cache\EF\{EF8B15D2-51C6-9D7C-93EC-014A802FE25E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Main\Main\Specks\Car\amb_urban_main_Vehicles_02		961696
+	1039639948	Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 8	C:\Wwise\DZ_1\.cache\29\{2938287A-4556-A5E7-4D0F-84214FB972F3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Urban\Emitters\amb_bark\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 8		338208
+
