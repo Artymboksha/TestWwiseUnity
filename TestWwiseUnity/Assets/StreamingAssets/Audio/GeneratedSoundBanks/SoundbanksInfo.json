@@ -1,0 +1,1305 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "RootPaths": {
+   "ProjectRoot": "../../../../DZ_1",
+   "SourceFilesRoot": "../../../../DZ_1/.cache",
+   "SoundBanksRoot": ".",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "../../../../DZ_1/GeneratedSoundBanks/Windows"
+  },
+  "DialogueEvents": [],
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{A007A99C-7E33-159B-9926-0FD32D527DC0}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{E4BAA524-AAB2-4B4F-9BF2-7B799EE3F975}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{D10D71AC-5C99-4832-BC86-C64CACD2D531}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1537061107",
+      "Name": "WInd",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\WInd",
+      "GUID": "{77D7E0CE-6F2C-40FF-9BF3-228156480BB9}"
+     },
+     {
+      "Id": "3412057565",
+      "Name": "Train",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Train",
+      "GUID": "{A3B70BAF-D487-450D-9293-D7C556DB918C}"
+     },
+     {
+      "Id": "3554434311",
+      "Name": "Ammo",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ammo",
+      "GUID": "{3D05EAFE-8192-4DC4-A736-69BAA492A905}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3122859639",
+      "Name": "tail",
+      "ObjectPath": "\\Switches\\Default Work Unit\\tail",
+      "GUID": "{F90A8781-C3C0-4CA5-A17C-1D53ECC7A621}",
+      "Switches": [
+       {
+        "Id": "645492555",
+        "Name": "out",
+        "ObjectPath": "\\Switches\\Default Work Unit\\tail\\out",
+        "GUID": "{9831D3A7-B7EA-4BE3-96DB-57B75D661507}"
+       },
+       {
+        "Id": "2077253480",
+        "Name": "room",
+        "ObjectPath": "\\Switches\\Default Work Unit\\tail\\room",
+        "GUID": "{52035A76-B372-414F-8733-8E517C01A862}"
+       }
+      ]
+     }
+    ],
+    "AcousticTextures": [
+     {
+      "Id": "504532776",
+      "Name": "Brick",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Brick",
+      "GUID": "{B086A5A9-F204-4C53-A838-BDB18B18F6D6}",
+      "Color": "8",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "12"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "18"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "23"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "35"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "513139656",
+      "Name": "Mountain",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Mountain",
+      "GUID": "{C5933731-001A-4AB4-98DD-9B033A8C8EAB}",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "841620460",
+      "Name": "Concrete",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Concrete",
+      "GUID": "{5CF81C00-2896-4AE0-AF7C-3080BDABA682}",
+      "Color": "27",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "6"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "6"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "6"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "14"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "1755085759",
+      "Name": "Wood_Deep",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Wood_Deep",
+      "GUID": "{5246478E-C5DA-4E0C-A0DE-C98D1479529A}",
+      "Color": "9",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "1"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "8"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "20"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "35"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "1873957695",
+      "Name": "Anechoic",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Anechoic",
+      "GUID": "{8B0AC232-02E2-4EDE-BEAC-FDD1A900E3ED}",
+      "Color": "13",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "1970351858",
+      "Name": "Fabric",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Fabric",
+      "GUID": "{8381D532-DB6E-4EED-A7A3-BC7B0A0B8BA8}",
+      "Color": "4",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "3"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "13"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "48"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "72"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "2058049674",
+      "Name": "Wood",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Wood",
+      "GUID": "{1FFFBC96-6FE7-489E-BA6C-7C14A71391AE}",
+      "Color": "7",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "32"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "25"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "20"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "35"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "2412606308",
+      "Name": "Carpet",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Carpet",
+      "GUID": "{34227589-DC56-4260-96C4-B9F4B669092B}",
+      "Color": "17",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "46"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "45"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "76"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "2637588553",
+      "Name": "Tile",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Tile",
+      "GUID": "{A882DAC4-132A-47B7-BA9D-B9907BA29CC0}",
+      "Color": "16",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "67"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "41"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "12"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "2928161104",
+      "Name": "Curtains",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Curtains",
+      "GUID": "{F8E69E33-5C97-4968-B508-A1535F2D66E8}",
+      "Color": "3",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "7"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "60"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "84"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "3195498748",
+      "Name": "Cork_Tiles",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Cork_Tiles",
+      "GUID": "{30D2C919-925F-4143-8906-3DBB3C4AE5E2}",
+      "Color": "19",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "14"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "30"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "73"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "3670307564",
+      "Name": "Drywall",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Drywall",
+      "GUID": "{68A4E3F4-4C0B-4687-A8B8-A84DB93DBC8F}",
+      "Color": "15",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "2"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "2"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "2"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "2"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "4168643977",
+      "Name": "Acoustic_Banner",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Acoustic_Banner",
+      "GUID": "{2F2D53F2-DACC-408E-8B88-98B1B52A26D6}",
+      "Color": "10",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "37"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "100"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "4262522749",
+      "Name": "Wood_Bright",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Wood_Bright",
+      "GUID": "{7B85D1E5-C1A2-4E63-9A13-CEC54B641ADC}",
+      "Color": "20",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "32"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "25"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "10"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "9"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "2434576750",
+    "Type": "User",
+    "GUID": "{B49924AF-A416-4A44-866F-BEF51680F14C}",
+    "Language": "SFX",
+    "Hash": "{E9BC3EE8-85C7-28FF-DC2B-810D9B17345D}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience\\AMB_Urban",
+    "ShortName": "AMB_Urban",
+    "Path": "AMB_Urban.bnk",
+    "Media": [
+     {
+      "Id": "5304509",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Main\\Vehicles, Generic By, Car Pass, Van, Pass, Followed By Truck, Followed By Car SND34016 3.wav",
+      "CachePath": "4A/{4AFB8770-87D5-AC7D-0938-3645307900A5}.wem"
+     },
+     {
+      "Id": "20233282",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Main\\Vehicles, Horn, Car Protest, Exterior, Center Of The Protest, More Distant Horns, Back Perspective 01 SND70915.wav",
+      "CachePath": "81/{81754B9E-DC26-34CC-DF91-93A64434C8D5}.wem"
+     },
+     {
+      "Id": "23883577",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Main\\Vehicles, Car, Ford Mondeo 2014, Large, Family Car, Pass By, Medium SND107064.wav",
+      "CachePath": "C5/{C51FADA6-B182-FB15-C41B-F8362E0E0B33}.wem"
+     },
+     {
+      "Id": "33679128",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 13.wav",
+      "CachePath": "BA/{BA0BEEFE-2C07-84B7-ADB2-D52A80E7228A}.wem"
+     },
+     {
+      "Id": "42112297",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 5.wav",
+      "CachePath": "0D/{0D65010B-C048-BEF8-A4BB-6AE9DE5B3205}.wem"
+     },
+     {
+      "Id": "90544903",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Water, Drip, Isolated Waterdrops, Droplet SND122414 6.wav",
+      "CachePath": "F3/{F35A419B-A9A9-37C0-A501-752839D7398F}.wem"
+     },
+     {
+      "Id": "98789783",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 12.wav",
+      "CachePath": "13/{13529E7D-34A5-DDEF-ACC8-934DE1A87363}.wem"
+     },
+     {
+      "Id": "104729057",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 6.wav",
+      "CachePath": "7C/{7CC3F262-1090-311F-DD7B-AC2F1EB1066C}.wem"
+     },
+     {
+      "Id": "125998053",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 11.wav",
+      "CachePath": "80/{80F789F1-32B3-17D5-FCAC-3C76D3A76E71}.wem"
+     },
+     {
+      "Id": "147636027",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Main\\Vehicles, Horn, Car, Audi Q5, Short, Exterior, Multiple SND3345 1.wav",
+      "CachePath": "31/{312CA352-7ABA-699F-D4FF-A798ED64577D}.wem"
+     },
+     {
+      "Id": "160879446",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Electricity, Buzz & Hum, Fluorescent Light, Neon Tube, Buzz & Electrical Hum SND36893.wav",
+      "CachePath": "B4/{B4713856-FA5A-E909-347A-766C38CE082F}.wem"
+     },
+     {
+      "Id": "194457529",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Main\\Birds, Crow, Ravens, Call, Distant Response, With Dog Growls, Movement SND50127-kHsRvrb_02-06.wav",
+      "CachePath": "94/{94B663C1-BDA2-6559-7701-6599EC4F970B}.wem"
+     },
+     {
+      "Id": "214901691",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Main\\TRNDiesl-WYZX_Vietnam-Train, Fast Train Pass By, Railway, Train Horn, Train Honk, Vinh, VR, 01_FTUS_AIOL_096k24b.wav",
+      "CachePath": "EC/{EC4D25FF-319C-64A7-6540-DD7368813F31}.wem"
+     },
+     {
+      "Id": "217694245",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Water, Drip, Isolated Waterdrops, Droplet SND122414 5.wav",
+      "CachePath": "69/{69295C8B-7464-8249-A2C7-076473B953BF}.wem"
+     },
+     {
+      "Id": "243147138",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Water, Drip, Isolated Waterdrops, Droplet SND122414 9.wav",
+      "CachePath": "75/{75285020-9BB1-F6DA-9000-511A559967A8}.wem"
+     },
+     {
+      "Id": "280128166",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Radio Noise 4 by DSG Id-338154.wav",
+      "CachePath": "71/{71C222C0-68D1-DF88-1528-EE41A144200E}.wem"
+     },
+     {
+      "Id": "331668524",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Water, Drip, Isolated Waterdrops, Droplet SND122414 7.wav",
+      "CachePath": "A4/{A453F1D4-E60C-7018-7103-D4D3F239A192}.wem"
+     },
+     {
+      "Id": "350555364",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Main\\Vehicles, Military, WW2, Car, VW Kübelwagen, Pass By, Slow Speed, Perspective 1  SND11075 3.wav",
+      "CachePath": "FB/{FBB808E7-42A4-A7D8-5E6C-B462E6CCA28D}.wem"
+     },
+     {
+      "Id": "350575222",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Communications, Static, Radio, Station Search, Crackling, Wrong Frequency 01 SND90717.wav",
+      "CachePath": "7D/{7D576AA9-48E9-CF13-F724-392817E4F45C}.wem"
+     },
+     {
+      "Id": "376836566",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Water, Drip, Single Drip SND55616 2.wav",
+      "CachePath": "9C/{9C47316E-DECB-AE67-A1B7-E15A1B61C945}.wem"
+     },
+     {
+      "Id": "384427282",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Main\\Wind, General, Gusts, Snow, Leaves, Howling SND11619 3.wav",
+      "CachePath": "49/{49E8486A-5C78-00CD-2F3D-32E59004DD44}.wem"
+     },
+     {
+      "Id": "386570759",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Main\\TRNDiesl-LR_Usa-Train, Train Pass By, High Speed City Train, Railway Crossing Alert Beeping, Barrier Up Down, Night, Arvada, Denver, _FTUS_AIOL_192k24b 1.wav",
+      "CachePath": "08/{08573F50-E308-D34A-E4B3-1A08081AF03D}.wem"
+     },
+     {
+      "Id": "389811714",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 4.wav",
+      "CachePath": "87/{87E175E2-612F-6E36-4206-7BE227D78EEF}.wem"
+     },
+     {
+      "Id": "433752717",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Main\\Mitsubishi Imiev Electric Car Horn Short by jakobthiesen Id-174841.wav",
+      "CachePath": "39/{39E58DD1-FB19-5B0A-8E15-E1A6A5A6B921}.wem"
+     },
+     {
+      "Id": "456805709",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Main\\Birds, Crow, Call, Cawing, Single SND49400 3.wav",
+      "CachePath": "42/{42CB0C59-0851-2987-EF5D-EE44C054BFD7}.wem"
+     },
+     {
+      "Id": "495981728",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Water, Drip, Isolated Waterdrops, Droplet SND122414 3.wav",
+      "CachePath": "4F/{4FE869D6-65E2-A672-7CAC-266009217A0F}.wem"
+     },
+     {
+      "Id": "517766478",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Electricity, Buzz & Hum, Lights, Electrical Hum SND53025.wav",
+      "CachePath": "BD/{BD2F0C87-8F9B-B44C-D21F-881FA6817860}.wem"
+     },
+     {
+      "Id": "529383586",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Water, Drip, Isolated Waterdrops, Droplet SND122414 2.wav",
+      "CachePath": "6C/{6C8B6D1A-1E8A-B8B2-B787-44D7EBF8FD83}.wem"
+     },
+     {
+      "Id": "539655229",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Main\\Wind, General, Wind Urban Strong Wind Blows Howling, Metal Squeaks 01 SND71919.wav",
+      "CachePath": "9B/{9BAD623E-F416-30D6-78DB-30A7C2B860B8}.wem"
+     },
+     {
+      "Id": "604509140",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Wind, Interior, Wind, Through Pipe 02 SND148150 1.wav",
+      "CachePath": "0E/{0E98EA20-6A41-C3F5-E8EE-CDBFFAFB57B4}.wem"
+     },
+     {
+      "Id": "625123552",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 7.wav",
+      "CachePath": "EB/{EBC16A1B-DC03-F55D-EFCA-17FB53326A1B}.wem"
+     },
+     {
+      "Id": "652452574",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Main\\VEHCar-LR_Australia-Vehicle, Car, Car Horn, Loud, Distance, Morning, Melbourne, _FTUS_AIOL_192k24b.wav",
+      "CachePath": "39/{3945D98F-0AD1-721B-28F7-06A5A28AFC2B}.wem"
+     },
+     {
+      "Id": "699574247",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Main\\Birds, Crow, Call, Cawing, Single SND49400 1.wav",
+      "CachePath": "7A/{7A008855-3167-BCA8-CE50-F8612AAB9770}.wem"
+     },
+     {
+      "Id": "811950197",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Main\\Birds, Crow, Call, Cawing, Single SND49400.wav",
+      "CachePath": "42/{424D40FA-AD5A-E418-19E7-870D3E5FE6CD}.wem"
+     },
+     {
+      "Id": "817841933",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 14.wav",
+      "CachePath": "81/{813383DC-92FD-3417-0346-E259E6E478D2}.wem"
+     },
+     {
+      "Id": "818818573",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 9.wav",
+      "CachePath": "24/{243CFD30-D5AD-18F0-5CBB-93D5E516A344}.wem"
+     },
+     {
+      "Id": "820965519",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 2.wav",
+      "CachePath": "4F/{4FC13F3F-F82F-865E-59E7-1CFD9CEF4BF0}.wem"
+     },
+     {
+      "Id": "829489727",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Main\\Birds, Crow, Call, Cawing, Single SND49400 2.wav",
+      "CachePath": "45/{45ED9C8B-B96C-2D37-3F98-1C9877780A93}.wem"
+     },
+     {
+      "Id": "851954209",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Main\\Birds, Crow, Ravens, Call, Distant Response, With Dog Growls, Movement SND50127-kHsRvrb_02-09.wav",
+      "CachePath": "E2/{E228EABE-82D0-2D14-E1D6-60EF729F5EAB}.wem"
+     },
+     {
+      "Id": "856059271",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Water, Drip, Isolated Waterdrops, Droplet SND122414 4.wav",
+      "CachePath": "04/{045C8E0C-1C48-6BE5-D976-875A88DE992A}.wem"
+     },
+     {
+      "Id": "911000357",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 10.wav",
+      "CachePath": "30/{30D0DAA8-3C55-7F18-959D-D58BF7485AB9}.wem"
+     },
+     {
+      "Id": "934341727",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Main\\Birds, Crow, Ravens, Talking, Intensively, Wings, Distant Wolves, Howling SND50040-02.wav",
+      "CachePath": "AE/{AE730F28-E5AC-41CF-6E65-96A3968586B5}.wem"
+     },
+     {
+      "Id": "948516311",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Water, Drip, Isolated Waterdrops, Droplet SND122414 8.wav",
+      "CachePath": "18/{180F2A1B-F6C2-220A-63E9-420BC7DF4DA3}.wem"
+     },
+     {
+      "Id": "957278115",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Belgiums About Buying Cutting Wood Amateur Radio by klankbeeld Id-718369.wav",
+      "CachePath": "EE/{EE1488C0-9BFC-8124-29C8-296503DE8320}.wem"
+     },
+     {
+      "Id": "959692900",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Electricity, Buzz & Hum, Electric Stutters SND76455.wav",
+      "CachePath": "6A/{6A80607B-6A00-4E01-1BB3-ECB801A958AA}.wem"
+     },
+     {
+      "Id": "967402316",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Main\\Vehicles, Generic By, Car Pass, Slow, Asphalt SND3229 5.wav",
+      "CachePath": "EF/{EF8B15D2-51C6-9D7C-93EC-014A802FE25E}.wem"
+     },
+     {
+      "Id": "1039639948",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 8.wav",
+      "CachePath": "23/{23610207-813A-300A-2231-8248FD9011CF}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1008402193",
+       "Name": "Low_Pass_20KHz",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Low Pass Filters\\Low_Pass_20KHz",
+       "GUID": "{830124FB-B9D5-4AE8-846E-E94A74652666}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "615520941",
+      "Name": "amb_bark_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_bark_play",
+      "GUID": "{CED0A8A0-0C04-4DEA-ACDC-60484FA94FAE}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1732715259",
+      "Name": "amb_bark_stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_bark_stop",
+      "GUID": "{00CA9AED-4E94-466A-927A-10A5E7B44BC3}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2163396527",
+      "Name": "amb_pipe_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_pipe_play",
+      "GUID": "{B26FCE70-B12C-493B-BDC2-8480EE10CE20}",
+      "Color": "2",
+      "MaxAttenuation": "20",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "90544903"
+       },
+       {
+        "Id": "217694245"
+       },
+       {
+        "Id": "243147138"
+       },
+       {
+        "Id": "331668524"
+       },
+       {
+        "Id": "376836566"
+       },
+       {
+        "Id": "495981728"
+       },
+       {
+        "Id": "529383586"
+       },
+       {
+        "Id": "604509140"
+       },
+       {
+        "Id": "856059271"
+       },
+       {
+        "Id": "948516311"
+       }
+      ]
+     },
+     {
+      "Id": "627636653",
+      "Name": "amb_pipe_stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_pipe_stop",
+      "GUID": "{3A8F936D-CFE3-4AEF-BD49-3172509E4530}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1082893790",
+      "Name": "amb_radio_paly",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_radio_paly",
+      "GUID": "{B1F83F9D-099D-4D30-ABD0-8E6291AC226C}",
+      "Color": "2",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "159.19836",
+      "DurationMax": "159.19836",
+      "MediaRefs": [
+       {
+        "Id": "280128166"
+       },
+       {
+        "Id": "350575222"
+       },
+       {
+        "Id": "957278115"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1008402193"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3533032082",
+      "Name": "amb_radio_stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_radio_stop",
+      "GUID": "{425AFA96-01B5-4339-9E59-84FE23AEE30E}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2209834263",
+      "Name": "amb_transformer_booth_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_transformer_booth_play",
+      "GUID": "{47A2555C-DB1A-4802-8261-422494FA59E5}",
+      "Color": "2",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "43.03993",
+      "DurationMax": "43.03993",
+      "MediaRefs": [
+       {
+        "Id": "160879446"
+       },
+       {
+        "Id": "517766478"
+       },
+       {
+        "Id": "959692900"
+       }
+      ]
+     },
+     {
+      "Id": "898276677",
+      "Name": "amb_transformer_booth_stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_transformer_booth_stop",
+      "GUID": "{2AAAA3F9-8904-4B87-AC5E-3C4B3406CE11}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "79443166",
+      "Name": "amb_urban_car_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_urban_car_play",
+      "GUID": "{EF046D03-EB22-4F13-AB19-D222BEDF0F18}",
+      "Color": "2",
+      "MaxAttenuation": "40",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "33679128"
+       },
+       {
+        "Id": "42112297"
+       },
+       {
+        "Id": "98789783"
+       },
+       {
+        "Id": "104729057"
+       },
+       {
+        "Id": "125998053"
+       },
+       {
+        "Id": "389811714"
+       },
+       {
+        "Id": "625123552"
+       },
+       {
+        "Id": "817841933"
+       },
+       {
+        "Id": "818818573"
+       },
+       {
+        "Id": "820965519"
+       },
+       {
+        "Id": "911000357"
+       },
+       {
+        "Id": "1039639948"
+       }
+      ]
+     },
+     {
+      "Id": "1117439136",
+      "Name": "amb_urban_car_stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_urban_car_stop",
+      "GUID": "{DACE1550-2BD4-4381-AA3B-596263A3C725}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "819666031",
+      "Name": "amb_urban_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Main\\amb_urban_play",
+      "GUID": "{9FBAD08A-13A2-4A58-BD54-0AD3A4114749}",
+      "Color": "2",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "5304509"
+       },
+       {
+        "Id": "20233282"
+       },
+       {
+        "Id": "23883577"
+       },
+       {
+        "Id": "147636027"
+       },
+       {
+        "Id": "194457529"
+       },
+       {
+        "Id": "350555364"
+       },
+       {
+        "Id": "384427282"
+       },
+       {
+        "Id": "433752717"
+       },
+       {
+        "Id": "456805709"
+       },
+       {
+        "Id": "539655229"
+       },
+       {
+        "Id": "652452574"
+       },
+       {
+        "Id": "699574247"
+       },
+       {
+        "Id": "811950197"
+       },
+       {
+        "Id": "829489727"
+       },
+       {
+        "Id": "851954209"
+       },
+       {
+        "Id": "934341727"
+       },
+       {
+        "Id": "967402316"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1008402193"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3537193581",
+      "Name": "amb_urban_stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Main\\amb_urban_stop",
+      "GUID": "{A1959339-AC21-4F03-883F-EF9E7C84AD22}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "696522398",
+      "Name": "amb_urban_train_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Main\\amb_urban_train_play",
+      "GUID": "{71F8E2BD-153D-49A5-8423-131FBC3D233F}",
+      "Color": "2",
+      "DurationType": "OneShot",
+      "DurationMin": "21.05405",
+      "DurationMax": "21.05405",
+      "MediaRefs": [
+       {
+        "Id": "214901691"
+       },
+       {
+        "Id": "386570759"
+       }
+      ]
+     },
+     {
+      "Id": "1692838752",
+      "Name": "amb_urban_train_stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Main\\amb_urban_train_stop",
+      "GUID": "{057F42C0-8303-4C2E-8E6D-0F7AD7F7DED6}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1537061107",
+      "Name": "WInd",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\WInd",
+      "GUID": "{77D7E0CE-6F2C-40FF-9BF3-228156480BB9}"
+     },
+     {
+      "Id": "3412057565",
+      "Name": "Train",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Train",
+      "GUID": "{A3B70BAF-D487-450D-9293-D7C556DB918C}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C5E2CE9A-659F-611F-25F2-D1A8DDC61326}"
+ }
+}
