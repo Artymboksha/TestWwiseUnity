@@ -327,12 +327,43 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: ecea83162b0dfc449b857019b4131cf1
+      guid: 8813eee9a75f76459cd220c806fce012
     ParentPath: SoundBanks\Default Work Unit
-    guid: ecea83162b0dfc449b857019b4131cf1
+    guid: 8813eee9a75f76459cd220c806fce012
     GuidInternal: 
-    m_lastTime: -8584248102373812981
-    List: []
+    m_lastTime: -8584246411495282294
+    List:
+    - name: AMB_Urban
+      guid: af2499b416a4444a866fbef51680f14c
+      id: 2434576750
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8813eee9a75f76459cd220c806fce012
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: aa97916de3f80b4f91780b1ce86e6306
+      - ElementName: AMB_Urban
+        ObjectType: 7
+        guid: af2499b416a4444a866fbef51680f14c
+      Path: SoundBanks\Default Work Unit\Ambience\AMB_Urban
+    - name: Ambience
+      guid: aa97916de3f80b4f91780b1ce86e6306
+      id: 85412153
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8813eee9a75f76459cd220c806fce012
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: aa97916de3f80b4f91780b1ce86e6306
+      Path: SoundBanks\Default Work Unit\Ambience
   EventWwu:
   - PhysicalPath: Events\Ambience.wwu
     PathAndIcons:
@@ -354,11 +385,11 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: 26a8426305fd8c46a2d57d627075073b
+      guid: 8c185faec7317646867e77e32ccea4fa
     ParentPath: Events\Default Work Unit
-    guid: 26a8426305fd8c46a2d57d627075073b
+    guid: 8c185faec7317646867e77e32ccea4fa
     GuidInternal: 
-    m_lastTime: -8584248102374539646
+    m_lastTime: -8584246411495297341
     List: []
   - PhysicalPath: Events\Urban.wwu
     PathAndIcons:
@@ -374,7 +405,7 @@ MonoBehaviour:
     ParentPath: Events\Ambience\Urban
     guid: 596a06175882c748a356b93263158e41
     GuidInternal: 
-    m_lastTime: -8584251583121328764
+    m_lastTime: -8584246411495297341
     List:
     - name: amb_bark_play
       guid: a0a8d0ce040cea4dacdc60484fa94fae
@@ -821,12 +852,62 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: ca90a71b13322d4daddb36112f34f1dd
+      guid: c01b419ca9125044840585fbfee40955
     ParentPath: Switches\Default Work Unit
-    guid: ca90a71b13322d4daddb36112f34f1dd
+    guid: c01b419ca9125044840585fbfee40955
     GuidInternal: 
-    m_lastTime: -8584248102374043546
-    List: []
+    m_lastTime: -8584246411495282294
+    List:
+    - name: tail
+      guid: 81870af9c0c3a54ca17c1d53ecc7a621
+      id: 3122859639
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c01b419ca9125044840585fbfee40955
+      - ElementName: tail
+        ObjectType: 11
+        guid: 81870af9c0c3a54ca17c1d53ecc7a621
+      Path: Switches\Default Work Unit\tail
+      values:
+      - name: out
+        guid: a7d33198eab7e34b96db57b75d661507
+        id: 645492555
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c01b419ca9125044840585fbfee40955
+        - ElementName: tail
+          ObjectType: 11
+          guid: 81870af9c0c3a54ca17c1d53ecc7a621
+        - ElementName: out
+          ObjectType: 10
+          guid: a7d33198eab7e34b96db57b75d661507
+      - name: room
+        guid: 765a035272b34f4187338e517c01a862
+        id: 2077253480
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c01b419ca9125044840585fbfee40955
+        - ElementName: tail
+          ObjectType: 11
+          guid: 81870af9c0c3a54ca17c1d53ecc7a621
+        - ElementName: room
+          ObjectType: 10
+          guid: 765a035272b34f4187338e517c01a862
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
