@@ -4,5 +4,30 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/UI.unity
+    guid: 25600e29dc999e84f922a99ba7621629
+  - enabled: 1
+    path: Assets/Scenes/Core.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Urban/Urban_Static.unity
+    guid: ca8a5a7657d95ef48a0f35514bada8dd
+  - enabled: 1
+    path: Assets/Scenes/Urban/Urban_Light.unity
+    guid: 3863bdd2b3a340f4ca5283211bf86f82
+  - enabled: 1
+    path: Assets/Scenes/Forest/Forest_Static.unity
+    guid: b208df8774956024c946841b5b403145
+  - enabled: 1
+    path: Assets/Scenes/Forest/Forest_Light.unity
+    guid: 15cd0ed4d6009cf4189c585980c157ed
+  - enabled: 1
+    path: Assets/Scenes/Forest/Forest_Audio.unity
+    guid: 948e9c488032eab4b83cd457734bdec7
+  - enabled: 1
+    path: Assets/Scenes/Urban/Urban_Audio.unity
+    guid: 50965265f0639724c85599f2dc2fdb10
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
