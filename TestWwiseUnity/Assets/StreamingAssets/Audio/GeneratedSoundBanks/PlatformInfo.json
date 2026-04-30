@@ -3,7 +3,7 @@
   "Platform": {
    "Name": "Windows",
    "BasePlatform": "Windows",
-   "Generator": "2024.1.4.8780"
+   "Generator": "2024.1.0.8669"
   },
   "RootPaths": {
    "ProjectRoot": "../../../../DZ_1",
@@ -30,9 +30,8 @@
    "MaxAttenuationInfo": "true",
    "EstimatedDurationInfo": "true",
    "PrintObjectGuid": "true",
-   "PrintObjectPath": "true",
-   "PrintObjectColor": "true"
+   "PrintObjectPath": "true"
   },
-  "FileHash": "{1F595CDF-6C7A-8A31-B211-8942995FFC20}"
+  "FileHash": "{E747EFCF-C0FF-D133-125C-E6B9C71E3218}"
  }
 }

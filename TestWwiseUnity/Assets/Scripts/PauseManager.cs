@@ -1,11 +1,12 @@
 using UnityEngine;
 using System;
+using AK.Wwise;
 
 public class PauseManager : MonoBehaviour
 {
     public GameObject uiElement;
 
-    public static event Action<bool> OnPauseChanged; // глобальное событие
+    public static event Action<bool> OnPauseChanged;
 
     void Update()
     {
@@ -16,8 +17,12 @@ public class PauseManager : MonoBehaviour
 
             Time.timeScale = isActive ? 0f : 1f;
 
-
             OnPauseChanged?.Invoke(isActive);
+
+            if (isActive)
+                AudioBootstrap.Instance.PlayUI("OpenMenu", gameObject);
+            else
+                AudioBootstrap.Instance.PlayUI("СloseMenu", gameObject);
 
             if (isActive)
             {
@@ -35,7 +40,6 @@ public class PauseManager : MonoBehaviour
     public void ForceUnpause()
     {
         uiElement.SetActive(false);
-
         Time.timeScale = 1f;
 
         OnPauseChanged?.Invoke(false);

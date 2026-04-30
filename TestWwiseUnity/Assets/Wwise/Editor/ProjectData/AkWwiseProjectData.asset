@@ -331,7 +331,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8813eee9a75f76459cd220c806fce012
     GuidInternal: 
-    m_lastTime: -8584246411495282294
+    m_lastTime: -8584240552863690594
     List:
     - name: AMB_Urban
       guid: af2499b416a4444a866fbef51680f14c
@@ -364,6 +364,20 @@ MonoBehaviour:
         ObjectType: 4
         guid: aa97916de3f80b4f91780b1ce86e6306
       Path: SoundBanks\Default Work Unit\Ambience
+    - name: UI
+      guid: 545f6e5b2f1fb14ea8fc13432d0a1063
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8813eee9a75f76459cd220c806fce012
+      - ElementName: UI
+        ObjectType: 7
+        guid: 545f6e5b2f1fb14ea8fc13432d0a1063
+      Path: SoundBanks\Default Work Unit\UI
   EventWwu:
   - PhysicalPath: Events\Ambience.wwu
     PathAndIcons:
@@ -389,8 +403,104 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8c185faec7317646867e77e32ccea4fa
     GuidInternal: 
-    m_lastTime: -8584246411495297341
+    m_lastTime: -8584240553517980006
     List: []
+  - PhysicalPath: Events\UI.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 8c185faec7317646867e77e32ccea4fa
+    - ElementName: UI
+      ObjectType: 12
+      guid: 37335f843bc10b4e987bc516aa536673
+    ParentPath: Events\Default Work Unit\UI
+    guid: 37335f843bc10b4e987bc516aa536673
+    GuidInternal: 
+    m_lastTime: -8584240540189677713
+    List:
+    - name: ui_basic_click
+      guid: 9dd3d67b21efb44f801367d88749f3c6
+      id: 604488705
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
+      - ElementName: UI
+        ObjectType: 12
+        guid: 37335f843bc10b4e987bc516aa536673
+      - ElementName: ui_basic_click
+        ObjectType: 3
+        guid: 9dd3d67b21efb44f801367d88749f3c6
+      Path: Events\Default Work Unit\UI\ui_basic_click
+      maxAttenuation: 0
+      maxDuration: 0.21251042
+      minDuration: 0.21251042
+    - name: ui_close_pause
+      guid: 66e1d307bb05d548b6f22b1cf2cbbda0
+      id: 1168195925
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
+      - ElementName: UI
+        ObjectType: 12
+        guid: 37335f843bc10b4e987bc516aa536673
+      - ElementName: ui_close_pause
+        ObjectType: 3
+        guid: 66e1d307bb05d548b6f22b1cf2cbbda0
+      Path: Events\Default Work Unit\UI\ui_close_pause
+      maxAttenuation: 0
+      maxDuration: 0.4435104
+      minDuration: 0.4435104
+    - name: ui_hover
+      guid: 7a8f315c406ec743b40047a77450ed70
+      id: 2118900976
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
+      - ElementName: UI
+        ObjectType: 12
+        guid: 37335f843bc10b4e987bc516aa536673
+      - ElementName: ui_hover
+        ObjectType: 3
+        guid: 7a8f315c406ec743b40047a77450ed70
+      Path: Events\Default Work Unit\UI\ui_hover
+      maxAttenuation: 0
+      maxDuration: 0.30553126
+      minDuration: 0.30553126
+    - name: ui_open_pause
+      guid: deab57f66964904795e764d88400e6bc
+      id: 1968767193
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
+      - ElementName: UI
+        ObjectType: 12
+        guid: 37335f843bc10b4e987bc516aa536673
+      - ElementName: ui_open_pause
+        ObjectType: 3
+        guid: deab57f66964904795e764d88400e6bc
+      Path: Events\Default Work Unit\UI\ui_open_pause
+      maxAttenuation: 0
+      maxDuration: 0.5959687
+      minDuration: 0.5959687
   - PhysicalPath: Events\Urban.wwu
     PathAndIcons:
     - ElementName: Events
@@ -923,7 +1033,7 @@ MonoBehaviour:
     m_lastTime: -8584248102374828301
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000080000000b0000000c0000000d0000001d0000001e0000001f00000020000000290000002b000000
+  ExpandedWaapiItemIds: 02000000050000000600000007000000080000000b0000000c0000000d0000001e000000200000002a0000002b000000860000008700000089000000e7000000e8000000460100004701000048010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

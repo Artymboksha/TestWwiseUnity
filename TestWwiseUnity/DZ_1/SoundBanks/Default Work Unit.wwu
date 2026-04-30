@@ -14,6 +14,13 @@
 						</SoundBank>
 					</ChildrenList>
 				</Folder>
+				<SoundBank Name="UI" ID="{5B6E5F54-1F2F-4EB1-A8FC-13432D0A1063}">
+					<ObjectInclusionList>
+						<ObjectRef Name="UI" ID="{845F3337-C13B-4E0B-987B-C516AA536673}" WorkUnitID="{845F3337-C13B-4E0B-987B-C516AA536673}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

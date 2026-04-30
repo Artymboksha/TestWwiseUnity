@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="154">
+	<SoundBanks>
+		<SoundBank Id="1551306167" Type="User" GUID="{5B6E5F54-1F2F-4EB1-A8FC-13432D0A1063}" Language="SFX" Hash="{3F3FEBCF-B432-BE6A-B659-F2C7408F8221}">
+			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<Media>
+				<File Id="231646404" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UIGlitch_Glitch sci-fi interface_00-04--00-04_PlaybackRate1.0.wav</ShortName>
+					<CachePath>B0/{B04E728E-4453-B8B6-4E83-E28214170A3C}.wem</CachePath>
+				</File>
+				<File Id="808123516" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UIGlitch_Glitch sci-fi interface_00-01--00-01_PlaybackRate1.0.wav</ShortName>
+					<CachePath>59/{59DF7E67-B4F5-FC29-7B4E-1F0B4CA752FE}.wem</CachePath>
+				</File>
+				<File Id="848586321" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UIGlitch_Glitch sci-fi interface_00-00--00-00_PlaybackRate1.0.wav</ShortName>
+					<CachePath>4B/{4B9FDAB3-DB48-5105-AB6A-4900D2BD82B2}.wem</CachePath>
+				</File>
+				<File Id="966783108" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UIMvmt_Card flipping_00-15--00-15_PlaybackRate1.0.wav</ShortName>
+					<CachePath>99/{991E6B03-0551-A93F-6C79-3A62DF7C187D}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="604488705" Name="ui_basic_click" ObjectPath="\Events\Default Work Unit\UI\ui_basic_click" GUID="{7BD6D39D-EF21-4FB4-8013-67D88749F3C6}" DurationType="OneShot" DurationMin="0.21251042" DurationMax="0.21251042">
+					<MediaRefs>
+						<MediaRef Id="231646404"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1168195925" Name="ui_close_pause" ObjectPath="\Events\Default Work Unit\UI\ui_close_pause" GUID="{07D3E166-05BB-48D5-B6F2-2B1CF2CBBDA0}" DurationType="OneShot" DurationMin="0.4435104" DurationMax="0.4435104">
+					<MediaRefs>
+						<MediaRef Id="808123516"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2118900976" Name="ui_hover" ObjectPath="\Events\Default Work Unit\UI\ui_hover" GUID="{5C318F7A-6E40-43C7-B400-47A77450ED70}" DurationType="OneShot" DurationMin="0.30553126" DurationMax="0.30553126">
+					<MediaRefs>
+						<MediaRef Id="966783108"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1968767193" Name="ui_open_pause" ObjectPath="\Events\Default Work Unit\UI\ui_open_pause" GUID="{F657ABDE-6469-4790-95E7-64D88400E6BC}" DurationType="OneShot" DurationMin="0.5959687" DurationMax="0.5959687">
+					<MediaRefs>
+						<MediaRef Id="848586321"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{E3181914-C4C5-12FD-634B-846B3B76E78E}</FileHash>
+</SoundBanksInfo>

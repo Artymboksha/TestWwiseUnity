@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{845F3337-C13B-4E0B-987B-C516AA536673}" SchemaVersion="123" RootDocumentID="{AE5F188C-31C7-4676-867E-77E32CCEA4FA}" ParentDocumentID="{AE5F188C-31C7-4676-867E-77E32CCEA4FA}">
+	<Events>
+		<WorkUnit Name="UI" ID="{845F3337-C13B-4E0B-987B-C516AA536673}" OwnerID="{AE5F188C-31C7-4676-867E-77E32CCEA4FA}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="ui_close_pause" ID="{07D3E166-05BB-48D5-B6F2-2B1CF2CBBDA0}">
+					<ChildrenList>
+						<Action Name="" ID="{427AFD61-11E2-4FAE-9E7E-1DDE544108B5}" ShortID="781640471">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ui_close_pause" ID="{D9B399DB-AC35-4FDE-812A-E88EF23E2785}" WorkUnitID="{7E41B1DB-1B10-4A52-96AD-50BA98333CE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ui_open_pause" ID="{F657ABDE-6469-4790-95E7-64D88400E6BC}">
+					<ChildrenList>
+						<Action Name="" ID="{AA45BF85-E2F3-4B08-8FCD-33687D6C8A3D}" ShortID="116009917">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ui_open_pause" ID="{22BFA68A-0C63-4BC2-AD81-82A76097FF0A}" WorkUnitID="{7E41B1DB-1B10-4A52-96AD-50BA98333CE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ui_basic_click" ID="{7BD6D39D-EF21-4FB4-8013-67D88749F3C6}">
+					<ChildrenList>
+						<Action Name="" ID="{4C1542ED-A85C-4671-A4BB-A52CE2BEDC5D}" ShortID="316008711">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ui_basic_click" ID="{651EAFD6-A272-435B-B37C-D2A096919DF7}" WorkUnitID="{7E41B1DB-1B10-4A52-96AD-50BA98333CE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ui_hover" ID="{5C318F7A-6E40-43C7-B400-47A77450ED70}">
+					<ChildrenList>
+						<Action Name="" ID="{69F3AE7F-7C98-4025-9D7E-94EBB2086E31}" ShortID="604453938">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ui_hover" ID="{9312BE9A-6684-44BE-ABF5-A9E8453DF196}" WorkUnitID="{7E41B1DB-1B10-4A52-96AD-50BA98333CE8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

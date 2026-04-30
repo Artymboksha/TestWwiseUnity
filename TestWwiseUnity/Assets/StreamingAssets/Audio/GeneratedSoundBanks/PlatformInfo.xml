@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PlatformInfo>
-	<Platform Name="Windows" BasePlatform="Windows" Generator="2024.1.4.8780"/>
+	<Platform Name="Windows" BasePlatform="Windows" Generator="2024.1.0.8669"/>
 	<RootPaths>
 		<ProjectRoot>../../../../DZ_1</ProjectRoot>
 		<SourceFilesRoot>../../../../DZ_1/.cache</SourceFilesRoot>
@@ -27,7 +27,6 @@
 		<EstimatedDurationInfo>true</EstimatedDurationInfo>
 		<PrintObjectGuid>true</PrintObjectGuid>
 		<PrintObjectPath>true</PrintObjectPath>
-		<PrintObjectColor>true</PrintObjectColor>
 	</Settings>
-	<FileHash>{D0467387-8ED6-F862-E003-E379312F371B}</FileHash>
+	<FileHash>{686C7E1A-B0E1-E73C-3626-571BD5A61F19}</FileHash>
 </PlatformInfo>

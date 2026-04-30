@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7E41B1DB-1B10-4A52-96AD-50BA98333CE8}" SchemaVersion="123" RootDocumentID="{475E8F0B-A974-453E-8FD2-BAAB1B452EB5}" ParentDocumentID="{475E8F0B-A974-453E-8FD2-BAAB1B452EB5}">
+	<AudioObjects>
+		<WorkUnit Name="UI" ID="{7E41B1DB-1B10-4A52-96AD-50BA98333CE8}" OwnerID="{475E8F0B-A974-453E-8FD2-BAAB1B452EB5}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="UI" ID="{5780397E-CE1F-46C4-BCDC-E370AEA7F29C}" ShortID="753468295">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ui_close_pause" ID="{D9B399DB-AC35-4FDE-812A-E88EF23E2785}" ShortID="393226034">
+							<PropertyList>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UIGlitch_Glitch sci-fi interface_00-01--00-01_PlaybackRate1_0" ID="{9B6DBE08-427C-461C-A3CA-B7A761F1DCD8}">
+									<Language>SFX</Language>
+									<AudioFile>UI\UIGlitch_Glitch sci-fi interface_00-01--00-01_PlaybackRate1.0.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="808123516"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{6B817ABE-8265-4A20-B0FC-F08059F503DA}"/>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="UIGlitch_Glitch sci-fi interface_00-01--00-01_PlaybackRate1_0" ID="{9B6DBE08-427C-461C-A3CA-B7A761F1DCD8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ui_open_pause" ID="{22BFA68A-0C63-4BC2-AD81-82A76097FF0A}" ShortID="745053218">
+							<PropertyList>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UIGlitch_Glitch sci-fi interface_00-00--00-00_PlaybackRate1_0" ID="{159EF554-7740-45A2-96D1-AAE6C8659ED9}">
+									<Language>SFX</Language>
+									<AudioFile>UI\UIGlitch_Glitch sci-fi interface_00-00--00-00_PlaybackRate1.0.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="848586321"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{D4104634-7E42-4279-AB0C-3485C7B04066}"/>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="UIGlitch_Glitch sci-fi interface_00-00--00-00_PlaybackRate1_0" ID="{159EF554-7740-45A2-96D1-AAE6C8659ED9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ui_basic_click" ID="{651EAFD6-A272-435B-B37C-D2A096919DF7}" ShortID="320679409">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UIGlitch_Glitch sci-fi interface_00-04--00-04_PlaybackRate1_0" ID="{3705DDB7-7F1A-485E-AEE6-C7B76855BF9A}">
+									<Language>SFX</Language>
+									<AudioFile>UI\UIGlitch_Glitch sci-fi interface_00-04--00-04_PlaybackRate1.0.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="231646404"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UIGlitch_Glitch sci-fi interface_00-04--00-04_PlaybackRate1_0" ID="{3705DDB7-7F1A-485E-AEE6-C7B76855BF9A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ui_hover" ID="{9312BE9A-6684-44BE-ABF5-A9E8453DF196}" ShortID="95098122">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UIMvmt_Card flipping_00-15--00-15_PlaybackRate1_0" ID="{C714564B-7942-4D69-ABA7-72325E112F89}">
+									<Language>SFX</Language>
+									<AudioFile>UI\UIMvmt_Card flipping_00-15--00-15_PlaybackRate1.0.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="966783108"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UIMvmt_Card flipping_00-15--00-15_PlaybackRate1_0" ID="{C714564B-7942-4D69-ABA7-72325E112F89}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

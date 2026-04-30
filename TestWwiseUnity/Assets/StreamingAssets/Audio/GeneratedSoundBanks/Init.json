@@ -90,7 +90,6 @@
       "Name": "Brick",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Brick",
       "GUID": "{B086A5A9-F204-4C53-A838-BDB18B18F6D6}",
-      "Color": "8",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -157,7 +156,6 @@
       "Name": "Concrete",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Concrete",
       "GUID": "{5CF81C00-2896-4AE0-AF7C-3080BDABA682}",
-      "Color": "27",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -191,7 +189,6 @@
       "Name": "Wood_Deep",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Wood_Deep",
       "GUID": "{5246478E-C5DA-4E0C-A0DE-C98D1479529A}",
-      "Color": "9",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -225,7 +222,6 @@
       "Name": "Anechoic",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Anechoic",
       "GUID": "{8B0AC232-02E2-4EDE-BEAC-FDD1A900E3ED}",
-      "Color": "13",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -259,7 +255,6 @@
       "Name": "Fabric",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Fabric",
       "GUID": "{8381D532-DB6E-4EED-A7A3-BC7B0A0B8BA8}",
-      "Color": "4",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -293,7 +288,6 @@
       "Name": "Wood",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Wood",
       "GUID": "{1FFFBC96-6FE7-489E-BA6C-7C14A71391AE}",
-      "Color": "7",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -327,7 +321,6 @@
       "Name": "Carpet",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Carpet",
       "GUID": "{34227589-DC56-4260-96C4-B9F4B669092B}",
-      "Color": "17",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -361,7 +354,6 @@
       "Name": "Tile",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Tile",
       "GUID": "{A882DAC4-132A-47B7-BA9D-B9907BA29CC0}",
-      "Color": "16",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -395,7 +387,6 @@
       "Name": "Curtains",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Curtains",
       "GUID": "{F8E69E33-5C97-4968-B508-A1535F2D66E8}",
-      "Color": "3",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -429,7 +420,6 @@
       "Name": "Cork_Tiles",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Cork_Tiles",
       "GUID": "{30D2C919-925F-4143-8906-3DBB3C4AE5E2}",
-      "Color": "19",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -463,7 +453,6 @@
       "Name": "Drywall",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Drywall",
       "GUID": "{68A4E3F4-4C0B-4687-A8B8-A84DB93DBC8F}",
-      "Color": "15",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -497,7 +486,6 @@
       "Name": "Acoustic_Banner",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Acoustic_Banner",
       "GUID": "{2F2D53F2-DACC-408E-8B88-98B1B52A26D6}",
-      "Color": "10",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -531,7 +519,6 @@
       "Name": "Wood_Bright",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Wood_Bright",
       "GUID": "{7B85D1E5-C1A2-4E63-9A13-CEC54B641ADC}",
-      "Color": "20",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -563,6 +550,6 @@
     ]
    }
   ],
-  "FileHash": "{A855ABF6-B9F0-4613-6014-08F52BA26F16}"
+  "FileHash": "{694E2195-06D6-5F62-C5D3-1E70B5E99F00}"
  }
 }
