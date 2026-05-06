@@ -23,6 +23,14 @@ namespace AK
         static const AkUniqueID AMB_TRANSFORMER_BOOTH_STOP = 898276677U;
         static const AkUniqueID AMB_URBAN_CAR_PLAY = 79443166U;
         static const AkUniqueID AMB_URBAN_CAR_STOP = 1117439136U;
+        static const AkUniqueID AMB_URBAN_FACTORY_PLAY = 2107088658U;
+        static const AkUniqueID AMB_URBAN_FACTORY_STOP = 3818646156U;
+        static const AkUniqueID AMB_URBAN_HEAVY_WIND_PLAY = 917655884U;
+        static const AkUniqueID AMB_URBAN_HEAVY_WIND_STOP = 2887440470U;
+        static const AkUniqueID AMB_URBAN_METAL_FAN_PLAY = 2130696569U;
+        static const AkUniqueID AMB_URBAN_METAL_FAN_STOP = 426793919U;
+        static const AkUniqueID AMB_URBAN_METAL_WIND_PLAY = 2242621620U;
+        static const AkUniqueID AMB_URBAN_METAL_WIND_STOP = 3946627214U;
         static const AkUniqueID AMB_URBAN_PLAY = 819666031U;
         static const AkUniqueID AMB_URBAN_STOP = 3537193581U;
         static const AkUniqueID AMB_URBAN_TRAIN_PLAY = 696522398U;
@@ -35,6 +43,18 @@ namespace AK
 
     namespace SWITCHES
     {
+        namespace SURFACE
+        {
+            static const AkUniqueID GROUP = 1834394558U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID GROUND = 2528658256U;
+                static const AkUniqueID METAL = 2473969246U;
+                static const AkUniqueID WATER = 2654748154U;
+            } // namespace SWITCH
+        } // namespace SURFACE
+
         namespace TAIL
         {
             static const AkUniqueID GROUP = 3122859639U;

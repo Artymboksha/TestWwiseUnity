@@ -3,7 +3,7 @@
   "Project": {
    "Name": "DZ_1",
    "GUID": "{4E6F0041-7A9C-4739-8EE7-8244AF625E98}",
-   "Generator": "2024.1.0.8669"
+   "Generator": "2024.1.4.8780"
   },
   "CacheRoot": "../../../../DZ_1/.cache",
   "Platforms": [
@@ -24,6 +24,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{744CB957-563C-CE8F-7E76-6D96014E7A6F}"
+  "FileHash": "{639B22AD-8CAC-9827-1755-2259106B5623}"
  }
 }

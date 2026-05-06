@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{5110975D-8523-447B-AFA3-E05AC9D91E12}" SchemaVersion="123" RootDocumentID="{AE5F188C-31C7-4676-867E-77E32CCEA4FA}" ParentDocumentID="{AE5F188C-31C7-4676-867E-77E32CCEA4FA}">
+<WwiseDocument Type="WorkUnit" ID="{5110975D-8523-447B-AFA3-E05AC9D91E12}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Player" ID="{5110975D-8523-447B-AFA3-E05AC9D91E12}" OwnerID="{AE5F188C-31C7-4676-867E-77E32CCEA4FA}" PersistMode="Nested">
+		<WorkUnit Name="Player" ID="{5110975D-8523-447B-AFA3-E05AC9D91E12}" PersistMode="Standalone">
 			<ChildrenList>
 				<Event Name="player_steps" ID="{DFA4B824-B36E-47B3-9CBF-72A61F11CF08}">
 					<ChildrenList>
