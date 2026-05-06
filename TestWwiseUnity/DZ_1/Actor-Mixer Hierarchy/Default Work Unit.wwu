@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<WorkUnit Name="Weapon" ID="{E0CCEE36-F8D1-4990-A325-0CCB8943528D}" PersistMode="Reference"/>
 				<WorkUnit Name="Ambience" ID="{61C69B53-1664-41D1-85BA-2A4497D2507D}" PersistMode="Reference"/>
+				<WorkUnit Name="Player" ID="{514BDEB8-E316-46B8-A86D-0B32226AF305}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

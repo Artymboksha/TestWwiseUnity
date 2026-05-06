@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{B49924AF-A416-4A44-866F-BEF51680F14C}",
     "Language": "SFX",
-    "Hash": "{E9BC3EE8-85C7-28FF-DC2B-810D9B17345D}",
+    "Hash": "{ED563E36-5668-0AC7-9AE7-B92C1F9323F6}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience\\AMB_Urban",
     "ShortName": "AMB_Urban",
     "Path": "AMB_Urban.bnk",
@@ -54,6 +54,14 @@
       "Location": "Memory",
       "ShortName": "Ambience\\Urban\\Emitters\\Animals, Dog, Barking, Angry, Light Growling, Quiet Area, Birds SND104811 5.wav",
       "CachePath": "0D/{0D65010B-C048-BEF8-A4BB-6AE9DE5B3205}.wem"
+     },
+     {
+      "Id": "77106517",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\Vehicles, Car, Fiat 600 D 1968, Engine, Start, Idle, Stop, Perspective 3 SND154152 4.wav",
+      "CachePath": "97/{978E9E32-2120-FAE8-BAAB-52B73735CF77}.wem"
      },
      {
       "Id": "90544903",
@@ -101,7 +109,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ambience\\Urban\\Emitters\\Electricity, Buzz & Hum, Fluorescent Light, Neon Tube, Buzz & Electrical Hum SND36893.wav",
-      "CachePath": "B4/{B4713856-FA5A-E909-347A-766C38CE082F}.wem"
+      "CachePath": "6D/{6DF05408-E44C-2B5E-DDAC-5BF2CA56434A}.wem"
      },
      {
       "Id": "194457529",
@@ -168,6 +176,14 @@
       "CachePath": "7D/{7D576AA9-48E9-CF13-F724-392817E4F45C}.wem"
      },
      {
+      "Id": "376287099",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\amb_urban_metal_fan.wav",
+      "CachePath": "22/{2229926F-BFAF-E95E-9BDA-41504227211A}.wem"
+     },
+     {
       "Id": "376836566",
       "Language": "SFX",
       "Streaming": "false",
@@ -216,6 +232,14 @@
       "CachePath": "42/{42CB0C59-0851-2987-EF5D-EE44C054BFD7}.wem"
      },
      {
+      "Id": "494438353",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\amb_urban_metal_wind.wav",
+      "CachePath": "3F/{3FF6505E-C446-F4A2-96AB-1B2ED6865A8E}.wem"
+     },
+     {
       "Id": "495981728",
       "Language": "SFX",
       "Streaming": "false",
@@ -229,7 +253,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ambience\\Urban\\Emitters\\Electricity, Buzz & Hum, Lights, Electrical Hum SND53025.wav",
-      "CachePath": "BD/{BD2F0C87-8F9B-B44C-D21F-881FA6817860}.wem"
+      "CachePath": "4B/{4B1309B5-0987-6B41-BFA3-D8238DD08C4D}.wem"
      },
      {
       "Id": "529383586",
@@ -278,6 +302,22 @@
       "Location": "Memory",
       "ShortName": "Ambience\\Urban\\Main\\Birds, Crow, Call, Cawing, Single SND49400 1.wav",
       "CachePath": "7A/{7A008855-3167-BCA8-CE50-F8612AAB9770}.wem"
+     },
+     {
+      "Id": "792954831",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\amb_heavy_wind.wav",
+      "CachePath": "63/{63F0C44E-C671-8D46-35C4-B04BE56C977D}.wem"
+     },
+     {
+      "Id": "805714448",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Urban\\Emitters\\amb_urban_factory.wav",
+      "CachePath": "CF/{CF8BE9F8-6E1B-6C4A-E2FB-2D268B36EE73}.wem"
      },
      {
       "Id": "811950197",
@@ -373,7 +413,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ambience\\Urban\\Emitters\\Electricity, Buzz & Hum, Electric Stutters SND76455.wav",
-      "CachePath": "6A/{6A80607B-6A00-4E01-1BB3-ECB801A958AA}.wem"
+      "CachePath": "85/{85D89989-611B-AA4C-1BA3-476326910DA4}.wem"
      },
      {
       "Id": "967402316",
@@ -411,10 +451,46 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_bark_play",
       "GUID": "{CED0A8A0-0C04-4DEA-ACDC-60484FA94FAE}",
       "Color": "2",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "MaxAttenuation": "40",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "33679128"
+       },
+       {
+        "Id": "42112297"
+       },
+       {
+        "Id": "98789783"
+       },
+       {
+        "Id": "104729057"
+       },
+       {
+        "Id": "125998053"
+       },
+       {
+        "Id": "389811714"
+       },
+       {
+        "Id": "625123552"
+       },
+       {
+        "Id": "817841933"
+       },
+       {
+        "Id": "818818573"
+       },
+       {
+        "Id": "820965519"
+       },
+       {
+        "Id": "911000357"
+       },
+       {
+        "Id": "1039639948"
+       }
+      ]
      },
      {
       "Id": "1732715259",
@@ -526,9 +602,7 @@
       "GUID": "{47A2555C-DB1A-4802-8261-422494FA59E5}",
       "Color": "2",
       "MaxAttenuation": "20",
-      "DurationType": "OneShot",
-      "DurationMin": "43.03993",
-      "DurationMax": "43.03993",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "160879446"
@@ -558,44 +632,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_urban_car_play",
       "GUID": "{EF046D03-EB22-4F13-AB19-D222BEDF0F18}",
       "Color": "2",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "20",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "33679128"
-       },
-       {
-        "Id": "42112297"
-       },
-       {
-        "Id": "98789783"
-       },
-       {
-        "Id": "104729057"
-       },
-       {
-        "Id": "125998053"
-       },
-       {
-        "Id": "389811714"
-       },
-       {
-        "Id": "625123552"
-       },
-       {
-        "Id": "817841933"
-       },
-       {
-        "Id": "818818573"
-       },
-       {
-        "Id": "820965519"
-       },
-       {
-        "Id": "911000357"
-       },
-       {
-        "Id": "1039639948"
+        "Id": "77106517"
        }
       ]
      },
@@ -604,6 +645,113 @@
       "Name": "amb_urban_car_stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_urban_car_stop",
       "GUID": "{DACE1550-2BD4-4381-AA3B-596263A3C725}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2107088658",
+      "Name": "amb_urban_factory_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_urban_factory_play",
+      "GUID": "{4D5D97F0-8B77-4F23-99A8-931706CA55EE}",
+      "Color": "2",
+      "MaxAttenuation": "40",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "805714448"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1008402193"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3818646156",
+      "Name": "amb_urban_factory_stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_urban_factory_stop",
+      "GUID": "{88FBDBFB-C870-46CE-B91F-74EFFDBC4E08}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "917655884",
+      "Name": "amb_urban_heavy_wind_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_urban_heavy_wind_play",
+      "GUID": "{97DB44BD-DA0B-4C4B-8194-0DD21137CE70}",
+      "Color": "2",
+      "MaxAttenuation": "40",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "792954831"
+       }
+      ]
+     },
+     {
+      "Id": "2887440470",
+      "Name": "amb_urban_heavy_wind_stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_urban_heavy_wind_stop",
+      "GUID": "{785BC0C0-137A-4CE3-9D9F-BF5305DD3914}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2130696569",
+      "Name": "amb_urban_metal_fan_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_urban_metal_fan_play",
+      "GUID": "{F77AB7C4-0C9E-451A-A98F-D49F3836E64D}",
+      "Color": "2",
+      "MaxAttenuation": "20",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "376287099"
+       }
+      ]
+     },
+     {
+      "Id": "426793919",
+      "Name": "amb_urban_metal_fan_stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_urban_metal_fan_stop",
+      "GUID": "{42980921-B113-41C0-BBFE-2CD77C4173B6}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2242621620",
+      "Name": "amb_urban_metal_wind_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_urban_metal_wind_play",
+      "GUID": "{16A8C392-E6AD-42FE-8BCB-36147DFBBA9E}",
+      "Color": "2",
+      "MaxAttenuation": "20",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "494438353"
+       }
+      ]
+     },
+     {
+      "Id": "3946627214",
+      "Name": "amb_urban_metal_wind_stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_urban_metal_wind_stop",
+      "GUID": "{DB249718-114A-4E2E-9032-D1BA7BF22DDA}",
       "Color": "2",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
@@ -735,6 +883,6 @@
     ]
    }
   ],
-  "FileHash": "{A5A06983-79C1-428B-3BB0-6B64C307634B}"
+  "FileHash": "{26B3AC82-57C8-050A-DA18-2108F5114F9A}"
  }
 }

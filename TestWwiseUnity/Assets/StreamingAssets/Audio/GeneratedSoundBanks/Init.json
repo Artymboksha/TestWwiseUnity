@@ -64,6 +64,32 @@
     ],
     "SwitchGroups": [
      {
+      "Id": "1834394558",
+      "Name": "surface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\surface",
+      "GUID": "{ECA414C8-B3BD-4BD6-9236-EE42106A9514}",
+      "Switches": [
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\surface\\Metal",
+        "GUID": "{8E8B5A2A-7323-4DCE-883C-F6E7CA0699DB}"
+       },
+       {
+        "Id": "2528658256",
+        "Name": "Ground",
+        "ObjectPath": "\\Switches\\Default Work Unit\\surface\\Ground",
+        "GUID": "{636FB45C-018B-476C-8726-71E238F4DE5D}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\surface\\Water",
+        "GUID": "{A307EFC0-3E1A-4415-8C59-E020B9041B6E}"
+       }
+      ]
+     },
+     {
       "Id": "3122859639",
       "Name": "tail",
       "ObjectPath": "\\Switches\\Default Work Unit\\tail",
@@ -563,6 +589,6 @@
     ]
    }
   ],
-  "FileHash": "{A855ABF6-B9F0-4613-6014-08F52BA26F16}"
+  "FileHash": "{53A25B5A-FAD0-1015-79C0-E58D023E90F0}"
  }
 }

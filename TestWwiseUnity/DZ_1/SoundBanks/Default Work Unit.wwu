@@ -14,6 +14,17 @@
 						</SoundBank>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Player" ID="{BEC4D2B3-47BB-403F-A255-686794934E58}" ShortID="1062051365">
+					<ChildrenList>
+						<SoundBank Name="player" ID="{7BA0CF43-6E16-46F1-AF50-12CD2113BFAF}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Player" ID="{5110975D-8523-447B-AFA3-E05AC9D91E12}" WorkUnitID="{5110975D-8523-447B-AFA3-E05AC9D91E12}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

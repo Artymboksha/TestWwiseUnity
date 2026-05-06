@@ -20,6 +20,13 @@
 				<GameParameter Id="3554434311" Name="Ammo" ObjectPath="\Game Parameters\Default Work Unit\Ammo" GUID="{3D05EAFE-8192-4DC4-A736-69BAA492A905}"/>
 			</GameParameters>
 			<SwitchGroups>
+				<SwitchGroup Id="1834394558" Name="surface" ObjectPath="\Switches\Default Work Unit\surface" GUID="{ECA414C8-B3BD-4BD6-9236-EE42106A9514}">
+					<Switches>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\surface\Metal" GUID="{8E8B5A2A-7323-4DCE-883C-F6E7CA0699DB}"/>
+						<Switch Id="2528658256" Name="Ground" ObjectPath="\Switches\Default Work Unit\surface\Ground" GUID="{636FB45C-018B-476C-8726-71E238F4DE5D}"/>
+						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\surface\Water" GUID="{A307EFC0-3E1A-4415-8C59-E020B9041B6E}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="3122859639" Name="tail" ObjectPath="\Switches\Default Work Unit\tail" GUID="{F90A8781-C3C0-4CA5-A17C-1D53ECC7A621}">
 					<Switches>
 						<Switch Id="645492555" Name="out" ObjectPath="\Switches\Default Work Unit\tail\out" GUID="{9831D3A7-B7EA-4BE3-96DB-57B75D661507}"/>
@@ -157,5 +164,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1737479D-B2A7-6885-9C7C-E602B2EACA28}</FileHash>
+	<FileHash>{F658C253-9961-FDE1-AAC0-6F5755A9440B}</FileHash>
 </SoundBanksInfo>

@@ -287,6 +287,9 @@
 													</ModifierList>
 												</Property>
 												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>-29</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{E0514DF1-AD68-4FF5-B85E-A042495729E0}">
@@ -460,6 +463,9 @@
 													</ModifierList>
 												</Property>
 												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>-35</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{A908378C-12B2-4474-9CF5-3EE698EE9E7C}">
@@ -639,6 +645,9 @@
 													</ModifierList>
 												</Property>
 												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>-19</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{5A2C090E-1203-4019-999D-2CDB4A810ADC}">
@@ -827,7 +836,7 @@
 												</Property>
 												<Property Name="MakeUpGain" Type="Real64">
 													<ValueList>
-														<Value>-8</Value>
+														<Value>-20</Value>
 													</ValueList>
 												</Property>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
@@ -1780,9 +1789,10 @@
 							<ChildrenList>
 								<Sound Name="Electricity, Buzz &amp; Hum, Electric Stutters SND76455" ID="{0D4B8CA6-D2C5-4BFF-9C2E-A382B03352E8}" ShortID="84231235">
 									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
-												<Value>-25</Value>
+												<Value>-19</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1796,6 +1806,14 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Electricity, Buzz &amp; Hum, Electric Stutters SND76455" ID="{9012F050-7275-4473-BEBA-0295E236420A}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2532.075"/>
+												<Property Name="LoopBegin" Type="Real64" Value="3.86566677201266"/>
+												<Property Name="LoopEnd" Type="Real64" Value="31.7391605195299"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.37332898479397"/>
+												<Property Name="TrimEnd" Type="Real64" Value="34.8418667444348"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Ambience\Urban\Emitters\Electricity, Buzz &amp; Hum, Electric Stutters SND76455.wav</AudioFile>
 											<MediaIDList>
@@ -1811,7 +1829,7 @@
 									<PropertyList>
 										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
-												<Value>-17</Value>
+												<Value>-11</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1825,6 +1843,14 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Electricity, Buzz &amp; Hum, Lights, Electrical Hum SND53025" ID="{6644E0A0-7B02-41E6-8521-473983C9A137}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1554.565"/>
+												<Property Name="LoopBegin" Type="Real64" Value="2.12795920291189"/>
+												<Property Name="LoopEnd" Type="Real64" Value="25.7764114564368"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.401501736398471"/>
+												<Property Name="TrimEnd" Type="Real64" Value="27.6233194438697"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Ambience\Urban\Emitters\Electricity, Buzz &amp; Hum, Lights, Electrical Hum SND53025.wav</AudioFile>
 											<MediaIDList>
@@ -1838,9 +1864,10 @@
 								</Sound>
 								<Sound Name="Electricity, Buzz &amp; Hum, Fluorescent Light, Neon Tube, Buzz &amp; Electrical Hum SND36893" ID="{3821D4A5-15FA-4EA4-993E-B42A4697D213}" ShortID="887055966">
 									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1854,6 +1881,14 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Electricity, Buzz &amp; Hum, Fluorescent Light, Neon Tube, Buzz &amp; Electrical Hum SND36893" ID="{F20461DB-E306-407A-B628-4BC972947C2C}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2241.663"/>
+												<Property Name="LoopBegin" Type="Real64" Value="4.80247789048879"/>
+												<Property Name="LoopEnd" Type="Real64" Value="38.2982400522178"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.33739890621207"/>
+												<Property Name="TrimEnd" Type="Real64" Value="41.2162013021351"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Ambience\Urban\Emitters\Electricity, Buzz &amp; Hum, Fluorescent Light, Neon Tube, Buzz &amp; Electrical Hum SND36893.wav</AudioFile>
 											<MediaIDList>
@@ -2248,6 +2283,240 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<ActorMixer Name="amb_factory" ID="{656C9EB0-7E31-469B-BE12-DFDAC279369E}" ShortID="915164177">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>11</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Basic_40m" ID="{00F5F9AE-60A2-45B3-9842-0E7E59F04AE1}" WorkUnitID="{6D07D69D-18D1-49DC-86D7-A322ADD4E3CF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="amb_urban_factory" ID="{1C08F87B-42D6-4E34-B1D0-F1D9B853E4C8}" ShortID="469879014">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="amb_urban_factory" ID="{ACA0E759-AF7D-4E54-AEBE-93BDB155264D}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1703.472"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.38587571806827"/>
+												<Property Name="LoopEnd" Type="Real64" Value="28.3474576152651"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\amb_urban_factory.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="805714448"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="amb_urban_factory" ID="{ACA0E759-AF7D-4E54-AEBE-93BDB155264D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{3F4B8E99-B97A-47B3-83B5-87A7951A7BDB}" ShortID="949303077">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</ActorMixer>
+						<ActorMixer Name="amb_metal_fan" ID="{A8F9D51A-4BC3-483D-B306-32E94E1B497F}" ShortID="228229620">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Basic_20m" ID="{EFFBE36E-76CE-423C-9AB0-CEF75DF1F08A}" WorkUnitID="{6D07D69D-18D1-49DC-86D7-A322ADD4E3CF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="amb_urban_metal_fan" ID="{178BBAF3-AACA-4CCF-9DB7-F00069AACF1A}" ShortID="326640132">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="amb_urban_metal_fan" ID="{3AE89C39-F39A-4D73-ADFE-C870728DF0C8}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="695.312"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.364548006973698"/>
+												<Property Name="LoopEnd" Type="Real64" Value="8.32175143721414"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\amb_urban_metal_fan.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="376287099"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="amb_urban_metal_fan" ID="{3AE89C39-F39A-4D73-ADFE-C870728DF0C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="amb_metal_wind" ID="{697479D0-4616-4DF0-A097-3B57483FC4CC}" ShortID="165930479">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Basic_20m" ID="{EFFBE36E-76CE-423C-9AB0-CEF75DF1F08A}" WorkUnitID="{6D07D69D-18D1-49DC-86D7-A322ADD4E3CF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="amb_urban_metal_wind" ID="{6C29B609-5CE2-4B0C-8B77-173A907A8E9B}" ShortID="900048139">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="amb_urban_metal_wind" ID="{1ADA97AF-B866-4DF6-986D-0DB8A4524F2C}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1518.23"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.823446298049668"/>
+												<Property Name="LoopEnd" Type="Real64" Value="16.6935028598807"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\amb_urban_metal_wind.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="494438353"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="amb_urban_metal_wind" ID="{1ADA97AF-B866-4DF6-986D-0DB8A4524F2C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="amb_heavy_wind" ID="{770E6519-9DCB-4A0F-BAFC-6E4D43EC5F1E}" ShortID="337052701">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Basic_40m" ID="{00F5F9AE-60A2-45B3-9842-0E7E59F04AE1}" WorkUnitID="{6D07D69D-18D1-49DC-86D7-A322ADD4E3CF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="amb_heavy_wind" ID="{0437ECDE-EB75-46A4-8E8E-C8C3A9D9A234}" ShortID="12214712">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="amb_heavy_wind" ID="{31E69735-80F5-463D-AB86-1FB25085C4C2}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2136.459"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.15875703197415"/>
+												<Property Name="LoopEnd" Type="Real64" Value="17.8779661447988"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Urban\Emitters\amb_heavy_wind.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="792954831"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="amb_heavy_wind" ID="{31E69735-80F5-463D-AB86-1FB25085C4C2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

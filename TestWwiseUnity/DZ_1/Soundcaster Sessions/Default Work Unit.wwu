@@ -74,6 +74,20 @@
 						<CurrentSwitchRef Name="out" ID="{9831D3A7-B7EA-4BE3-96DB-57B75D661507}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
+				<SoundcasterSession Name="New Soundcaster Session_02" ID="{3B940630-A879-4882-AEF5-4690BB03571D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="amb_factory" ID="{656C9EB0-7E31-469B-BE12-DFDAC279369E}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Ground" ID="{636FB45C-018B-476C-8726-71E238F4DE5D}"/>
+						<CurrentSwitchRef Name="out" ID="{9831D3A7-B7EA-4BE3-96DB-57B75D661507}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

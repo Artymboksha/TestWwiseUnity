@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="154">
+	<SoundBanks>
+		<SoundBank Id="1069431850" Type="User" GUID="{7BA0CF43-6E16-46F1-AF50-12CD2113BFAF}" Language="SFX" Hash="{1ACCCFB0-04A5-3792-58D6-EA366F4A411B}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Player\player</ObjectPath>
+			<ShortName>player</ShortName>
+			<Path>player.bnk</Path>
+			<Media>
+				<File Id="49232586" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps, Human, Dirty Ground, Walk SND62078 11.wav</ShortName>
+					<CachePath>F7/{F757FAC1-E96D-6C51-DA16-55073B85D369}.wem</CachePath>
+				</File>
+				<File Id="57233090" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Water\Footsteps, Human, Sneakers, Walk, Fast, on Water SND147223 5.wav</ShortName>
+					<CachePath>78/{7806623F-8249-9ED7-E890-455E52FA06B0}.wem</CachePath>
+				</File>
+				<File Id="96240924" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps, Human, Dirty Ground, Walk SND62078 12.wav</ShortName>
+					<CachePath>E0/{E0CAE3E4-416C-6AE5-7183-7F28FB39BCAE}.wem</CachePath>
+				</File>
+				<File Id="161481960" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Water\Footsteps, Human, Sneakers, Walk, Fast, on Water SND147223 6.wav</ShortName>
+					<CachePath>CA/{CABD9FD9-5280-4A29-7E6A-13542F27C00F}.wem</CachePath>
+				</File>
+				<File Id="178065842" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Water\Footsteps, Human, Sneakers, Walk, Fast, on Water SND147223 4.wav</ShortName>
+					<CachePath>86/{86617800-42EA-2D0E-9344-E17EE5535609}.wem</CachePath>
+				</File>
+				<File Id="187611660" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Water\Footsteps, Human, Sneakers, Walk, Fast, on Water SND147223 2.wav</ShortName>
+					<CachePath>6A/{6A9A98AC-77C5-49DE-5786-D8DBB7344211}.wem</CachePath>
+				</File>
+				<File Id="240016245" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps, Human, Dirty Ground, Walk SND62078 13.wav</ShortName>
+					<CachePath>50/{509E0399-7D57-1EF3-601E-12E9E6E9CA11}.wem</CachePath>
+				</File>
+				<File Id="252136149" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Metal\Footsteps, Human, Boots, Walking, Metal, Resonance, Hard, Irregular Rhythm SND85371 4.wav</ShortName>
+					<CachePath>C8/{C8D43AA0-F249-0BF9-FAC3-7930DC3C20FA}.wem</CachePath>
+				</File>
+				<File Id="272844803" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Water\Footsteps, Human, Sneakers, Walk, Fast, on Water SND147223 1.wav</ShortName>
+					<CachePath>39/{3934EC15-0232-CBDA-893A-2ACEBFE9180D}.wem</CachePath>
+				</File>
+				<File Id="308041443" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Water\Footsteps, Human, Sneakers, Walk, Fast, on Water SND147223 7.wav</ShortName>
+					<CachePath>CC/{CCB9E477-FB62-AA19-3997-7E629528D8DC}.wem</CachePath>
+				</File>
+				<File Id="311276100" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps, Human, Dirty Ground, Walk SND62078 8.wav</ShortName>
+					<CachePath>AE/{AE01C5AD-9205-CB68-8B90-9BD584E836B6}.wem</CachePath>
+				</File>
+				<File Id="458399376" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Metal\Footsteps, Human, Boots, Walking, Metal, Resonance, Hard, Irregular Rhythm SND85371 5.wav</ShortName>
+					<CachePath>D6/{D6ED5495-C7C9-92F6-8445-349DCD2EC3FE}.wem</CachePath>
+				</File>
+				<File Id="484901138" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Metal\Footsteps, Human, Boots, Walking, Metal, Resonance, Hard, Irregular Rhythm SND85371 3.wav</ShortName>
+					<CachePath>A9/{A9A81741-D257-F293-3F5C-3786B069A603}.wem</CachePath>
+				</File>
+				<File Id="523217812" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps, Human, Dirty Ground, Walk SND62078 9.wav</ShortName>
+					<CachePath>E5/{E50A50B1-69C9-FB8A-7759-22955795C4C0}.wem</CachePath>
+				</File>
+				<File Id="581933890" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Water\Footsteps, Human, Sneakers, Walk, Fast, on Water SND147223 3.wav</ShortName>
+					<CachePath>CE/{CED335F2-C4AF-D355-5527-E028B37478CC}.wem</CachePath>
+				</File>
+				<File Id="643671364" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Water\Footsteps, Human, Sneakers, Walk, Fast, on Water SND147223.wav</ShortName>
+					<CachePath>50/{501DDEE1-560E-5DF0-0797-7949312F339C}.wem</CachePath>
+				</File>
+				<File Id="712620854" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps, Human, Dirty Ground, Walk SND62078 6.wav</ShortName>
+					<CachePath>5F/{5F6D9564-FE93-5758-DFB7-E49E1DC11AF0}.wem</CachePath>
+				</File>
+				<File Id="713392700" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Metal\Footsteps, Human, Boots, Walking, Metal, Resonance, Hard, Irregular Rhythm SND85371 1.wav</ShortName>
+					<CachePath>2A/{2A862295-0AE6-BFD8-8D4F-766678A085CF}.wem</CachePath>
+				</File>
+				<File Id="722194289" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Metal\Footsteps, Human, Boots, Walking, Metal, Resonance, Hard, Irregular Rhythm SND85371 7.wav</ShortName>
+					<CachePath>3F/{3FC312CF-32E8-C9AC-71AF-DE10CCC06B46}.wem</CachePath>
+				</File>
+				<File Id="747546559" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps, Human, Dirty Ground, Walk SND62078 10.wav</ShortName>
+					<CachePath>BE/{BE6EED3E-467F-0334-662B-DEF1FB2E3C7B}.wem</CachePath>
+				</File>
+				<File Id="765057206" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps, Human, Dirty Ground, Walk SND62078 7.wav</ShortName>
+					<CachePath>0D/{0DB958BB-EF0E-DFF2-6D32-5767DBA9EB56}.wem</CachePath>
+				</File>
+				<File Id="777553607" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Metal\Footsteps, Human, Boots, Walking, Metal, Resonance, Hard, Irregular Rhythm SND85371.wav</ShortName>
+					<CachePath>EA/{EACB1062-6946-60BE-AAE2-0BA50F2A0E92}.wem</CachePath>
+				</File>
+				<File Id="916545632" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Metal\Footsteps, Human, Boots, Walking, Metal, Resonance, Hard, Irregular Rhythm SND85371 6.wav</ShortName>
+					<CachePath>BA/{BA195256-5DA4-AA07-3DC6-0BBAD6B70BE2}.wem</CachePath>
+				</File>
+				<File Id="941276914" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player\Footsteps\Metal\Footsteps, Human, Boots, Walking, Metal, Resonance, Hard, Irregular Rhythm SND85371 2.wav</ShortName>
+					<CachePath>A5/{A559BD84-6FFF-748C-60EB-C3B145DAD2F5}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4272057794" Name="player_steps" ObjectPath="\Events\Default Work Unit\Player\player_steps" GUID="{DFA4B824-B36E-47B3-9CBF-72A61F11CF08}" DurationType="OneShot" DurationMin="0.2910548" DurationMax="0.54442585">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2473969246" GUID="{8E8B5A2A-7323-4DCE-883C-F6E7CA0699DB}"/>
+							<MediaRefs>
+								<MediaRef Id="252136149"/>
+								<MediaRef Id="458399376"/>
+								<MediaRef Id="484901138"/>
+								<MediaRef Id="713392700"/>
+								<MediaRef Id="722194289"/>
+								<MediaRef Id="777553607"/>
+								<MediaRef Id="916545632"/>
+								<MediaRef Id="941276914"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2528658256" GUID="{636FB45C-018B-476C-8726-71E238F4DE5D}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="49232586"/>
+								<MediaRef Id="96240924"/>
+								<MediaRef Id="240016245"/>
+								<MediaRef Id="311276100"/>
+								<MediaRef Id="523217812"/>
+								<MediaRef Id="712620854"/>
+								<MediaRef Id="747546559"/>
+								<MediaRef Id="765057206"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2654748154" GUID="{A307EFC0-3E1A-4415-8C59-E020B9041B6E}"/>
+							<MediaRefs>
+								<MediaRef Id="57233090"/>
+								<MediaRef Id="161481960"/>
+								<MediaRef Id="178065842"/>
+								<MediaRef Id="187611660"/>
+								<MediaRef Id="272844803"/>
+								<MediaRef Id="308041443"/>
+								<MediaRef Id="581933890"/>
+								<MediaRef Id="643671364"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="1834394558" Name="surface" ObjectPath="\Switches\Default Work Unit\surface" GUID="{ECA414C8-B3BD-4BD6-9236-EE42106A9514}">
+					<Switches>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\surface\Metal" GUID="{8E8B5A2A-7323-4DCE-883C-F6E7CA0699DB}"/>
+						<Switch Id="2528658256" Name="Ground" ObjectPath="\Switches\Default Work Unit\surface\Ground" GUID="{636FB45C-018B-476C-8726-71E238F4DE5D}"/>
+						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\surface\Water" GUID="{A307EFC0-3E1A-4415-8C59-E020B9041B6E}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{9A3F0BF9-E577-67F0-0A0F-D75D44DE42DA}</FileHash>
+</SoundBanksInfo>

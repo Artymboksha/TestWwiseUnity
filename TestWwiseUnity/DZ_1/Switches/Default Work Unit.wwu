@@ -9,6 +9,13 @@
 						<Switch Name="out" ID="{9831D3A7-B7EA-4BE3-96DB-57B75D661507}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="surface" ID="{ECA414C8-B3BD-4BD6-9236-EE42106A9514}">
+					<ChildrenList>
+						<Switch Name="Ground" ID="{636FB45C-018B-476C-8726-71E238F4DE5D}"/>
+						<Switch Name="Metal" ID="{8E8B5A2A-7323-4DCE-883C-F6E7CA0699DB}"/>
+						<Switch Name="Water" ID="{A307EFC0-3E1A-4415-8C59-E020B9041B6E}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

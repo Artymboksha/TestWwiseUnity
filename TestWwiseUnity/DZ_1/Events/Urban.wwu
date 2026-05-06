@@ -105,7 +105,7 @@
 								<Action Name="" ID="{B6D4AE1A-7AA6-48E6-BBB6-E090645B651F}" ShortID="612513358">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="amb_bark" ID="{E69052D0-37AF-46FE-B81B-5F096B668610}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
+											<ObjectRef Name="Vehicles, Car, Fiat 600 D 1968, Engine, Start, Idle, Stop, Perspective 3 SND154152 4" ID="{833FFDAA-5153-49EE-9459-243B7D1FD87E}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -120,14 +120,63 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
+											<ObjectRef Name="Vehicles, Car, Fiat 600 D 1968, Engine, Start, Idle, Stop, Perspective 3 SND154152 4" ID="{833FFDAA-5153-49EE-9459-243B7D1FD87E}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="amb_bark_play" ID="{CED0A8A0-0C04-4DEA-ACDC-60484FA94FAE}">
+							<ChildrenList>
+								<Action Name="" ID="{B1285A57-7A91-4741-A5FC-FE48BC781EDA}" ShortID="1063864616">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_bark" ID="{E69052D0-37AF-46FE-B81B-5F096B668610}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EBFA87DA-8262-47F5-BFA6-2657FE8CD38D}" ShortID="174479297">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{465BF2FA-F022-4FAE-A3E5-D753CA41555D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Vehicles, Car, Fiat 600 D 1968, Engine, Start, Idle, Stop, Perspective 3 SND154152 4" ID="{833FFDAA-5153-49EE-9459-243B7D1FD87E}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="amb_bark_stop" ID="{00CA9AED-4E94-466A-927A-10A5E7B44BC3}">
+							<ChildrenList>
+								<Action Name="" ID="{457FC9C7-5EBB-4125-A6D0-7D75CEFC3F2E}" ShortID="209391673">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
 											<ObjectRef Name="amb_bark" ID="{E69052D0-37AF-46FE-B81B-5F096B668610}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="amb_bark_play" ID="{CED0A8A0-0C04-4DEA-ACDC-60484FA94FAE}"/>
-						<Event Name="amb_bark_stop" ID="{00CA9AED-4E94-466A-927A-10A5E7B44BC3}"/>
 						<Event Name="amb_pipe_play" ID="{B26FCE70-B12C-493B-BDC2-8480EE10CE20}">
 							<ChildrenList>
 								<Action Name="" ID="{26584C5D-0C4F-4E5A-9A95-BD59A3521B59}" ShortID="347995826">
@@ -201,6 +250,113 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Amb_transformer_booth" ID="{94039F42-3A20-49E9-AA69-E64A2C56AB15}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="amb_urban_factory_play" ID="{4D5D97F0-8B77-4F23-99A8-931706CA55EE}">
+							<ChildrenList>
+								<Action Name="" ID="{4BF244F7-95DD-4241-8461-7D28152A4636}" ShortID="565328546">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_urban_factory" ID="{1C08F87B-42D6-4E34-B1D0-F1D9B853E4C8}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="amb_urban_factory_stop" ID="{88FBDBFB-C870-46CE-B91F-74EFFDBC4E08}">
+							<ChildrenList>
+								<Action Name="" ID="{2A56F6DD-7759-4B94-B801-AB42F7A44775}" ShortID="252484654">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_urban_factory" ID="{1C08F87B-42D6-4E34-B1D0-F1D9B853E4C8}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="amb_urban_metal_fan_play" ID="{F77AB7C4-0C9E-451A-A98F-D49F3836E64D}">
+							<ChildrenList>
+								<Action Name="" ID="{BE625F7B-16C8-4139-86C7-E79261A20F0F}" ShortID="367505787">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_urban_metal_fan" ID="{178BBAF3-AACA-4CCF-9DB7-F00069AACF1A}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="amb_urban_metal_fan_stop" ID="{42980921-B113-41C0-BBFE-2CD77C4173B6}">
+							<ChildrenList>
+								<Action Name="" ID="{CB659720-71CB-4178-92C5-30E143B33FA2}" ShortID="118946">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_urban_metal_fan" ID="{178BBAF3-AACA-4CCF-9DB7-F00069AACF1A}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="amb_urban_metal_wind_play" ID="{16A8C392-E6AD-42FE-8BCB-36147DFBBA9E}">
+							<ChildrenList>
+								<Action Name="" ID="{1139EA7D-FDE5-4844-8269-C854CEAB52F3}" ShortID="812099775">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_urban_metal_wind" ID="{6C29B609-5CE2-4B0C-8B77-173A907A8E9B}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="amb_urban_metal_wind_stop" ID="{DB249718-114A-4E2E-9032-D1BA7BF22DDA}">
+							<ChildrenList>
+								<Action Name="" ID="{CCE9A180-A0B7-48EF-97EE-104536626CAF}" ShortID="435553839">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_urban_metal_wind" ID="{6C29B609-5CE2-4B0C-8B77-173A907A8E9B}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="amb_urban_heavy_wind_play" ID="{97DB44BD-DA0B-4C4B-8194-0DD21137CE70}">
+							<ChildrenList>
+								<Action Name="" ID="{BF347868-3024-411E-B593-0D831A9C5456}" ShortID="54098533">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_heavy_wind" ID="{0437ECDE-EB75-46A4-8E8E-C8C3A9D9A234}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="amb_urban_heavy_wind_stop" ID="{785BC0C0-137A-4CE3-9D9F-BF5305DD3914}">
+							<ChildrenList>
+								<Action Name="" ID="{04BEB0D6-3066-4AEF-93B7-13719893BC92}" ShortID="569355649">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_heavy_wind" ID="{0437ECDE-EB75-46A4-8E8E-C8C3A9D9A234}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
