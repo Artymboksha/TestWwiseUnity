@@ -21,6 +21,17 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<Folder Name="Player" ID="{136D241C-650D-4A82-881E-6379C03E1654}" ShortID="44061995">
+					<ChildrenList>
+						<SoundBank Name="player" ID="{5258F6A1-7802-454B-8FB4-D924FF70E2A9}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Player" ID="{514BDEB8-E316-46B8-A86D-0B32226AF305}" WorkUnitID="{514BDEB8-E316-46B8-A86D-0B32226AF305}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

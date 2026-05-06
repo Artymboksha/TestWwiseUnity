@@ -20,11 +20,11 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: 6d012403023d804f9a892b83161bec80
+      guid: 3ba5474e6dbdc343bbb8b26c9667ce65
     ParentPath: Virtual Acoustics\Default Work Unit
-    guid: 6d012403023d804f9a892b83161bec80
+    guid: 3ba5474e6dbdc343bbb8b26c9667ce65
     GuidInternal: 
-    m_lastTime: -8584248102373958060
+    m_lastTime: -8584246406054775808
     List: []
   - PhysicalPath: Virtual Acoustics\Factory Acoustic Textures.wwu
     PathAndIcons:
@@ -37,7 +37,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Factory Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8584251583096611944
+    m_lastTime: -8584246406054775808
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -299,11 +299,11 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: 1b353450ff566a4b97368557020bfbba
+      guid: d0bc5ceef9aec9468efa25de8a3e0520
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
-    guid: 1b353450ff566a4b97368557020bfbba
+    guid: d0bc5ceef9aec9468efa25de8a3e0520
     GuidInternal: 
-    m_lastTime: -8584248102375363651
+    m_lastTime: -8584246406054775808
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -314,7 +314,7 @@ MonoBehaviour:
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
-        guid: 1b353450ff566a4b97368557020bfbba
+        guid: d0bc5ceef9aec9468efa25de8a3e0520
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -331,7 +331,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8813eee9a75f76459cd220c806fce012
     GuidInternal: 
-    m_lastTime: -8584240552863690594
+    m_lastTime: -8584235208243624670
     List:
     - name: AMB_Urban
       guid: af2499b416a4444a866fbef51680f14c
@@ -364,6 +364,37 @@ MonoBehaviour:
         ObjectType: 4
         guid: aa97916de3f80b4f91780b1ce86e6306
       Path: SoundBanks\Default Work Unit\Ambience
+    - name: player
+      guid: a1f6585202784b458fb4d924ff70e2a9
+      id: 1069431850
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8813eee9a75f76459cd220c806fce012
+      - ElementName: Player
+        ObjectType: 4
+        guid: 1c246d130d65824a881e6379c03e1654
+      - ElementName: player
+        ObjectType: 7
+        guid: a1f6585202784b458fb4d924ff70e2a9
+      Path: SoundBanks\Default Work Unit\Player\player
+    - name: Player
+      guid: 1c246d130d65824a881e6379c03e1654
+      id: 1069431850
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8813eee9a75f76459cd220c806fce012
+      - ElementName: Player
+        ObjectType: 4
+        guid: 1c246d130d65824a881e6379c03e1654
+      Path: SoundBanks\Default Work Unit\Player
     - name: UI
       guid: 545f6e5b2f1fb14ea8fc13432d0a1063
       id: 1551306167
@@ -384,13 +415,16 @@ MonoBehaviour:
     - ElementName: Events
       ObjectType: 5
       guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 8c185faec7317646867e77e32ccea4fa
     - ElementName: Ambience
       ObjectType: 12
       guid: 2bc00f89d0dc6c4887bfc5488a31beb0
-    ParentPath: Events\Ambience
+    ParentPath: Events\Default Work Unit\Ambience
     guid: 2bc00f89d0dc6c4887bfc5488a31beb0
     GuidInternal: 
-    m_lastTime: -8584251583121338758
+    m_lastTime: -8584246406054775808
     List: []
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -403,8 +437,38 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8c185faec7317646867e77e32ccea4fa
     GuidInternal: 
-    m_lastTime: -8584240553517980006
+    m_lastTime: -8584235230200630230
     List: []
+  - PhysicalPath: Events\Player.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Player
+      ObjectType: 12
+      guid: 5d97105123857b44afa3e05ac9d91e12
+    ParentPath: Events\Player
+    guid: 5d97105123857b44afa3e05ac9d91e12
+    GuidInternal: 
+    m_lastTime: -8584235224570050949
+    List:
+    - name: player_steps
+      guid: 24b8a4df6eb3b3479cbf72a61f11cf08
+      id: 4272057794
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: 5d97105123857b44afa3e05ac9d91e12
+      - ElementName: player_steps
+        ObjectType: 3
+        guid: 24b8a4df6eb3b3479cbf72a61f11cf08
+      Path: Events\Player\player_steps
+      maxAttenuation: 0
+      maxDuration: 0.54442585
+      minDuration: 0.2910548
   - PhysicalPath: Events\UI.wwu
     PathAndIcons:
     - ElementName: Events
@@ -419,7 +483,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\UI
     guid: 37335f843bc10b4e987bc516aa536673
     GuidInternal: 
-    m_lastTime: -8584240540189677713
+    m_lastTime: -8584235232408560371
     List:
     - name: ui_basic_click
       guid: 9dd3d67b21efb44f801367d88749f3c6
@@ -506,16 +570,19 @@ MonoBehaviour:
     - ElementName: Events
       ObjectType: 5
       guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 8c185faec7317646867e77e32ccea4fa
     - ElementName: Ambience
       ObjectType: 12
       guid: 2bc00f89d0dc6c4887bfc5488a31beb0
     - ElementName: Urban
       ObjectType: 12
       guid: 596a06175882c748a356b93263158e41
-    ParentPath: Events\Ambience\Urban
+    ParentPath: Events\Default Work Unit\Ambience\Urban
     guid: 596a06175882c748a356b93263158e41
     GuidInternal: 
-    m_lastTime: -8584246411495297341
+    m_lastTime: -8584235948457521107
     List:
     - name: amb_bark_play
       guid: a0a8d0ce040cea4dacdc60484fa94fae
@@ -524,6 +591,9 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
       - ElementName: Ambience
         ObjectType: 12
         guid: 2bc00f89d0dc6c4887bfc5488a31beb0
@@ -536,8 +606,8 @@ MonoBehaviour:
       - ElementName: amb_bark_play
         ObjectType: 3
         guid: a0a8d0ce040cea4dacdc60484fa94fae
-      Path: Events\Ambience\Urban\Emitters\amb_bark_play
-      maxAttenuation: 0
+      Path: Events\Default Work Unit\Ambience\Urban\Emitters\amb_bark_play
+      maxAttenuation: 40
       maxDuration: 0
       minDuration: 0
     - name: amb_bark_stop
@@ -547,6 +617,9 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
       - ElementName: Ambience
         ObjectType: 12
         guid: 2bc00f89d0dc6c4887bfc5488a31beb0
@@ -559,7 +632,7 @@ MonoBehaviour:
       - ElementName: amb_bark_stop
         ObjectType: 3
         guid: ed9aca00944e6a46927a10a5e7b44bc3
-      Path: Events\Ambience\Urban\Emitters\amb_bark_stop
+      Path: Events\Default Work Unit\Ambience\Urban\Emitters\amb_bark_stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -570,6 +643,9 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
       - ElementName: Ambience
         ObjectType: 12
         guid: 2bc00f89d0dc6c4887bfc5488a31beb0
@@ -582,7 +658,7 @@ MonoBehaviour:
       - ElementName: amb_pipe_play
         ObjectType: 3
         guid: 70ce6fb22cb13b49bdc28480ee10ce20
-      Path: Events\Ambience\Urban\Emitters\amb_pipe_play
+      Path: Events\Default Work Unit\Ambience\Urban\Emitters\amb_pipe_play
       maxAttenuation: 20
       maxDuration: 0
       minDuration: 0
@@ -593,6 +669,9 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
       - ElementName: Ambience
         ObjectType: 12
         guid: 2bc00f89d0dc6c4887bfc5488a31beb0
@@ -605,7 +684,7 @@ MonoBehaviour:
       - ElementName: amb_pipe_stop
         ObjectType: 3
         guid: 6d938f3ae3cfef4abd493172509e4530
-      Path: Events\Ambience\Urban\Emitters\amb_pipe_stop
+      Path: Events\Default Work Unit\Ambience\Urban\Emitters\amb_pipe_stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -616,6 +695,9 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
       - ElementName: Ambience
         ObjectType: 12
         guid: 2bc00f89d0dc6c4887bfc5488a31beb0
@@ -628,7 +710,7 @@ MonoBehaviour:
       - ElementName: amb_radio_paly
         ObjectType: 3
         guid: 9d3ff8b19d09304dabd08e6291ac226c
-      Path: Events\Ambience\Urban\Emitters\amb_radio_paly
+      Path: Events\Default Work Unit\Ambience\Urban\Emitters\amb_radio_paly
       maxAttenuation: 20
       maxDuration: 159.19836
       minDuration: 159.19836
@@ -639,6 +721,9 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
       - ElementName: Ambience
         ObjectType: 12
         guid: 2bc00f89d0dc6c4887bfc5488a31beb0
@@ -651,7 +736,7 @@ MonoBehaviour:
       - ElementName: amb_radio_stop
         ObjectType: 3
         guid: 96fa5a42b50139439e5984fe23aee30e
-      Path: Events\Ambience\Urban\Emitters\amb_radio_stop
+      Path: Events\Default Work Unit\Ambience\Urban\Emitters\amb_radio_stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -662,6 +747,9 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
       - ElementName: Ambience
         ObjectType: 12
         guid: 2bc00f89d0dc6c4887bfc5488a31beb0
@@ -674,10 +762,10 @@ MonoBehaviour:
       - ElementName: amb_transformer_booth_play
         ObjectType: 3
         guid: 5c55a2471adb02488261422494fa59e5
-      Path: Events\Ambience\Urban\Emitters\amb_transformer_booth_play
+      Path: Events\Default Work Unit\Ambience\Urban\Emitters\amb_transformer_booth_play
       maxAttenuation: 20
-      maxDuration: 43.03993
-      minDuration: 43.03993
+      maxDuration: 0
+      minDuration: 0
     - name: amb_transformer_booth_stop
       guid: f9a3aa2a0489874bac5e3c4b3406ce11
       id: 898276677
@@ -685,6 +773,9 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
       - ElementName: Ambience
         ObjectType: 12
         guid: 2bc00f89d0dc6c4887bfc5488a31beb0
@@ -697,7 +788,7 @@ MonoBehaviour:
       - ElementName: amb_transformer_booth_stop
         ObjectType: 3
         guid: f9a3aa2a0489874bac5e3c4b3406ce11
-      Path: Events\Ambience\Urban\Emitters\amb_transformer_booth_stop
+      Path: Events\Default Work Unit\Ambience\Urban\Emitters\amb_transformer_booth_stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -708,6 +799,9 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
       - ElementName: Ambience
         ObjectType: 12
         guid: 2bc00f89d0dc6c4887bfc5488a31beb0
@@ -720,8 +814,8 @@ MonoBehaviour:
       - ElementName: amb_urban_car_play
         ObjectType: 3
         guid: 036d04ef22eb134fab19d222bedf0f18
-      Path: Events\Ambience\Urban\Emitters\amb_urban_car_play
-      maxAttenuation: 40
+      Path: Events\Default Work Unit\Ambience\Urban\Emitters\amb_urban_car_play
+      maxAttenuation: 20
       maxDuration: 0
       minDuration: 0
     - name: amb_urban_car_stop
@@ -731,6 +825,9 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
       - ElementName: Ambience
         ObjectType: 12
         guid: 2bc00f89d0dc6c4887bfc5488a31beb0
@@ -743,7 +840,215 @@ MonoBehaviour:
       - ElementName: amb_urban_car_stop
         ObjectType: 3
         guid: 5015cedad42b8143aa3b596263a3c725
-      Path: Events\Ambience\Urban\Emitters\amb_urban_car_stop
+      Path: Events\Default Work Unit\Ambience\Urban\Emitters\amb_urban_car_stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: amb_urban_factory_play
+      guid: f0975d4d778b234f99a8931706ca55ee
+      id: 2107088658
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: 2bc00f89d0dc6c4887bfc5488a31beb0
+      - ElementName: Urban
+        ObjectType: 12
+        guid: 596a06175882c748a356b93263158e41
+      - ElementName: Emitters
+        ObjectType: 4
+        guid: 264ecfdcffcc7b4e88c2e040cf986909
+      - ElementName: amb_urban_factory_play
+        ObjectType: 3
+        guid: f0975d4d778b234f99a8931706ca55ee
+      Path: Events\Default Work Unit\Ambience\Urban\Emitters\amb_urban_factory_play
+      maxAttenuation: 40
+      maxDuration: 0
+      minDuration: 0
+    - name: amb_urban_factory_stop
+      guid: fbdbfb8870c8ce46b91f74effdbc4e08
+      id: 3818646156
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: 2bc00f89d0dc6c4887bfc5488a31beb0
+      - ElementName: Urban
+        ObjectType: 12
+        guid: 596a06175882c748a356b93263158e41
+      - ElementName: Emitters
+        ObjectType: 4
+        guid: 264ecfdcffcc7b4e88c2e040cf986909
+      - ElementName: amb_urban_factory_stop
+        ObjectType: 3
+        guid: fbdbfb8870c8ce46b91f74effdbc4e08
+      Path: Events\Default Work Unit\Ambience\Urban\Emitters\amb_urban_factory_stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: amb_urban_heavy_wind_play
+      guid: bd44db970bda4b4c81940dd21137ce70
+      id: 917655884
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: 2bc00f89d0dc6c4887bfc5488a31beb0
+      - ElementName: Urban
+        ObjectType: 12
+        guid: 596a06175882c748a356b93263158e41
+      - ElementName: Emitters
+        ObjectType: 4
+        guid: 264ecfdcffcc7b4e88c2e040cf986909
+      - ElementName: amb_urban_heavy_wind_play
+        ObjectType: 3
+        guid: bd44db970bda4b4c81940dd21137ce70
+      Path: Events\Default Work Unit\Ambience\Urban\Emitters\amb_urban_heavy_wind_play
+      maxAttenuation: 40
+      maxDuration: 0
+      minDuration: 0
+    - name: amb_urban_heavy_wind_stop
+      guid: c0c05b787a13e34c9d9fbf5305dd3914
+      id: 2887440470
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: 2bc00f89d0dc6c4887bfc5488a31beb0
+      - ElementName: Urban
+        ObjectType: 12
+        guid: 596a06175882c748a356b93263158e41
+      - ElementName: Emitters
+        ObjectType: 4
+        guid: 264ecfdcffcc7b4e88c2e040cf986909
+      - ElementName: amb_urban_heavy_wind_stop
+        ObjectType: 3
+        guid: c0c05b787a13e34c9d9fbf5305dd3914
+      Path: Events\Default Work Unit\Ambience\Urban\Emitters\amb_urban_heavy_wind_stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: amb_urban_metal_fan_play
+      guid: c4b77af79e0c1a45a98fd49f3836e64d
+      id: 2130696569
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: 2bc00f89d0dc6c4887bfc5488a31beb0
+      - ElementName: Urban
+        ObjectType: 12
+        guid: 596a06175882c748a356b93263158e41
+      - ElementName: Emitters
+        ObjectType: 4
+        guid: 264ecfdcffcc7b4e88c2e040cf986909
+      - ElementName: amb_urban_metal_fan_play
+        ObjectType: 3
+        guid: c4b77af79e0c1a45a98fd49f3836e64d
+      Path: Events\Default Work Unit\Ambience\Urban\Emitters\amb_urban_metal_fan_play
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: amb_urban_metal_fan_stop
+      guid: 2109984213b1c041bbfe2cd77c4173b6
+      id: 426793919
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: 2bc00f89d0dc6c4887bfc5488a31beb0
+      - ElementName: Urban
+        ObjectType: 12
+        guid: 596a06175882c748a356b93263158e41
+      - ElementName: Emitters
+        ObjectType: 4
+        guid: 264ecfdcffcc7b4e88c2e040cf986909
+      - ElementName: amb_urban_metal_fan_stop
+        ObjectType: 3
+        guid: 2109984213b1c041bbfe2cd77c4173b6
+      Path: Events\Default Work Unit\Ambience\Urban\Emitters\amb_urban_metal_fan_stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: amb_urban_metal_wind_play
+      guid: 92c3a816ade6fe428bcb36147dfbba9e
+      id: 2242621620
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: 2bc00f89d0dc6c4887bfc5488a31beb0
+      - ElementName: Urban
+        ObjectType: 12
+        guid: 596a06175882c748a356b93263158e41
+      - ElementName: Emitters
+        ObjectType: 4
+        guid: 264ecfdcffcc7b4e88c2e040cf986909
+      - ElementName: amb_urban_metal_wind_play
+        ObjectType: 3
+        guid: 92c3a816ade6fe428bcb36147dfbba9e
+      Path: Events\Default Work Unit\Ambience\Urban\Emitters\amb_urban_metal_wind_play
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: amb_urban_metal_wind_stop
+      guid: 189724db4a112e4e9032d1ba7bf22dda
+      id: 3946627214
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: 2bc00f89d0dc6c4887bfc5488a31beb0
+      - ElementName: Urban
+        ObjectType: 12
+        guid: 596a06175882c748a356b93263158e41
+      - ElementName: Emitters
+        ObjectType: 4
+        guid: 264ecfdcffcc7b4e88c2e040cf986909
+      - ElementName: amb_urban_metal_wind_stop
+        ObjectType: 3
+        guid: 189724db4a112e4e9032d1ba7bf22dda
+      Path: Events\Default Work Unit\Ambience\Urban\Emitters\amb_urban_metal_wind_stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -754,6 +1059,9 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
       - ElementName: Ambience
         ObjectType: 12
         guid: 2bc00f89d0dc6c4887bfc5488a31beb0
@@ -766,7 +1074,7 @@ MonoBehaviour:
       - ElementName: amb_urban_play
         ObjectType: 3
         guid: 8ad0ba9fa213584abd540ad3a4114749
-      Path: Events\Ambience\Urban\Main\amb_urban_play
+      Path: Events\Default Work Unit\Ambience\Urban\Main\amb_urban_play
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -777,6 +1085,9 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
       - ElementName: Ambience
         ObjectType: 12
         guid: 2bc00f89d0dc6c4887bfc5488a31beb0
@@ -789,7 +1100,7 @@ MonoBehaviour:
       - ElementName: amb_urban_stop
         ObjectType: 3
         guid: 399395a121ac034f883fef9e7c84ad22
-      Path: Events\Ambience\Urban\Main\amb_urban_stop
+      Path: Events\Default Work Unit\Ambience\Urban\Main\amb_urban_stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -800,6 +1111,9 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
       - ElementName: Ambience
         ObjectType: 12
         guid: 2bc00f89d0dc6c4887bfc5488a31beb0
@@ -812,7 +1126,7 @@ MonoBehaviour:
       - ElementName: amb_urban_train_play
         ObjectType: 3
         guid: bde2f8713d15a5498423131fbc3d233f
-      Path: Events\Ambience\Urban\Main\amb_urban_train_play
+      Path: Events\Default Work Unit\Ambience\Urban\Main\amb_urban_train_play
       maxAttenuation: 0
       maxDuration: 21.05405
       minDuration: 21.05405
@@ -823,6 +1137,9 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
       - ElementName: Ambience
         ObjectType: 12
         guid: 2bc00f89d0dc6c4887bfc5488a31beb0
@@ -835,7 +1152,7 @@ MonoBehaviour:
       - ElementName: amb_urban_train_stop
         ObjectType: 3
         guid: c0427f0503832e4c8e6d0f7ad7f7ded6
-      Path: Events\Ambience\Urban\Main\amb_urban_train_stop
+      Path: Events\Default Work Unit\Ambience\Urban\Main\amb_urban_train_stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -846,6 +1163,9 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
       - ElementName: Ambience
         ObjectType: 12
         guid: 2bc00f89d0dc6c4887bfc5488a31beb0
@@ -855,7 +1175,7 @@ MonoBehaviour:
       - ElementName: Emitters
         ObjectType: 4
         guid: 264ecfdcffcc7b4e88c2e040cf986909
-      Path: Events\Ambience\Urban\Emitters
+      Path: Events\Default Work Unit\Ambience\Urban\Emitters
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -866,6 +1186,9 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
       - ElementName: Ambience
         ObjectType: 12
         guid: 2bc00f89d0dc6c4887bfc5488a31beb0
@@ -875,7 +1198,7 @@ MonoBehaviour:
       - ElementName: Main
         ObjectType: 4
         guid: 57f9b2abf695704e89b41c9b6115dedf
-      Path: Events\Ambience\Urban\Main
+      Path: Events\Default Work Unit\Ambience\Urban\Main
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -884,13 +1207,16 @@ MonoBehaviour:
     - ElementName: Events
       ObjectType: 5
       guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 8c185faec7317646867e77e32ccea4fa
     - ElementName: Weapon
       ObjectType: 12
       guid: c927cd0cff09564c984aed171aabea36
-    ParentPath: Events\Weapon
+    ParentPath: Events\Default Work Unit\Weapon
     guid: c927cd0cff09564c984aed171aabea36
     GuidInternal: 
-    m_lastTime: -8584251583121328764
+    m_lastTime: -8584246406054775808
     List:
     - name: M4_Play
       guid: 96fd728c15b8a24b9932480a44b01729
@@ -899,13 +1225,16 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
       - ElementName: Weapon
         ObjectType: 12
         guid: c927cd0cff09564c984aed171aabea36
       - ElementName: M4_Play
         ObjectType: 3
         guid: 96fd728c15b8a24b9932480a44b01729
-      Path: Events\Weapon\M4_Play
+      Path: Events\Default Work Unit\Weapon\M4_Play
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -916,13 +1245,16 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
       - ElementName: Weapon
         ObjectType: 12
         guid: c927cd0cff09564c984aed171aabea36
       - ElementName: M4_Stop
         ObjectType: 3
         guid: 20c35435d817334fa2f5da54f27e74ed
-      Path: Events\Weapon\M4_Stop
+      Path: Events\Default Work Unit\Weapon\M4_Stop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -934,12 +1266,54 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: ff788220f9eb054a8e0171697ff24654
+      guid: 16904e3344cf704c8946de18ff21b792
     ParentPath: Game Parameters\Default Work Unit
-    guid: ff788220f9eb054a8e0171697ff24654
+    guid: 16904e3344cf704c8946de18ff21b792
     GuidInternal: 
-    m_lastTime: -8584248102374624883
-    List: []
+    m_lastTime: -8584246406054775808
+    List:
+    - name: Ammo
+      guid: feea053d9281c44da73669baa492a905
+      id: 3554434311
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 16904e3344cf704c8946de18ff21b792
+      - ElementName: Ammo
+        ObjectType: 13
+        guid: feea053d9281c44da73669baa492a905
+      Path: Game Parameters\Default Work Unit\Ammo
+    - name: Train
+      guid: af0bb7a387d40d459293d7c556db918c
+      id: 3412057565
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 16904e3344cf704c8946de18ff21b792
+      - ElementName: Train
+        ObjectType: 13
+        guid: af0bb7a387d40d459293d7c556db918c
+      Path: Game Parameters\Default Work Unit\Train
+    - name: WInd
+      guid: cee0d7772c6fff409bf3228156480bb9
+      id: 1537061107
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 16904e3344cf704c8946de18ff21b792
+      - ElementName: WInd
+        ObjectType: 13
+        guid: cee0d7772c6fff409bf3228156480bb9
+      Path: Game Parameters\Default Work Unit\WInd
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -948,11 +1322,11 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: e8e434ca37d2344cb57c2df7047e08eb
+      guid: 5e46044430cd124bbd4f694a726cc568
     ParentPath: States\Default Work Unit
-    guid: e8e434ca37d2344cb57c2df7047e08eb
+    guid: 5e46044430cd124bbd4f694a726cc568
     GuidInternal: 
-    m_lastTime: -8584248102374744534
+    m_lastTime: -8584246406054775808
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -966,8 +1340,74 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: c01b419ca9125044840585fbfee40955
     GuidInternal: 
-    m_lastTime: -8584246411495282294
+    m_lastTime: -8584235285850297654
     List:
+    - name: surface
+      guid: c814a4ecbdb3d64b9236ee42106a9514
+      id: 1834394558
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c01b419ca9125044840585fbfee40955
+      - ElementName: surface
+        ObjectType: 11
+        guid: c814a4ecbdb3d64b9236ee42106a9514
+      Path: Switches\Default Work Unit\surface
+      values:
+      - name: Ground
+        guid: 5cb46f638b016c47872671e238f4de5d
+        id: 2528658256
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c01b419ca9125044840585fbfee40955
+        - ElementName: surface
+          ObjectType: 11
+          guid: c814a4ecbdb3d64b9236ee42106a9514
+        - ElementName: Ground
+          ObjectType: 10
+          guid: 5cb46f638b016c47872671e238f4de5d
+      - name: Metal
+        guid: 2a5a8b8e2373ce4d883cf6e7ca0699db
+        id: 2473969246
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c01b419ca9125044840585fbfee40955
+        - ElementName: surface
+          ObjectType: 11
+          guid: c814a4ecbdb3d64b9236ee42106a9514
+        - ElementName: Metal
+          ObjectType: 10
+          guid: 2a5a8b8e2373ce4d883cf6e7ca0699db
+      - name: Water
+        guid: c0ef07a31a3e15448c59e020b9041b6e
+        id: 2654748154
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c01b419ca9125044840585fbfee40955
+        - ElementName: surface
+          ObjectType: 11
+          guid: c814a4ecbdb3d64b9236ee42106a9514
+        - ElementName: Water
+          ObjectType: 10
+          guid: c0ef07a31a3e15448c59e020b9041b6e
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: tail
       guid: 81870af9c0c3a54ca17c1d53ecc7a621
       id: 3122859639
@@ -1026,14 +1466,14 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: 910013f3c9c14843b8ded0a219e41981
+      guid: 1abf03def63ec2428408856747c0feca
     ParentPath: Triggers\Default Work Unit
-    guid: 910013f3c9c14843b8ded0a219e41981
+    guid: 1abf03def63ec2428408856747c0feca
     GuidInternal: 
-    m_lastTime: -8584248102374828301
+    m_lastTime: -8584246406054775808
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 02000000050000000600000007000000080000000b0000000c0000000d0000001e000000200000002a0000002b000000860000008700000089000000e7000000e8000000460100004701000048010000
+  ExpandedWaapiItemIds: 0100000002000000050000000600000007000000080000000a0000000b0000000c0000000d0000001e0000002000000023000000240000002a0000002b00000036000000860000008700000089000000e7000000e8000000460100004701000048010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
