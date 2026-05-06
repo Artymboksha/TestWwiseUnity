@@ -1,0 +1,113 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1551306167",
+    "Type": "User",
+    "GUID": "{5B6E5F54-1F2F-4EB1-A8FC-13432D0A1063}",
+    "Language": "SFX",
+    "Hash": "{3F3FEBCF-B432-BE6A-B659-F2C7408F8221}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI",
+    "ShortName": "UI",
+    "Path": "UI.bnk",
+    "Media": [
+     {
+      "Id": "231646404",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\UIGlitch_Glitch sci-fi interface_00-04--00-04_PlaybackRate1.0.wav",
+      "CachePath": "B0/{B04E728E-4453-B8B6-4E83-E28214170A3C}.wem"
+     },
+     {
+      "Id": "808123516",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\UIGlitch_Glitch sci-fi interface_00-01--00-01_PlaybackRate1.0.wav",
+      "CachePath": "59/{59DF7E67-B4F5-FC29-7B4E-1F0B4CA752FE}.wem"
+     },
+     {
+      "Id": "848586321",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\UIGlitch_Glitch sci-fi interface_00-00--00-00_PlaybackRate1.0.wav",
+      "CachePath": "4B/{4B9FDAB3-DB48-5105-AB6A-4900D2BD82B2}.wem"
+     },
+     {
+      "Id": "966783108",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\UIMvmt_Card flipping_00-15--00-15_PlaybackRate1.0.wav",
+      "CachePath": "99/{991E6B03-0551-A93F-6C79-3A62DF7C187D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "604488705",
+      "Name": "ui_basic_click",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\ui_basic_click",
+      "GUID": "{7BD6D39D-EF21-4FB4-8013-67D88749F3C6}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21251042",
+      "DurationMax": "0.21251042",
+      "MediaRefs": [
+       {
+        "Id": "231646404"
+       }
+      ]
+     },
+     {
+      "Id": "1168195925",
+      "Name": "ui_close_pause",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\ui_close_pause",
+      "GUID": "{07D3E166-05BB-48D5-B6F2-2B1CF2CBBDA0}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4435104",
+      "DurationMax": "0.4435104",
+      "MediaRefs": [
+       {
+        "Id": "808123516"
+       }
+      ]
+     },
+     {
+      "Id": "2118900976",
+      "Name": "ui_hover",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\ui_hover",
+      "GUID": "{5C318F7A-6E40-43C7-B400-47A77450ED70}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.30553126",
+      "DurationMax": "0.30553126",
+      "MediaRefs": [
+       {
+        "Id": "966783108"
+       }
+      ]
+     },
+     {
+      "Id": "1968767193",
+      "Name": "ui_open_pause",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\ui_open_pause",
+      "GUID": "{F657ABDE-6469-4790-95E7-64D88400E6BC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5959687",
+      "DurationMax": "0.5959687",
+      "MediaRefs": [
+       {
+        "Id": "848586321"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7DE939A9-A948-53C1-8DEE-826B217B15E9}"
+ }
+}

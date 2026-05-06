@@ -5,9 +5,14 @@
 *.tmp
 *.log
 *.vs/
+*.vshistory/
 Library/
 Temp/
 Obj/
 Build/
 Logs/
 UserSettings/
+/TestWwiseUnity/Assets/Wwise/ScriptableObjects
+/TestWwiseUnity/Assets/Wwise/Editor
+TestWwiseUnity/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h
+TestWwiseUnity/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h

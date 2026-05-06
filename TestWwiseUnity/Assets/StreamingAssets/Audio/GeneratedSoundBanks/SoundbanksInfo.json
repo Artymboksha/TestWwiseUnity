@@ -98,7 +98,6 @@
       "Name": "Brick",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Brick",
       "GUID": "{B086A5A9-F204-4C53-A838-BDB18B18F6D6}",
-      "Color": "8",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -165,7 +164,6 @@
       "Name": "Concrete",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Concrete",
       "GUID": "{5CF81C00-2896-4AE0-AF7C-3080BDABA682}",
-      "Color": "27",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -199,7 +197,6 @@
       "Name": "Wood_Deep",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Wood_Deep",
       "GUID": "{5246478E-C5DA-4E0C-A0DE-C98D1479529A}",
-      "Color": "9",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -233,7 +230,6 @@
       "Name": "Anechoic",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Anechoic",
       "GUID": "{8B0AC232-02E2-4EDE-BEAC-FDD1A900E3ED}",
-      "Color": "13",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -267,7 +263,6 @@
       "Name": "Fabric",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Fabric",
       "GUID": "{8381D532-DB6E-4EED-A7A3-BC7B0A0B8BA8}",
-      "Color": "4",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -301,7 +296,6 @@
       "Name": "Wood",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Wood",
       "GUID": "{1FFFBC96-6FE7-489E-BA6C-7C14A71391AE}",
-      "Color": "7",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -335,7 +329,6 @@
       "Name": "Carpet",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Carpet",
       "GUID": "{34227589-DC56-4260-96C4-B9F4B669092B}",
-      "Color": "17",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -369,7 +362,6 @@
       "Name": "Tile",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Tile",
       "GUID": "{A882DAC4-132A-47B7-BA9D-B9907BA29CC0}",
-      "Color": "16",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -403,7 +395,6 @@
       "Name": "Curtains",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Curtains",
       "GUID": "{F8E69E33-5C97-4968-B508-A1535F2D66E8}",
-      "Color": "3",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -437,7 +428,6 @@
       "Name": "Cork_Tiles",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Cork_Tiles",
       "GUID": "{30D2C919-925F-4143-8906-3DBB3C4AE5E2}",
-      "Color": "19",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -471,7 +461,6 @@
       "Name": "Drywall",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Drywall",
       "GUID": "{68A4E3F4-4C0B-4687-A8B8-A84DB93DBC8F}",
-      "Color": "15",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -505,7 +494,6 @@
       "Name": "Acoustic_Banner",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Acoustic_Banner",
       "GUID": "{2F2D53F2-DACC-408E-8B88-98B1B52A26D6}",
-      "Color": "10",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -539,7 +527,6 @@
       "Name": "Wood_Bright",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Wood_Bright",
       "GUID": "{7B85D1E5-C1A2-4E63-9A13-CEC54B641ADC}",
-      "Color": "20",
       "Properties": [
        {
         "Name": "AbsorptionLow",
@@ -565,6 +552,108 @@
         "Name": "Scattering",
         "Type": "Real32",
         "Value": "0"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1551306167",
+    "Type": "User",
+    "GUID": "{5B6E5F54-1F2F-4EB1-A8FC-13432D0A1063}",
+    "Language": "SFX",
+    "Hash": "{3F3FEBCF-B432-BE6A-B659-F2C7408F8221}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI",
+    "ShortName": "UI",
+    "Path": "UI.bnk",
+    "Media": [
+     {
+      "Id": "231646404",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\UIGlitch_Glitch sci-fi interface_00-04--00-04_PlaybackRate1.0.wav",
+      "CachePath": "B0/{B04E728E-4453-B8B6-4E83-E28214170A3C}.wem"
+     },
+     {
+      "Id": "808123516",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\UIGlitch_Glitch sci-fi interface_00-01--00-01_PlaybackRate1.0.wav",
+      "CachePath": "59/{59DF7E67-B4F5-FC29-7B4E-1F0B4CA752FE}.wem"
+     },
+     {
+      "Id": "848586321",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\UIGlitch_Glitch sci-fi interface_00-00--00-00_PlaybackRate1.0.wav",
+      "CachePath": "4B/{4B9FDAB3-DB48-5105-AB6A-4900D2BD82B2}.wem"
+     },
+     {
+      "Id": "966783108",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\UIMvmt_Card flipping_00-15--00-15_PlaybackRate1.0.wav",
+      "CachePath": "99/{991E6B03-0551-A93F-6C79-3A62DF7C187D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "604488705",
+      "Name": "ui_basic_click",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\ui_basic_click",
+      "GUID": "{7BD6D39D-EF21-4FB4-8013-67D88749F3C6}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21251042",
+      "DurationMax": "0.21251042",
+      "MediaRefs": [
+       {
+        "Id": "231646404"
+       }
+      ]
+     },
+     {
+      "Id": "1168195925",
+      "Name": "ui_close_pause",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\ui_close_pause",
+      "GUID": "{07D3E166-05BB-48D5-B6F2-2B1CF2CBBDA0}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4435104",
+      "DurationMax": "0.4435104",
+      "MediaRefs": [
+       {
+        "Id": "808123516"
+       }
+      ]
+     },
+     {
+      "Id": "2118900976",
+      "Name": "ui_hover",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\ui_hover",
+      "GUID": "{5C318F7A-6E40-43C7-B400-47A77450ED70}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.30553126",
+      "DurationMax": "0.30553126",
+      "MediaRefs": [
+       {
+        "Id": "966783108"
+       }
+      ]
+     },
+     {
+      "Id": "1968767193",
+      "Name": "ui_open_pause",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\ui_open_pause",
+      "GUID": "{F657ABDE-6469-4790-95E7-64D88400E6BC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5959687",
+      "DurationMax": "0.5959687",
+      "MediaRefs": [
+       {
+        "Id": "848586321"
        }
       ]
      }
@@ -975,7 +1064,6 @@
       "Name": "amb_bark_play",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_bark_play",
       "GUID": "{CED0A8A0-0C04-4DEA-ACDC-60484FA94FAE}",
-      "Color": "2",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -986,7 +1074,6 @@
       "Name": "amb_bark_stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_bark_stop",
       "GUID": "{00CA9AED-4E94-466A-927A-10A5E7B44BC3}",
-      "Color": "2",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -997,7 +1084,6 @@
       "Name": "amb_pipe_play",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_pipe_play",
       "GUID": "{B26FCE70-B12C-493B-BDC2-8480EE10CE20}",
-      "Color": "2",
       "MaxAttenuation": "20",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -1038,7 +1124,6 @@
       "Name": "amb_pipe_stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_pipe_stop",
       "GUID": "{3A8F936D-CFE3-4AEF-BD49-3172509E4530}",
-      "Color": "2",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -1049,7 +1134,6 @@
       "Name": "amb_radio_paly",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_radio_paly",
       "GUID": "{B1F83F9D-099D-4D30-ABD0-8E6291AC226C}",
-      "Color": "2",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "159.19836",
@@ -1078,7 +1162,6 @@
       "Name": "amb_radio_stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_radio_stop",
       "GUID": "{425AFA96-01B5-4339-9E59-84FE23AEE30E}",
-      "Color": "2",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -1089,7 +1172,6 @@
       "Name": "amb_transformer_booth_play",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_transformer_booth_play",
       "GUID": "{47A2555C-DB1A-4802-8261-422494FA59E5}",
-      "Color": "2",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "43.03993",
@@ -1111,7 +1193,6 @@
       "Name": "amb_transformer_booth_stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_transformer_booth_stop",
       "GUID": "{2AAAA3F9-8904-4B87-AC5E-3C4B3406CE11}",
-      "Color": "2",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -1122,7 +1203,6 @@
       "Name": "amb_urban_car_play",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_urban_car_play",
       "GUID": "{EF046D03-EB22-4F13-AB19-D222BEDF0F18}",
-      "Color": "2",
       "MaxAttenuation": "40",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -1169,7 +1249,6 @@
       "Name": "amb_urban_car_stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_urban_car_stop",
       "GUID": "{DACE1550-2BD4-4381-AA3B-596263A3C725}",
-      "Color": "2",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -1180,7 +1259,6 @@
       "Name": "amb_urban_play",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Main\\amb_urban_play",
       "GUID": "{9FBAD08A-13A2-4A58-BD54-0AD3A4114749}",
-      "Color": "2",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1248,7 +1326,6 @@
       "Name": "amb_urban_stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Main\\amb_urban_stop",
       "GUID": "{A1959339-AC21-4F03-883F-EF9E7C84AD22}",
-      "Color": "2",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -1259,7 +1336,6 @@
       "Name": "amb_urban_train_play",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Main\\amb_urban_train_play",
       "GUID": "{71F8E2BD-153D-49A5-8423-131FBC3D233F}",
-      "Color": "2",
       "DurationType": "OneShot",
       "DurationMin": "21.05405",
       "DurationMax": "21.05405",
@@ -1277,7 +1353,6 @@
       "Name": "amb_urban_train_stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Main\\amb_urban_train_stop",
       "GUID": "{057F42C0-8303-4C2E-8E6D-0F7AD7F7DED6}",
-      "Color": "2",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -1300,6 +1375,6 @@
     ]
    }
   ],
-  "FileHash": "{C5E2CE9A-659F-611F-25F2-D1A8DDC61326}"
+  "FileHash": "{452338A1-5A78-624A-637F-4BAB868E1B8D}"
  }
 }

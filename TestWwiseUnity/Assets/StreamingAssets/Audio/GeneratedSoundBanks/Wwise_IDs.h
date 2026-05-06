@@ -27,6 +27,10 @@ namespace AK
         static const AkUniqueID AMB_URBAN_STOP = 3537193581U;
         static const AkUniqueID AMB_URBAN_TRAIN_PLAY = 696522398U;
         static const AkUniqueID AMB_URBAN_TRAIN_STOP = 1692838752U;
+        static const AkUniqueID UI_BASIC_CLICK = 604488705U;
+        static const AkUniqueID UI_CLOSE_PAUSE = 1168195925U;
+        static const AkUniqueID UI_HOVER = 2118900976U;
+        static const AkUniqueID UI_OPEN_PAUSE = 1968767193U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -55,6 +59,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID AMB_URBAN = 2434576750U;
+        static const AkUniqueID UI = 1551306167U;
     } // namespace BANKS
 
     namespace BUSSES
