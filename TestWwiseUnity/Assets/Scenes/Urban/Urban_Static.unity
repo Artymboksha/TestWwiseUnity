@@ -37341,7 +37341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66d20488eca44444ebbc9f59d3dee0ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceType: 2
+  surfaceType: 1
 --- !u!1001 &1530486576
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38276,7 +38276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66d20488eca44444ebbc9f59d3dee0ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceType: 2
+  surfaceType: 1
 --- !u!1001 &1581220179
 PrefabInstance:
   m_ObjectHideFlags: 0

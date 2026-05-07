@@ -6,7 +6,13 @@
 				<Folder Name="Footstep" ID="{51CC1594-CEB7-4743-AD35-367CBD246430}" ShortID="900467248">
 					<ChildrenList>
 						<SwitchContainer Name="Footsteps" ID="{DEA2C905-8A17-4C2F-BADF-FAF32CE32E1B}" ShortID="416632429">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Basic_20m" ID="{EFFBE36E-76CE-423C-9AB0-CEF75DF1F08A}" WorkUnitID="{6D07D69D-18D1-49DC-86D7-A322ADD4E3CF}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
 								</Reference>

@@ -12,9 +12,20 @@ public class FootstepsController : MonoBehaviour
     {
         SurfaceTypeProvider.SurfaceType surface = GetSurfaceType();
 
+        SetSurfaceSwitch(surface);
+
         footstepEvent?.Post(gameObject);
 
         Debug.Log("Footstep on: " + surface);
+    }
+
+    private void SetSurfaceSwitch(SurfaceTypeProvider.SurfaceType surface)
+    {
+        AkUnitySoundEngine.SetSwitch(
+            "surface",   // имя Switch Group в Wwise
+            surface.ToString(),    // Ground / Wood / Metal
+            gameObject
+        );
     }
 
     private SurfaceTypeProvider.SurfaceType GetSurfaceType()

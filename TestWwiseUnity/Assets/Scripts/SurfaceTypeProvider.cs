@@ -6,7 +6,7 @@ public class SurfaceTypeProvider : MonoBehaviour
     {
         Ground,
         Water,
-        Snow
+        Metal
     }
 
     public SurfaceType surfaceType = SurfaceType.Ground;
