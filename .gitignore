@@ -13,9 +13,8 @@ Build/
 Logs/
 UserSettings/
 
-.backup*
-.cache*
-*.akd
-*.prof
-*.validationcache
-*.wsettings
+#Wwise 
+TestWwiseUnity/DZ_1/.cache
+TestWwiseUnity/DZ_1/*.prof
+TestWwiseUnity/DZ_1/*.validationcache
+TestWwiseUnity/DZ_1/*.wsetting
