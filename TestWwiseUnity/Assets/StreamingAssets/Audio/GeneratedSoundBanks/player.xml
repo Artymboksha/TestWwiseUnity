@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="154">
 	<SoundBanks>
-		<SoundBank Id="1069431850" Type="User" GUID="{5258F6A1-7802-454B-8FB4-D924FF70E2A9}" Language="SFX" Hash="{47284F9F-5D28-9D0C-0414-2AADA29F9D6F}">
+		<SoundBank Id="1069431850" Type="User" GUID="{5258F6A1-7802-454B-8FB4-D924FF70E2A9}" Language="SFX" Hash="{EEA0AED3-DB7E-EEE4-0B88-E1D584EA7010}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player\player</ObjectPath>
 			<ShortName>player</ShortName>
 			<Path>player.bnk</Path>
@@ -104,7 +104,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4272057794" Name="player_steps" ObjectPath="\Events\Player\player_steps" GUID="{DFA4B824-B36E-47B3-9CBF-72A61F11CF08}" DurationType="OneShot" DurationMin="0.2910548" DurationMax="0.54442585">
+				<Event Id="4272057794" Name="player_steps" ObjectPath="\Events\Player\player_steps" GUID="{DFA4B824-B36E-47B3-9CBF-72A61F11CF08}" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.2910548" DurationMax="0.54442585">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2473969246" GUID="{8E8B5A2A-7323-4DCE-883C-F6E7CA0699DB}"/>
@@ -159,5 +159,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A55291C4-25CB-1EB1-EFF5-F417B88495D8}</FileHash>
+	<FileHash>{48D2ECA7-7DEA-1B36-3F4D-21D0C0FAB292}</FileHash>
 </SoundBanksInfo>

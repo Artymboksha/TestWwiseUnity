@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{5258F6A1-7802-454B-8FB4-D924FF70E2A9}",
     "Language": "SFX",
-    "Hash": "{47284F9F-5D28-9D0C-0414-2AADA29F9D6F}",
+    "Hash": "{EEA0AED3-DB7E-EEE4-0B88-E1D584EA7010}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Player\\player",
     "ShortName": "player",
     "Path": "player.bnk",
@@ -214,6 +214,7 @@
       "Name": "player_steps",
       "ObjectPath": "\\Events\\Player\\player_steps",
       "GUID": "{DFA4B824-B36E-47B3-9CBF-72A61F11CF08}",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.2910548",
       "DurationMax": "0.54442585",
@@ -354,6 +355,6 @@
     ]
    }
   ],
-  "FileHash": "{A6755FD2-56C3-5A93-A84E-48D8D87AC99B}"
+  "FileHash": "{C4A1BA52-7F84-23A4-BBDD-6CEC654C2970}"
  }
 }

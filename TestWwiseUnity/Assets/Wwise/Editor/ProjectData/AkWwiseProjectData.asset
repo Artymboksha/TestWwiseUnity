@@ -466,7 +466,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 24b8a4df6eb3b3479cbf72a61f11cf08
       Path: Events\Player\player_steps
-      maxAttenuation: 0
+      maxAttenuation: 20
       maxDuration: 0.54442585
       minDuration: 0.2910548
   - PhysicalPath: Events\UI.wwu
