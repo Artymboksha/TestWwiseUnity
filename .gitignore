@@ -16,3 +16,10 @@ UserSettings/
 /TestWwiseUnity/Assets/Wwise/Editor
 TestWwiseUnity/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h
 TestWwiseUnity/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h
+
+.backup*
+.cache*
+*.akd
+*.prof
+*.validationcache
+*.wsettings
