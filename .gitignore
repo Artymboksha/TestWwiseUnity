@@ -12,8 +12,6 @@ Obj/
 Build/
 Logs/
 UserSettings/
-/TestWwiseUnity/Assets/Wwise/ScriptableObjects
-/TestWwiseUnity/Assets/Wwise/Editor
 
 .backup*
 .cache*
