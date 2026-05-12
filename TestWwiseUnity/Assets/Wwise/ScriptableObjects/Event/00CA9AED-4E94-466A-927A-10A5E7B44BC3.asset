@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e783260037d944ba31c97c8a0c5fab, type: 3}
+  m_Name: 00CA9AED-4E94-466A-927A-10A5E7B44BC3
+  m_EditorClassIdentifier: 
+  objectName: amb_bark_stop
+  id: 1732715259
+  guid: 00CA9AED-4E94-466A-927A-10A5E7B44BC3
+  IsInUserDefinedSoundBank: 1
