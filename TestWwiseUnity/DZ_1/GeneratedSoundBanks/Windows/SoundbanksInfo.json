@@ -18,34 +18,18 @@
     "Type": "User",
     "GUID": "{CE130C5C-A6D3-4343-A98F-7AABFCB2A8F1}",
     "Language": "SFX",
-    "Hash": "{3E38591C-FAF4-3667-9E7F-5A1BDDADE70D}",
+    "Hash": "{A3CED199-0400-91B3-86CF-5C9364B46FEB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience\\AMB_Forest",
     "ShortName": "AMB_Forest",
     "Path": "AMB_Forest.bnk",
     "Media": [
-     {
-      "Id": "124442991",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "amb_forest_tree_branch 1.wav",
-      "CachePath": "8A/{8A28DBEE-045A-154B-4D0C-79036E8CB992}.wem"
-     },
      {
       "Id": "157927384",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "amb_forest_wind.wav",
-      "CachePath": "D2/{D2A31383-085D-08B0-096E-9240761B225C}.wem"
-     },
-     {
-      "Id": "228800573",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "amb_forest_tree_branch 2.wav",
-      "CachePath": "D9/{D9AEB6B4-493F-8C41-659F-7B16FA1F3BD7}.wem"
+      "CachePath": "F4/{F42061BD-30AE-7CF3-45CF-332F4479BAF5}.wem"
      },
      {
       "Id": "473626195",
@@ -53,39 +37,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "amb_forest_wind_heavy.wav",
-      "CachePath": "95/{9572E224-A345-ED13-A7BF-D709CB5B9A1B}.wem"
-     },
-     {
-      "Id": "578064480",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "amb_forest_tree_branch 4.wav",
-      "CachePath": "16/{1684C72D-9D30-C1BF-A071-496DCB033766}.wem"
-     },
-     {
-      "Id": "598957295",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "amb_forest_tree_branch 6.wav",
-      "CachePath": "E2/{E22E10C6-78FD-BE59-D99A-6C4622588A79}.wem"
-     },
-     {
-      "Id": "779637040",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "amb_forest_tree_branch 5.wav",
-      "CachePath": "69/{692132C3-5F66-F918-BC73-6AC8D9F8B288}.wem"
-     },
-     {
-      "Id": "824860241",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "amb_forest_tree_branch 3.wav",
-      "CachePath": "F7/{F75F4254-0191-068A-D163-160C5E7449FA}.wem"
+      "CachePath": "80/{8083A0A4-BBF3-A2EF-7B31-22F8990EEA3E}.wem"
      }
     ],
     "Events": [
@@ -98,28 +50,10 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "124442991"
-       },
-       {
         "Id": "157927384"
        },
        {
-        "Id": "228800573"
-       },
-       {
         "Id": "473626195"
-       },
-       {
-        "Id": "578064480"
-       },
-       {
-        "Id": "598957295"
-       },
-       {
-        "Id": "779637040"
-       },
-       {
-        "Id": "824860241"
        }
       ]
      },
@@ -128,6 +62,28 @@
       "Name": "amb_forest_stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Forest\\amb_forest_stop",
       "GUID": "{8A850378-D333-468D-AEF9-AC82EBF6780E}",
+      "Color": "4",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1831798462",
+      "Name": "amb_tree_branch_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Forest\\amb_tree_branch_play",
+      "GUID": "{3EE83641-645F-4D7F-BC47-7D7370F334C3}",
+      "Color": "4",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2828114560",
+      "Name": "amb_tree_branch_stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Forest\\amb_tree_branch_stop",
+      "GUID": "{04D48BC9-16B6-49F4-89F1-E8FF94FDF286}",
       "Color": "4",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
@@ -149,7 +105,7 @@
     "Type": "User",
     "GUID": "{5258F6A1-7802-454B-8FB4-D924FF70E2A9}",
     "Language": "SFX",
-    "Hash": "{20806197-DAA1-D375-72AC-4E67C1DB0BE7}",
+    "Hash": "{CC7794A1-384F-3243-1FE3-8BD09219F2F7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Player\\player",
     "ShortName": "player",
     "Path": "player.bnk",
@@ -2210,6 +2166,6 @@
     ]
    }
   ],
-  "FileHash": "{35D6B975-0E85-F9D7-0699-88A8207B3CBC}"
+  "FileHash": "{17F075BA-087A-65FF-BA5F-40A20290FD28}"
  }
 }

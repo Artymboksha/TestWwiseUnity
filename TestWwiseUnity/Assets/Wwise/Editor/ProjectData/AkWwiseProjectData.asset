@@ -331,7 +331,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8813eee9a75f76459cd220c806fce012
     GuidInternal: 
-    m_lastTime: -8584229205250926895
+    m_lastTime: -8584229180370133159
     List:
     - name: AMB_Forest
       guid: 5c0c13ced3a64343a98f7aabfcb2a8f1
@@ -441,7 +441,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Ambience
     guid: 2bc00f89d0dc6c4887bfc5488a31beb0
     GuidInternal: 
-    m_lastTime: -8584229205250663493
+    m_lastTime: -8584229180377506587
     List: []
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -473,7 +473,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Ambience\Forest
     guid: fd5037462aae6a4482e200ccab8fe3a8
     GuidInternal: 
-    m_lastTime: -8584229196468425283
+    m_lastTime: -8584229180377506587
     List:
     - name: amb_forest_play
       guid: 9ff29184fb19fc43ad7966f11d6f68e4
@@ -542,8 +542,8 @@ MonoBehaviour:
         guid: 4136e83e5f647f4dbc477d7370f334c3
       Path: Events\Default Work Unit\Ambience\Forest\amb_tree_branch_play
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: amb_tree_branch_stop
       guid: c98bd404b616f44989f1e8ff94fdf286
       id: 2828114560
@@ -565,8 +565,8 @@ MonoBehaviour:
         guid: c98bd404b616f44989f1e8ff94fdf286
       Path: Events\Default Work Unit\Ambience\Forest\amb_tree_branch_stop
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Player.wwu
     PathAndIcons:
     - ElementName: Events
@@ -611,7 +611,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\UI
     guid: 37335f843bc10b4e987bc516aa536673
     GuidInternal: 
-    m_lastTime: -8584229237476064302
+    m_lastTime: -8584229180377461395
     List:
     - name: ui_basic_click
       guid: 9dd3d67b21efb44f801367d88749f3c6
@@ -1454,7 +1454,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 5e46044430cd124bbd4f694a726cc568
     GuidInternal: 
-    m_lastTime: -8584246406054775808
+    m_lastTime: -8584229180531597329
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -1468,7 +1468,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: c01b419ca9125044840585fbfee40955
     GuidInternal: 
-    m_lastTime: -8584229237476187685
+    m_lastTime: -8584229180370002388
     List:
     - name: surface
       guid: c814a4ecbdb3d64b9236ee42106a9514

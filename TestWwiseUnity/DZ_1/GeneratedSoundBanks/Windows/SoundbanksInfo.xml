@@ -9,64 +9,36 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1006024461" Type="User" GUID="{CE130C5C-A6D3-4343-A98F-7AABFCB2A8F1}" Language="SFX" Hash="{3E38591C-FAF4-3667-9E7F-5A1BDDADE70D}">
+		<SoundBank Id="1006024461" Type="User" GUID="{CE130C5C-A6D3-4343-A98F-7AABFCB2A8F1}" Language="SFX" Hash="{A3CED199-0400-91B3-86CF-5C9364B46FEB}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambience\AMB_Forest</ObjectPath>
 			<ShortName>AMB_Forest</ShortName>
 			<Path>AMB_Forest.bnk</Path>
 			<Media>
-				<File Id="124442991" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>amb_forest_tree_branch 1.wav</ShortName>
-					<CachePath>8A/{8A28DBEE-045A-154B-4D0C-79036E8CB992}.wem</CachePath>
-				</File>
 				<File Id="157927384" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>amb_forest_wind.wav</ShortName>
-					<CachePath>D2/{D2A31383-085D-08B0-096E-9240761B225C}.wem</CachePath>
-				</File>
-				<File Id="228800573" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>amb_forest_tree_branch 2.wav</ShortName>
-					<CachePath>D9/{D9AEB6B4-493F-8C41-659F-7B16FA1F3BD7}.wem</CachePath>
+					<CachePath>F4/{F42061BD-30AE-7CF3-45CF-332F4479BAF5}.wem</CachePath>
 				</File>
 				<File Id="473626195" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>amb_forest_wind_heavy.wav</ShortName>
-					<CachePath>95/{9572E224-A345-ED13-A7BF-D709CB5B9A1B}.wem</CachePath>
-				</File>
-				<File Id="578064480" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>amb_forest_tree_branch 4.wav</ShortName>
-					<CachePath>16/{1684C72D-9D30-C1BF-A071-496DCB033766}.wem</CachePath>
-				</File>
-				<File Id="598957295" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>amb_forest_tree_branch 6.wav</ShortName>
-					<CachePath>E2/{E22E10C6-78FD-BE59-D99A-6C4622588A79}.wem</CachePath>
-				</File>
-				<File Id="779637040" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>amb_forest_tree_branch 5.wav</ShortName>
-					<CachePath>69/{692132C3-5F66-F918-BC73-6AC8D9F8B288}.wem</CachePath>
-				</File>
-				<File Id="824860241" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>amb_forest_tree_branch 3.wav</ShortName>
-					<CachePath>F7/{F75F4254-0191-068A-D163-160C5E7449FA}.wem</CachePath>
+					<CachePath>80/{8083A0A4-BBF3-A2EF-7B31-22F8990EEA3E}.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
 				<Event Id="3631987006" Name="amb_forest_play" ObjectPath="\Events\Default Work Unit\Ambience\Forest\amb_forest_play" GUID="{8491F29F-19FB-43FC-AD79-66F11D6F68E4}" Color="4" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="124442991"/>
 						<MediaRef Id="157927384"/>
-						<MediaRef Id="228800573"/>
 						<MediaRef Id="473626195"/>
-						<MediaRef Id="578064480"/>
-						<MediaRef Id="598957295"/>
-						<MediaRef Id="779637040"/>
-						<MediaRef Id="824860241"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="333335808" Name="amb_forest_stop" ObjectPath="\Events\Default Work Unit\Ambience\Forest\amb_forest_stop" GUID="{8A850378-D333-468D-AEF9-AC82EBF6780E}" Color="4" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1831798462" Name="amb_tree_branch_play" ObjectPath="\Events\Default Work Unit\Ambience\Forest\amb_tree_branch_play" GUID="{3EE83641-645F-4D7F-BC47-7D7370F334C3}" Color="4" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2828114560" Name="amb_tree_branch_stop" ObjectPath="\Events\Default Work Unit\Ambience\Forest\amb_tree_branch_stop" GUID="{04D48BC9-16B6-49F4-89F1-E8FF94FDF286}" Color="4" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="1537061107" Name="WInd" ObjectPath="\Game Parameters\Default Work Unit\WInd" GUID="{77D7E0CE-6F2C-40FF-9BF3-228156480BB9}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1069431850" Type="User" GUID="{5258F6A1-7802-454B-8FB4-D924FF70E2A9}" Language="SFX" Hash="{20806197-DAA1-D375-72AC-4E67C1DB0BE7}">
+		<SoundBank Id="1069431850" Type="User" GUID="{5258F6A1-7802-454B-8FB4-D924FF70E2A9}" Language="SFX" Hash="{CC7794A1-384F-3243-1FE3-8BD09219F2F7}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player\player</ObjectPath>
 			<ShortName>player</ShortName>
 			<Path>player.bnk</Path>
@@ -846,5 +818,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8C197280-2219-089E-3FF2-5A17D0FAC364}</FileHash>
+	<FileHash>{25011A59-F7D9-4DE9-0037-DC3167E5C5EF}</FileHash>
 </SoundBanksInfo>
