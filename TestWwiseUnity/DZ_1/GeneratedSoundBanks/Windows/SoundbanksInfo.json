@@ -14,15 +14,154 @@
   "DialogueEvents": [],
   "SoundBanks": [
    {
+    "Id": "1006024461",
+    "Type": "User",
+    "GUID": "{CE130C5C-A6D3-4343-A98F-7AABFCB2A8F1}",
+    "Language": "SFX",
+    "Hash": "{3E38591C-FAF4-3667-9E7F-5A1BDDADE70D}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience\\AMB_Forest",
+    "ShortName": "AMB_Forest",
+    "Path": "AMB_Forest.bnk",
+    "Media": [
+     {
+      "Id": "124442991",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "amb_forest_tree_branch 1.wav",
+      "CachePath": "8A/{8A28DBEE-045A-154B-4D0C-79036E8CB992}.wem"
+     },
+     {
+      "Id": "157927384",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "amb_forest_wind.wav",
+      "CachePath": "D2/{D2A31383-085D-08B0-096E-9240761B225C}.wem"
+     },
+     {
+      "Id": "228800573",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "amb_forest_tree_branch 2.wav",
+      "CachePath": "D9/{D9AEB6B4-493F-8C41-659F-7B16FA1F3BD7}.wem"
+     },
+     {
+      "Id": "473626195",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "amb_forest_wind_heavy.wav",
+      "CachePath": "95/{9572E224-A345-ED13-A7BF-D709CB5B9A1B}.wem"
+     },
+     {
+      "Id": "578064480",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "amb_forest_tree_branch 4.wav",
+      "CachePath": "16/{1684C72D-9D30-C1BF-A071-496DCB033766}.wem"
+     },
+     {
+      "Id": "598957295",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "amb_forest_tree_branch 6.wav",
+      "CachePath": "E2/{E22E10C6-78FD-BE59-D99A-6C4622588A79}.wem"
+     },
+     {
+      "Id": "779637040",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "amb_forest_tree_branch 5.wav",
+      "CachePath": "69/{692132C3-5F66-F918-BC73-6AC8D9F8B288}.wem"
+     },
+     {
+      "Id": "824860241",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "amb_forest_tree_branch 3.wav",
+      "CachePath": "F7/{F75F4254-0191-068A-D163-160C5E7449FA}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3631987006",
+      "Name": "amb_forest_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Forest\\amb_forest_play",
+      "GUID": "{8491F29F-19FB-43FC-AD79-66F11D6F68E4}",
+      "Color": "4",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "124442991"
+       },
+       {
+        "Id": "157927384"
+       },
+       {
+        "Id": "228800573"
+       },
+       {
+        "Id": "473626195"
+       },
+       {
+        "Id": "578064480"
+       },
+       {
+        "Id": "598957295"
+       },
+       {
+        "Id": "779637040"
+       },
+       {
+        "Id": "824860241"
+       }
+      ]
+     },
+     {
+      "Id": "333335808",
+      "Name": "amb_forest_stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Forest\\amb_forest_stop",
+      "GUID": "{8A850378-D333-468D-AEF9-AC82EBF6780E}",
+      "Color": "4",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1537061107",
+      "Name": "WInd",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\WInd",
+      "GUID": "{77D7E0CE-6F2C-40FF-9BF3-228156480BB9}"
+     }
+    ]
+   },
+   {
     "Id": "1069431850",
     "Type": "User",
     "GUID": "{5258F6A1-7802-454B-8FB4-D924FF70E2A9}",
     "Language": "SFX",
-    "Hash": "{EEA0AED3-DB7E-EEE4-0B88-E1D584EA7010}",
+    "Hash": "{20806197-DAA1-D375-72AC-4E67C1DB0BE7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Player\\player",
     "ShortName": "player",
     "Path": "player.bnk",
     "Media": [
+     {
+      "Id": "9317616",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Footsteps\\Snow\\Footsteps, Human, Snow, -5C, Running SND1622 9.wav",
+      "CachePath": "F9/{F9C8E694-21FB-0E4A-5D39-C9BB92A936DE}.wem"
+     },
      {
       "Id": "49232586",
       "Language": "SFX",
@@ -54,6 +193,14 @@
       "Location": "Memory",
       "ShortName": "Player\\Footsteps\\Water\\Footsteps, Human, Sneakers, Walk, Fast, on Water SND147223 6.wav",
       "CachePath": "CA/{CABD9FD9-5280-4A29-7E6A-13542F27C00F}.wem"
+     },
+     {
+      "Id": "177555584",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Footsteps\\Snow\\Footsteps, Human, Snow, -5C, Running SND1622 11.wav",
+      "CachePath": "7E/{7E45C64D-D61C-2E83-F541-B2D8AB18E95E}.wem"
      },
      {
       "Id": "178065842",
@@ -96,6 +243,14 @@
       "CachePath": "39/{3934EC15-0232-CBDA-893A-2ACEBFE9180D}.wem"
      },
      {
+      "Id": "305974628",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Footsteps\\Snow\\Footsteps, Human, Snow, -5C, Running SND1622 8.wav",
+      "CachePath": "9E/{9E05B4BD-6285-C94B-57D1-3C4B1217332D}.wem"
+     },
+     {
       "Id": "308041443",
       "Language": "SFX",
       "Streaming": "false",
@@ -110,6 +265,38 @@
       "Location": "Memory",
       "ShortName": "Player\\Footsteps, Human, Dirty Ground, Walk SND62078 8.wav",
       "CachePath": "AE/{AE01C5AD-9205-CB68-8B90-9BD584E836B6}.wem"
+     },
+     {
+      "Id": "340294393",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Footsteps\\Snow\\Footsteps, Human, Snow, -5C, Running SND1622 3.wav",
+      "CachePath": "C0/{C052D54F-B31C-45F4-1EE8-A83285568DE7}.wem"
+     },
+     {
+      "Id": "354551264",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Footsteps\\Snow\\Footsteps, Human, Snow, -5C, Running SND1622 2.wav",
+      "CachePath": "14/{14D17246-C9F4-E963-130D-A3F128324CDA}.wem"
+     },
+     {
+      "Id": "355547538",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Footsteps\\Snow\\Footsteps, Human, Snow, -5C, Running SND1622 4.wav",
+      "CachePath": "09/{09845AB5-3AD7-388D-8589-A78F4F3137FF}.wem"
+     },
+     {
+      "Id": "410347208",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Footsteps\\Snow\\Footsteps, Human, Snow, -5C, Running SND1622 5.wav",
+      "CachePath": "A4/{A4BA9CBA-8F72-5FAE-E7B6-B161C86BE8B5}.wem"
      },
      {
       "Id": "458399376",
@@ -128,6 +315,14 @@
       "CachePath": "A9/{A9A81741-D257-F293-3F5C-3786B069A603}.wem"
      },
      {
+      "Id": "518775116",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Footsteps\\Snow\\Footsteps, Human, Snow, -5C, Running SND1622 1.wav",
+      "CachePath": "45/{45C7E8EC-023F-188A-DBB1-D82E6CB72420}.wem"
+     },
+     {
       "Id": "523217812",
       "Language": "SFX",
       "Streaming": "false",
@@ -142,6 +337,22 @@
       "Location": "Memory",
       "ShortName": "Player\\Footsteps\\Water\\Footsteps, Human, Sneakers, Walk, Fast, on Water SND147223 3.wav",
       "CachePath": "CE/{CED335F2-C4AF-D355-5527-E028B37478CC}.wem"
+     },
+     {
+      "Id": "595197169",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Footsteps\\Snow\\Footsteps, Human, Snow, -5C, Running SND1622 6.wav",
+      "CachePath": "BC/{BC41FEF4-3D73-E6B5-60B0-29A822A3E5AE}.wem"
+     },
+     {
+      "Id": "613945652",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Footsteps\\Snow\\Footsteps, Human, Snow, -5C, Running SND1622.wav",
+      "CachePath": "5B/{5B7E1D7F-FDFF-C631-8CE2-B6CA8C0BD529}.wem"
      },
      {
       "Id": "643671364",
@@ -200,6 +411,14 @@
       "CachePath": "EA/{EACB1062-6946-60BE-AAE2-0BA50F2A0E92}.wem"
      },
      {
+      "Id": "902073959",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Footsteps\\Snow\\Footsteps, Human, Snow, -5C, Running SND1622 7.wav",
+      "CachePath": "8F/{8F2F8B76-68BF-A8F6-3231-AE99ADD52B04}.wem"
+     },
+     {
       "Id": "916545632",
       "Language": "SFX",
       "Streaming": "false",
@@ -214,6 +433,14 @@
       "Location": "Memory",
       "ShortName": "Player\\Footsteps\\Metal\\Footsteps, Human, Boots, Walking, Metal, Resonance, Hard, Irregular Rhythm SND85371 2.wav",
       "CachePath": "A5/{A559BD84-6FFF-748C-60EB-C3B145DAD2F5}.wem"
+     },
+     {
+      "Id": "975649057",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player\\Footsteps\\Snow\\Footsteps, Human, Snow, -5C, Running SND1622 10.wav",
+      "CachePath": "A2/{A2E099F3-80EE-9C97-953F-FF1A2D3D1ED2}.wem"
      }
     ],
     "Events": [
@@ -224,7 +451,7 @@
       "GUID": "{DFA4B824-B36E-47B3-9CBF-72A61F11CF08}",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "0.2910548",
+      "DurationMin": "0.21095109",
       "DurationMax": "0.54442585",
       "SwitchContainers": [
        {
@@ -300,6 +527,52 @@
         "SwitchValue": {
          "GroupType": "Switch",
          "GroupId": "1834394558",
+         "Id": "787898836",
+         "GUID": "{D285F370-9C38-4A6A-B074-00E4CE46AFED}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "9317616"
+         },
+         {
+          "Id": "177555584"
+         },
+         {
+          "Id": "305974628"
+         },
+         {
+          "Id": "340294393"
+         },
+         {
+          "Id": "354551264"
+         },
+         {
+          "Id": "355547538"
+         },
+         {
+          "Id": "410347208"
+         },
+         {
+          "Id": "518775116"
+         },
+         {
+          "Id": "595197169"
+         },
+         {
+          "Id": "613945652"
+         },
+         {
+          "Id": "902073959"
+         },
+         {
+          "Id": "975649057"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
          "Id": "2654748154",
          "GUID": "{A307EFC0-3E1A-4415-8C59-E020B9041B6E}"
         },
@@ -340,6 +613,12 @@
       "ObjectPath": "\\Switches\\Default Work Unit\\surface",
       "GUID": "{ECA414C8-B3BD-4BD6-9236-EE42106A9514}",
       "Switches": [
+       {
+        "Id": "787898836",
+        "Name": "Snow",
+        "ObjectPath": "\\Switches\\Default Work Unit\\surface\\Snow",
+        "GUID": "{D285F370-9C38-4A6A-B074-00E4CE46AFED}"
+       },
        {
         "Id": "2473969246",
         "Name": "Metal",
@@ -426,6 +705,12 @@
       "ObjectPath": "\\Switches\\Default Work Unit\\surface",
       "GUID": "{ECA414C8-B3BD-4BD6-9236-EE42106A9514}",
       "Switches": [
+       {
+        "Id": "787898836",
+        "Name": "Snow",
+        "ObjectPath": "\\Switches\\Default Work Unit\\surface\\Snow",
+        "GUID": "{D285F370-9C38-4A6A-B074-00E4CE46AFED}"
+       },
        {
         "Id": "2473969246",
         "Name": "Metal",
@@ -950,42 +1235,42 @@
     "Type": "User",
     "GUID": "{5B6E5F54-1F2F-4EB1-A8FC-13432D0A1063}",
     "Language": "SFX",
-    "Hash": "{3F3FEBCF-B432-BE6A-B659-F2C7408F8221}",
+    "Hash": "{B702D55F-994C-8295-CE1B-012AF35CBA0C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI",
     "ShortName": "UI",
     "Path": "UI.bnk",
     "Media": [
      {
-      "Id": "231646404",
+      "Id": "267160262",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "UI\\UIGlitch_Glitch sci-fi interface_00-04--00-04_PlaybackRate1.0.wav",
-      "CachePath": "B0/{B04E728E-4453-B8B6-4E83-E28214170A3C}.wem"
+      "ShortName": "UI\\ui_close_pause.wav",
+      "CachePath": "90/{9082A0C5-37D2-1A79-3422-06F452E9BB82}.wem"
      },
      {
-      "Id": "808123516",
+      "Id": "415017690",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "UI\\UIGlitch_Glitch sci-fi interface_00-01--00-01_PlaybackRate1.0.wav",
-      "CachePath": "59/{59DF7E67-B4F5-FC29-7B4E-1F0B4CA752FE}.wem"
+      "ShortName": "UI\\ui_hover.wav",
+      "CachePath": "72/{727FCD0C-E3FD-399E-6436-61490066900C}.wem"
      },
      {
-      "Id": "848586321",
+      "Id": "483555112",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "UI\\UIGlitch_Glitch sci-fi interface_00-00--00-00_PlaybackRate1.0.wav",
-      "CachePath": "4B/{4B9FDAB3-DB48-5105-AB6A-4900D2BD82B2}.wem"
+      "ShortName": "UI\\ui_basic_click.wav",
+      "CachePath": "08/{08F0245C-559D-443E-08FF-0E92CA21CC8A}.wem"
      },
      {
-      "Id": "966783108",
+      "Id": "1004508019",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "UI\\UIMvmt_Card flipping_00-15--00-15_PlaybackRate1.0.wav",
-      "CachePath": "99/{991E6B03-0551-A93F-6C79-3A62DF7C187D}.wem"
+      "ShortName": "UI\\ui_open_pause.wav",
+      "CachePath": "F7/{F7963D7C-4446-4678-7B23-D472B25DDD66}.wem"
      }
     ],
     "Events": [
@@ -995,11 +1280,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\UI\\ui_basic_click",
       "GUID": "{7BD6D39D-EF21-4FB4-8013-67D88749F3C6}",
       "DurationType": "OneShot",
-      "DurationMin": "0.21251042",
-      "DurationMax": "0.21251042",
+      "DurationMin": "0.27570048",
+      "DurationMax": "0.27570048",
       "MediaRefs": [
        {
-        "Id": "231646404"
+        "Id": "483555112"
        }
       ]
      },
@@ -1009,11 +1294,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\UI\\ui_close_pause",
       "GUID": "{07D3E166-05BB-48D5-B6F2-2B1CF2CBBDA0}",
       "DurationType": "OneShot",
-      "DurationMin": "0.4435104",
-      "DurationMax": "0.4435104",
+      "DurationMin": "0.34086958",
+      "DurationMax": "0.34086958",
       "MediaRefs": [
        {
-        "Id": "808123516"
+        "Id": "267160262"
        }
       ]
      },
@@ -1023,11 +1308,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\UI\\ui_hover",
       "GUID": "{5C318F7A-6E40-43C7-B400-47A77450ED70}",
       "DurationType": "OneShot",
-      "DurationMin": "0.30553126",
-      "DurationMax": "0.30553126",
+      "DurationMin": "0.24869566",
+      "DurationMax": "0.24869566",
       "MediaRefs": [
        {
-        "Id": "966783108"
+        "Id": "415017690"
        }
       ]
      },
@@ -1037,11 +1322,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\UI\\ui_open_pause",
       "GUID": "{F657ABDE-6469-4790-95E7-64D88400E6BC}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5959687",
-      "DurationMax": "0.5959687",
+      "DurationMin": "0.30458936",
+      "DurationMax": "0.30458936",
       "MediaRefs": [
        {
-        "Id": "848586321"
+        "Id": "1004508019"
        }
       ]
      }
@@ -1925,6 +2210,6 @@
     ]
    }
   ],
-  "FileHash": "{D81FCD4D-4CB0-843A-3AF8-076AAD749F35}"
+  "FileHash": "{35D6B975-0E85-F9D7-0699-88A8207B3CBC}"
  }
 }

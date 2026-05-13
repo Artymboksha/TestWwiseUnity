@@ -17,23 +17,23 @@ MonoBehaviour:
     sound:
       idInternal: 0
       valueGuidInternal: 
-      WwiseObjectReference: {fileID: 11400000, guid: 4782daf4ed22db24ba6d3341ff23600f,
+      WwiseObjectReference: {fileID: 11400000, guid: ab512881f13f74240a3f7b343e976bd9,
         type: 2}
   - key: "\u0421loseMenu"
     sound:
       idInternal: 0
       valueGuidInternal: 
-      WwiseObjectReference: {fileID: 11400000, guid: e06222358869a5941b95a6904708ec7d,
+      WwiseObjectReference: {fileID: 11400000, guid: 412f9430175f6d74ba85ceef3e3e50d8,
         type: 2}
   - key: BasicClick
     sound:
       idInternal: 0
       valueGuidInternal: 
-      WwiseObjectReference: {fileID: 11400000, guid: ceb4a4e534062e145914d789e1efab5c,
+      WwiseObjectReference: {fileID: 11400000, guid: 6307529931c087944a2761029626f6c9,
         type: 2}
   - key: Hover
     sound:
       idInternal: 0
       valueGuidInternal: 
-      WwiseObjectReference: {fileID: 11400000, guid: 05cf08d5d1b46c1458f4e9cca743ff47,
+      WwiseObjectReference: {fileID: 11400000, guid: 2d11064dd8d0e844fbf316a1149c4070,
         type: 2}

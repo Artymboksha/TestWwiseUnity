@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	333335808	amb_forest_stop			\Default Work Unit\Ambience\Forest\amb_forest_stop	
+	3631987006	amb_forest_play			\Default Work Unit\Ambience\Forest\amb_forest_play	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1537061107	WInd			\Default Work Unit\WInd	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	124442991	amb_forest_tree_branch 1	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\8A\{8A28DBEE-045A-154B-4D0C-79036E8CB992}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Forest\Main\Main\Specks\amb_tree_branch\amb_forest_tree_branch 1		361144
+	157927384	amb_forest_wind	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\D2\{D2A31383-085D-08B0-096E-9240761B225C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Forest\Main\Main\Wind\amb_forest_wind		8101172
+	228800573	amb_forest_tree_branch 2	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\D9\{D9AEB6B4-493F-8C41-659F-7B16FA1F3BD7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Forest\Main\Main\Specks\amb_tree_branch\amb_forest_tree_branch 2		266052
+	473626195	amb_forest_wind_heavy	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\95\{9572E224-A345-ED13-A7BF-D709CB5B9A1B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Forest\Main\Main\Wind\amb_forest_wind_heavy		3219792
+	578064480	amb_forest_tree_branch 4	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\16\{1684C72D-9D30-C1BF-A071-496DCB033766}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Forest\Main\Main\Specks\amb_tree_branch\amb_forest_tree_branch 4		337516
+	598957295	amb_forest_tree_branch 6	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\E2\{E22E10C6-78FD-BE59-D99A-6C4622588A79}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Forest\Main\Main\Specks\amb_tree_branch\amb_forest_tree_branch 6		243424
+	779637040	amb_forest_tree_branch 5	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\69\{692132C3-5F66-F918-BC73-6AC8D9F8B288}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Forest\Main\Main\Specks\amb_tree_branch\amb_forest_tree_branch 5		219500
+	824860241	amb_forest_tree_branch 3	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\F7\{F75F4254-0191-068A-D163-160C5E7449FA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Forest\Main\Main\Specks\amb_tree_branch\amb_forest_tree_branch 3		243424
+

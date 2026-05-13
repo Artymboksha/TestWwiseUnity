@@ -331,8 +331,25 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8813eee9a75f76459cd220c806fce012
     GuidInternal: 
-    m_lastTime: -8584235200564244752
+    m_lastTime: -8584229205250926895
     List:
+    - name: AMB_Forest
+      guid: 5c0c13ced3a64343a98f7aabfcb2a8f1
+      id: 1006024461
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8813eee9a75f76459cd220c806fce012
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: aa97916de3f80b4f91780b1ce86e6306
+      - ElementName: AMB_Forest
+        ObjectType: 7
+        guid: 5c0c13ced3a64343a98f7aabfcb2a8f1
+      Path: SoundBanks\Default Work Unit\Ambience\AMB_Forest
     - name: AMB_Urban
       guid: af2499b416a4444a866fbef51680f14c
       id: 2434576750
@@ -424,7 +441,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Ambience
     guid: 2bc00f89d0dc6c4887bfc5488a31beb0
     GuidInternal: 
-    m_lastTime: -8584246406054775808
+    m_lastTime: -8584229205250663493
     List: []
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -439,6 +456,117 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584235230200630230
     List: []
+  - PhysicalPath: Events\Forest.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 8c185faec7317646867e77e32ccea4fa
+    - ElementName: Ambience
+      ObjectType: 12
+      guid: 2bc00f89d0dc6c4887bfc5488a31beb0
+    - ElementName: Forest
+      ObjectType: 12
+      guid: fd5037462aae6a4482e200ccab8fe3a8
+    ParentPath: Events\Default Work Unit\Ambience\Forest
+    guid: fd5037462aae6a4482e200ccab8fe3a8
+    GuidInternal: 
+    m_lastTime: -8584229196468425283
+    List:
+    - name: amb_forest_play
+      guid: 9ff29184fb19fc43ad7966f11d6f68e4
+      id: 3631987006
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: 2bc00f89d0dc6c4887bfc5488a31beb0
+      - ElementName: Forest
+        ObjectType: 12
+        guid: fd5037462aae6a4482e200ccab8fe3a8
+      - ElementName: amb_forest_play
+        ObjectType: 3
+        guid: 9ff29184fb19fc43ad7966f11d6f68e4
+      Path: Events\Default Work Unit\Ambience\Forest\amb_forest_play
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: amb_forest_stop
+      guid: 7803858a33d38d46aef9ac82ebf6780e
+      id: 333335808
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: 2bc00f89d0dc6c4887bfc5488a31beb0
+      - ElementName: Forest
+        ObjectType: 12
+        guid: fd5037462aae6a4482e200ccab8fe3a8
+      - ElementName: amb_forest_stop
+        ObjectType: 3
+        guid: 7803858a33d38d46aef9ac82ebf6780e
+      Path: Events\Default Work Unit\Ambience\Forest\amb_forest_stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: amb_tree_branch_play
+      guid: 4136e83e5f647f4dbc477d7370f334c3
+      id: 1831798462
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: 2bc00f89d0dc6c4887bfc5488a31beb0
+      - ElementName: Forest
+        ObjectType: 12
+        guid: fd5037462aae6a4482e200ccab8fe3a8
+      - ElementName: amb_tree_branch_play
+        ObjectType: 3
+        guid: 4136e83e5f647f4dbc477d7370f334c3
+      Path: Events\Default Work Unit\Ambience\Forest\amb_tree_branch_play
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: amb_tree_branch_stop
+      guid: c98bd404b616f44989f1e8ff94fdf286
+      id: 2828114560
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: 2bc00f89d0dc6c4887bfc5488a31beb0
+      - ElementName: Forest
+        ObjectType: 12
+        guid: fd5037462aae6a4482e200ccab8fe3a8
+      - ElementName: amb_tree_branch_stop
+        ObjectType: 3
+        guid: c98bd404b616f44989f1e8ff94fdf286
+      Path: Events\Default Work Unit\Ambience\Forest\amb_tree_branch_stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Player.wwu
     PathAndIcons:
     - ElementName: Events
@@ -468,7 +596,7 @@ MonoBehaviour:
       Path: Events\Player\player_steps
       maxAttenuation: 20
       maxDuration: 0.54442585
-      minDuration: 0.2910548
+      minDuration: 0.21095109
   - PhysicalPath: Events\UI.wwu
     PathAndIcons:
     - ElementName: Events
@@ -483,7 +611,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\UI
     guid: 37335f843bc10b4e987bc516aa536673
     GuidInternal: 
-    m_lastTime: -8584235232408560371
+    m_lastTime: -8584229237476064302
     List:
     - name: ui_basic_click
       guid: 9dd3d67b21efb44f801367d88749f3c6
@@ -503,8 +631,8 @@ MonoBehaviour:
         guid: 9dd3d67b21efb44f801367d88749f3c6
       Path: Events\Default Work Unit\UI\ui_basic_click
       maxAttenuation: 0
-      maxDuration: 0.21251042
-      minDuration: 0.21251042
+      maxDuration: 0.27570048
+      minDuration: 0.27570048
     - name: ui_close_pause
       guid: 66e1d307bb05d548b6f22b1cf2cbbda0
       id: 1168195925
@@ -523,8 +651,8 @@ MonoBehaviour:
         guid: 66e1d307bb05d548b6f22b1cf2cbbda0
       Path: Events\Default Work Unit\UI\ui_close_pause
       maxAttenuation: 0
-      maxDuration: 0.4435104
-      minDuration: 0.4435104
+      maxDuration: 0.34086958
+      minDuration: 0.34086958
     - name: ui_hover
       guid: 7a8f315c406ec743b40047a77450ed70
       id: 2118900976
@@ -543,8 +671,8 @@ MonoBehaviour:
         guid: 7a8f315c406ec743b40047a77450ed70
       Path: Events\Default Work Unit\UI\ui_hover
       maxAttenuation: 0
-      maxDuration: 0.30553126
-      minDuration: 0.30553126
+      maxDuration: 0.24869566
+      minDuration: 0.24869566
     - name: ui_open_pause
       guid: deab57f66964904795e764d88400e6bc
       id: 1968767193
@@ -563,8 +691,8 @@ MonoBehaviour:
         guid: deab57f66964904795e764d88400e6bc
       Path: Events\Default Work Unit\UI\ui_open_pause
       maxAttenuation: 0
-      maxDuration: 0.5959687
-      minDuration: 0.5959687
+      maxDuration: 0.30458936
+      minDuration: 0.30458936
   - PhysicalPath: Events\Urban.wwu
     PathAndIcons:
     - ElementName: Events
@@ -1340,7 +1468,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: c01b419ca9125044840585fbfee40955
     GuidInternal: 
-    m_lastTime: -8584235225820279624
+    m_lastTime: -8584229237476187685
     List:
     - name: surface
       guid: c814a4ecbdb3d64b9236ee42106a9514
@@ -1389,6 +1517,22 @@ MonoBehaviour:
         - ElementName: Metal
           ObjectType: 10
           guid: 2a5a8b8e2373ce4d883cf6e7ca0699db
+      - name: Snow
+        guid: 70f385d2389c6a4ab07400e4ce46afed
+        id: 787898836
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c01b419ca9125044840585fbfee40955
+        - ElementName: surface
+          ObjectType: 11
+          guid: c814a4ecbdb3d64b9236ee42106a9514
+        - ElementName: Snow
+          ObjectType: 10
+          guid: 70f385d2389c6a4ab07400e4ce46afed
       - name: Water
         guid: c0ef07a31a3e15448c59e020b9041b6e
         id: 2654748154
@@ -1472,7 +1616,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584246406054775808
     List: []
-  ExpandedFileSystemItemIds: 020000000300000004000000050000000c0000000d000000
+  ExpandedFileSystemItemIds: 02000000030000000400000005000000070000000d00000034000000350000003600000037000000390000003a0000003b000000
   ExpandedWaapiItemIds: 0100000002000000050000000600000007000000080000000a0000000b0000000c0000000d0000001e0000002000000023000000240000002a0000002b00000036000000860000008700000089000000e7000000e8000000460100004701000048010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

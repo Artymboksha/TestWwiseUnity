@@ -8,6 +8,7 @@
 			</PropertyList>
 			<ChildrenList>
 				<WorkUnit Name="Urban" ID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}" PersistMode="Reference"/>
+				<WorkUnit Name="Forest" ID="{EDBEE78E-53CC-40A5-95F6-51B07ED1176B}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

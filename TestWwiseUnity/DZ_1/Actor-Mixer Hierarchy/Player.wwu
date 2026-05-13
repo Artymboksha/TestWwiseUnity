@@ -250,6 +250,9 @@
 								<RandomSequenceContainer Name="Metal" ID="{A8ABDB1B-AF8A-4174-A127-B36F3CE76398}" ShortID="124605633">
 									<PropertyList>
 										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{6C2C391B-CDFE-47C2-9740-464ED5A2167A}">
@@ -681,6 +684,286 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Snow" ID="{C724AD61-F33C-45B9-A93F-9936FDAAB51F}" ShortID="598179132">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Footsteps, Human, Snow, -5C, Running SND1622" ID="{DE22B711-4EE6-43B8-B1F6-A1E9AFBA3749}" ShortID="406739551">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Snow, -5C, Running SND1622" ID="{F9E3EEA0-466A-4BDE-AE76-D6683DE206A6}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0200905799865723"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Snow\Footsteps, Human, Snow, -5C, Running SND1622.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="613945652"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Snow, -5C, Running SND1622" ID="{F9E3EEA0-466A-4BDE-AE76-D6683DE206A6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Snow, -5C, Running SND1622 1" ID="{AC28D216-AD3C-42BB-BFF2-8B36D011A068}" ShortID="924867529">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Snow, -5C, Running SND1622 1" ID="{1F529738-EF07-4713-A764-5EF13E1D51D4}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Snow\Footsteps, Human, Snow, -5C, Running SND1622 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="518775116"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Snow, -5C, Running SND1622 1" ID="{1F529738-EF07-4713-A764-5EF13E1D51D4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Snow, -5C, Running SND1622 2" ID="{65F72E58-BABE-4F35-927D-82E1DE54279D}" ShortID="919208610">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Snow, -5C, Running SND1622 2" ID="{A038D1EC-C1E7-46F7-B3A5-EFAA61E33C81}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Snow\Footsteps, Human, Snow, -5C, Running SND1622 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="354551264"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Snow, -5C, Running SND1622 2" ID="{A038D1EC-C1E7-46F7-B3A5-EFAA61E33C81}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Snow, -5C, Running SND1622 3" ID="{A7DC5C01-4F8E-4239-9BF9-5D78727C5814}" ShortID="955914035">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Snow, -5C, Running SND1622 3" ID="{A1A53A1D-851D-49C8-9EE7-4A16EB926066}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Snow\Footsteps, Human, Snow, -5C, Running SND1622 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="340294393"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Snow, -5C, Running SND1622 3" ID="{A1A53A1D-851D-49C8-9EE7-4A16EB926066}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Snow, -5C, Running SND1622 4" ID="{9E70D415-ED36-4859-A55B-71F0D13A40AE}" ShortID="199443507">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Snow, -5C, Running SND1622 4" ID="{DC0D577C-50F7-4D7F-BE44-361D899A6B01}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Snow\Footsteps, Human, Snow, -5C, Running SND1622 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="355547538"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Snow, -5C, Running SND1622 4" ID="{DC0D577C-50F7-4D7F-BE44-361D899A6B01}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Snow, -5C, Running SND1622 5" ID="{1D5EF4DE-2745-4662-9422-4AF14E7893AB}" ShortID="742808509">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Snow, -5C, Running SND1622 5" ID="{B132DDB1-BFA9-4BD3-9AE4-F64085170B3A}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Snow\Footsteps, Human, Snow, -5C, Running SND1622 5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="410347208"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Snow, -5C, Running SND1622 5" ID="{B132DDB1-BFA9-4BD3-9AE4-F64085170B3A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Snow, -5C, Running SND1622 6" ID="{93AC5233-80C1-43D7-876F-59A4D23E63B1}" ShortID="153292240">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Snow, -5C, Running SND1622 6" ID="{637E1701-BB92-480A-A62F-2A488C0E0297}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Snow\Footsteps, Human, Snow, -5C, Running SND1622 6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="595197169"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Snow, -5C, Running SND1622 6" ID="{637E1701-BB92-480A-A62F-2A488C0E0297}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Snow, -5C, Running SND1622 7" ID="{716FB48C-6F3C-429E-828F-06E98649E561}" ShortID="873531906">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Snow, -5C, Running SND1622 7" ID="{95C316D4-8F57-43EA-BC01-04E2017CBBF2}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Snow\Footsteps, Human, Snow, -5C, Running SND1622 7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="902073959"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Snow, -5C, Running SND1622 7" ID="{95C316D4-8F57-43EA-BC01-04E2017CBBF2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Snow, -5C, Running SND1622 8" ID="{3981AC29-FD79-4CD6-ADB8-E1A03470C58D}" ShortID="670690960">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Snow, -5C, Running SND1622 8" ID="{9F3BA588-9BF5-4FAB-87D8-0BA513B9C2D9}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Snow\Footsteps, Human, Snow, -5C, Running SND1622 8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="305974628"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Snow, -5C, Running SND1622 8" ID="{9F3BA588-9BF5-4FAB-87D8-0BA513B9C2D9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Snow, -5C, Running SND1622 9" ID="{E83431D0-6EBA-456A-8FB4-F6A55178BABE}" ShortID="526546406">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Snow, -5C, Running SND1622 9" ID="{D28F80A7-5FCE-4AE9-BFF1-FC0A1E399880}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Snow\Footsteps, Human, Snow, -5C, Running SND1622 9.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="9317616"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Snow, -5C, Running SND1622 9" ID="{D28F80A7-5FCE-4AE9-BFF1-FC0A1E399880}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Snow, -5C, Running SND1622 10" ID="{82A00429-17B8-478F-A13C-82110C69865A}" ShortID="157315438">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Snow, -5C, Running SND1622 10" ID="{E9A7810D-89A1-4E45-9360-AFEC597CD319}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Snow\Footsteps, Human, Snow, -5C, Running SND1622 10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="975649057"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Snow, -5C, Running SND1622 10" ID="{E9A7810D-89A1-4E45-9360-AFEC597CD319}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps, Human, Snow, -5C, Running SND1622 11" ID="{0231E125-3E2C-4B53-9CCE-FF6285584BCB}" ShortID="955377676">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps, Human, Snow, -5C, Running SND1622 11" ID="{3A481B04-800C-44B5-A1B6-ECAE98913343}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Footsteps\Snow\Footsteps, Human, Snow, -5C, Running SND1622 11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="177555584"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps, Human, Snow, -5C, Running SND1622 11" ID="{3A481B04-800C-44B5-A1B6-ECAE98913343}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -692,6 +975,9 @@
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Water" ID="{69490846-8D56-4FC0-88B3-CBA51B41EAC8}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Snow" ID="{C724AD61-F33C-45B9-A93F-9936FDAAB51F}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
@@ -705,6 +991,12 @@
 										<SwitchRef Name="Ground" ID="{636FB45C-018B-476C-8726-71E238F4DE5D}"/>
 										<ItemList>
 											<ItemRef Name="Ground" ID="{2BE45913-6A0D-441C-893F-8AE409377811}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Snow" ID="{D285F370-9C38-4A6A-B074-00E4CE46AFED}"/>
+										<ItemList>
+											<ItemRef Name="Snow" ID="{C724AD61-F33C-45B9-A93F-9936FDAAB51F}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>

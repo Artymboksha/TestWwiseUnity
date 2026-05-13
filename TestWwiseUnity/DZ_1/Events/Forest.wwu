@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{463750FD-AE2A-446A-82E2-00CCAB8FE3A8}" SchemaVersion="123" RootDocumentID="{AE5F188C-31C7-4676-867E-77E32CCEA4FA}" ParentDocumentID="{890FC02B-DCD0-486C-87BF-C5488A31BEB0}">
+	<Events>
+		<WorkUnit Name="Forest" ID="{463750FD-AE2A-446A-82E2-00CCAB8FE3A8}" OwnerID="{890FC02B-DCD0-486C-87BF-C5488A31BEB0}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="amb_forest_play" ID="{8491F29F-19FB-43FC-AD79-66F11D6F68E4}">
+					<ChildrenList>
+						<Action Name="" ID="{43B87B49-0AFE-4E83-A99B-943D256D8265}" ShortID="1006665397">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind" ID="{7A27096D-45F1-4BA9-A542-8D80A1FAAD36}" WorkUnitID="{EDBEE78E-53CC-40A5-95F6-51B07ED1176B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_forest_stop" ID="{8A850378-D333-468D-AEF9-AC82EBF6780E}">
+					<ChildrenList>
+						<Action Name="" ID="{D982E7B0-6B05-42A1-8EFF-B06781CBE7E1}" ShortID="899557484">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind" ID="{7A27096D-45F1-4BA9-A542-8D80A1FAAD36}" WorkUnitID="{EDBEE78E-53CC-40A5-95F6-51B07ED1176B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_tree_branch_play" ID="{3EE83641-645F-4D7F-BC47-7D7370F334C3}"/>
+				<Event Name="amb_tree_branch_stop" ID="{04D48BC9-16B6-49F4-89F1-E8FF94FDF286}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

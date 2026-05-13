@@ -12,6 +12,13 @@
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
+						<SoundBank Name="AMB_Forest" ID="{CE130C5C-A6D3-4343-A98F-7AABFCB2A8F1}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Forest" ID="{463750FD-AE2A-446A-82E2-00CCAB8FE3A8}" WorkUnitID="{463750FD-AE2A-446A-82E2-00CCAB8FE3A8}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
 					</ChildrenList>
 				</Folder>
 				<SoundBank Name="UI" ID="{5B6E5F54-1F2F-4EB1-A8FC-13432D0A1063}">
