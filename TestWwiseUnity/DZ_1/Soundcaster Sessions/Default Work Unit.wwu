@@ -80,8 +80,17 @@
 							<ObjectRef Name="amb_factory" ID="{656C9EB0-7E31-469B-BE12-DFDAC279369E}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
 							<Position X="0" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Specks" ID="{92F86F7B-697B-4B33-95FB-5FB61886CBD4}" WorkUnitID="{EDBEE78E-53CC-40A5-95F6-51B07ED1176B}"/>
+							<Position X="1" Y="0"/>
+						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="WInd" ID="{77D7E0CE-6F2C-40FF-9BF3-228156480BB9}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Ground" ID="{636FB45C-018B-476C-8726-71E238F4DE5D}"/>

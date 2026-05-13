@@ -8,6 +8,7 @@
 			</PropertyList>
 			<ChildrenList>
 				<WorkUnit Name="Urban" ID="{17066A59-8258-48C7-A356-B93263158E41}" PersistMode="Reference"/>
+				<WorkUnit Name="Forest" ID="{463750FD-AE2A-446A-82E2-00CCAB8FE3A8}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

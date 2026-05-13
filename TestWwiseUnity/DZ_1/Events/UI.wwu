@@ -8,7 +8,7 @@
 						<Action Name="" ID="{427AFD61-11E2-4FAE-9E7E-1DDE544108B5}" ShortID="781640471">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ui_close_pause" ID="{D9B399DB-AC35-4FDE-812A-E88EF23E2785}" WorkUnitID="{7E41B1DB-1B10-4A52-96AD-50BA98333CE8}"/>
+									<ObjectRef Name="ui_close_pause" ID="{BB8EC33B-D665-4562-A788-01FDAF74B084}" WorkUnitID="{7E41B1DB-1B10-4A52-96AD-50BA98333CE8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -19,7 +19,7 @@
 						<Action Name="" ID="{AA45BF85-E2F3-4B08-8FCD-33687D6C8A3D}" ShortID="116009917">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ui_open_pause" ID="{22BFA68A-0C63-4BC2-AD81-82A76097FF0A}" WorkUnitID="{7E41B1DB-1B10-4A52-96AD-50BA98333CE8}"/>
+									<ObjectRef Name="ui_open_pause" ID="{2F18C143-9462-4721-82CC-6A34F69AC2EB}" WorkUnitID="{7E41B1DB-1B10-4A52-96AD-50BA98333CE8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -30,7 +30,7 @@
 						<Action Name="" ID="{4C1542ED-A85C-4671-A4BB-A52CE2BEDC5D}" ShortID="316008711">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ui_basic_click" ID="{651EAFD6-A272-435B-B37C-D2A096919DF7}" WorkUnitID="{7E41B1DB-1B10-4A52-96AD-50BA98333CE8}"/>
+									<ObjectRef Name="ui_basic_click" ID="{638351A2-33F0-4A29-AB93-7AB2020D020E}" WorkUnitID="{7E41B1DB-1B10-4A52-96AD-50BA98333CE8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -41,7 +41,7 @@
 						<Action Name="" ID="{69F3AE7F-7C98-4025-9D7E-94EBB2086E31}" ShortID="604453938">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ui_hover" ID="{9312BE9A-6684-44BE-ABF5-A9E8453DF196}" WorkUnitID="{7E41B1DB-1B10-4A52-96AD-50BA98333CE8}"/>
+									<ObjectRef Name="ui_hover" ID="{CB662F5B-F621-4803-A1E2-368E68C292E5}" WorkUnitID="{7E41B1DB-1B10-4A52-96AD-50BA98333CE8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -13,9 +13,13 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="ui_close_pause" ID="{D9B399DB-AC35-4FDE-812A-E88EF23E2785}" ShortID="393226034">
+						<Sound Name="ui_basic_click" ID="{638351A2-33F0-4A29-AB93-7AB2020D020E}" ShortID="572917117">
 							<PropertyList>
-								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -26,24 +30,31 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="UIGlitch_Glitch sci-fi interface_00-01--00-01_PlaybackRate1_0" ID="{9B6DBE08-427C-461C-A3CA-B7A761F1DCD8}">
+								<AudioFileSource Name="ui_basic_click" ID="{40548FC0-A0EB-4D6E-BA80-261730B47323}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00376811597658241"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0596618362958881"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.157632851687031"/>
+									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>UI\UIGlitch_Glitch sci-fi interface_00-01--00-01_PlaybackRate1.0.wav</AudioFile>
+									<AudioFile>UI\ui_basic_click.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="808123516"/>
+										<MediaID ID="483555112"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
-							<PositioningInfo>
-								<Panner Name="" ID="{6B817ABE-8265-4A20-B0FC-F08059F503DA}"/>
-							</PositioningInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="UIGlitch_Glitch sci-fi interface_00-01--00-01_PlaybackRate1_0" ID="{9B6DBE08-427C-461C-A3CA-B7A761F1DCD8}" Platform="Linked"/>
+								<ActiveSource Name="ui_basic_click" ID="{40548FC0-A0EB-4D6E-BA80-261730B47323}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="ui_open_pause" ID="{22BFA68A-0C63-4BC2-AD81-82A76097FF0A}" ShortID="745053218">
+						<Sound Name="ui_close_pause" ID="{BB8EC33B-D665-4562-A788-01FDAF74B084}" ShortID="250187325">
 							<PropertyList>
-								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -54,22 +65,32 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="UIGlitch_Glitch sci-fi interface_00-00--00-00_PlaybackRate1_0" ID="{159EF554-7740-45A2-96D1-AAE6C8659ED9}">
+								<AudioFileSource Name="ui_close_pause" ID="{E4E23BCF-A445-4B38-8ECB-47D6079A421F}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0209661836641422"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0899516912042231"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.125797101984853"/>
+									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>UI\UIGlitch_Glitch sci-fi interface_00-00--00-00_PlaybackRate1.0.wav</AudioFile>
+									<AudioFile>UI\ui_close_pause.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="848586321"/>
+										<MediaID ID="267160262"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
-							<PositioningInfo>
-								<Panner Name="" ID="{D4104634-7E42-4279-AB0C-3485C7B04066}"/>
-							</PositioningInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="UIGlitch_Glitch sci-fi interface_00-00--00-00_PlaybackRate1_0" ID="{159EF554-7740-45A2-96D1-AAE6C8659ED9}" Platform="Linked"/>
+								<ActiveSource Name="ui_close_pause" ID="{E4E23BCF-A445-4B38-8ECB-47D6079A421F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="ui_basic_click" ID="{651EAFD6-A272-435B-B37C-D2A096919DF7}" ShortID="320679409">
+						<Sound Name="ui_hover" ID="{CB662F5B-F621-4803-A1E2-368E68C292E5}" ShortID="851375105">
+							<PropertyList>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
@@ -79,19 +100,32 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="UIGlitch_Glitch sci-fi interface_00-04--00-04_PlaybackRate1_0" ID="{3705DDB7-7F1A-485E-AEE6-C7B76855BF9A}">
+								<AudioFileSource Name="ui_hover" ID="{13ED4F31-DA21-4EA1-A3D6-FFF7D2E00497}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00903381662092348"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.10787439847338"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.117971017049706"/>
+									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>UI\UIGlitch_Glitch sci-fi interface_00-04--00-04_PlaybackRate1.0.wav</AudioFile>
+									<AudioFile>UI\ui_hover.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="231646404"/>
+										<MediaID ID="415017690"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="UIGlitch_Glitch sci-fi interface_00-04--00-04_PlaybackRate1_0" ID="{3705DDB7-7F1A-485E-AEE6-C7B76855BF9A}" Platform="Linked"/>
+								<ActiveSource Name="ui_hover" ID="{13ED4F31-DA21-4EA1-A3D6-FFF7D2E00497}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="ui_hover" ID="{9312BE9A-6684-44BE-ABF5-A9E8453DF196}" ShortID="95098122">
+						<Sound Name="ui_open_pause" ID="{2F18C143-9462-4721-82CC-6A34F69AC2EB}" ShortID="926193736">
+							<PropertyList>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
@@ -101,16 +135,22 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="UIMvmt_Card flipping_00-15--00-15_PlaybackRate1_0" ID="{C714564B-7942-4D69-ABA7-72325E112F89}">
+								<AudioFileSource Name="ui_open_pause" ID="{79403A09-C7D2-4B56-82DA-429B703AF06F}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0100483092708864"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0653140102607617"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.128743962533232"/>
+									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>UI\UIMvmt_Card flipping_00-15--00-15_PlaybackRate1.0.wav</AudioFile>
+									<AudioFile>UI\ui_open_pause.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="966783108"/>
+										<MediaID ID="1004508019"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="UIMvmt_Card flipping_00-15--00-15_PlaybackRate1_0" ID="{C714564B-7942-4D69-ABA7-72325E112F89}" Platform="Linked"/>
+								<ActiveSource Name="ui_open_pause" ID="{79403A09-C7D2-4B56-82DA-429B703AF06F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

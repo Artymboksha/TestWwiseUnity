@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EDBEE78E-53CC-40A5-95F6-51B07ED1176B}" SchemaVersion="123" RootDocumentID="{475E8F0B-A974-453E-8FD2-BAAB1B452EB5}" ParentDocumentID="{61C69B53-1664-41D1-85BA-2A4497D2507D}">
+	<AudioObjects>
+		<WorkUnit Name="Forest" ID="{EDBEE78E-53CC-40A5-95F6-51B07ED1176B}" OwnerID="{61C69B53-1664-41D1-85BA-2A4497D2507D}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="12"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Emitters" ID="{4CD29528-183D-4064-968B-761365A1BD8F}" ShortID="435841843"/>
+				<Folder Name="Main" ID="{E225B6B3-836D-42AE-BB0A-FB03349E38CD}" ShortID="229191312">
+					<ChildrenList>
+						<BlendContainer Name="Main" ID="{1552E5FB-6F5C-4B55-AE4D-DAA41B53221C}" ShortID="223260629">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="Specks" ID="{92F86F7B-697B-4B33-95FB-5FB61886CBD4}" ShortID="591991420">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="amb_tree_branch" ID="{B9ECC201-EA45-4F32-8390-6024A3354462}" ShortID="507141859">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{54D01608-185A-48DF-A8ED-4EEBC11E7F96}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="5"/>
+																	<Property Name="Min" Type="Real64" Value="-4"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{7C06E986-7F92-4964-AFAA-7E9517D075BD}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="6"/>
+																	<Property Name="Min" Type="Real64" Value="-6"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A8E6C24C-58EF-4A3D-ADAD-9AD02F540FAF}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="4"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_forest_tree_branch 1" ID="{5A1DAA2E-05FF-4236-A707-8EB125728AF3}" ShortID="287477029">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_forest_tree_branch 1" ID="{18278616-A675-487F-A2B8-C70EF66B7B8D}">
+															<Language>SFX</Language>
+															<AudioFile>amb_forest_tree_branch 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="124442991"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_forest_tree_branch 1" ID="{18278616-A675-487F-A2B8-C70EF66B7B8D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_forest_tree_branch 2" ID="{2BA1765C-6990-4D6E-9248-C9AF30875758}" ShortID="68918167">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_forest_tree_branch 2" ID="{1E064BDD-E580-4FE1-B6FD-122AFE2B0DDB}">
+															<Language>SFX</Language>
+															<AudioFile>amb_forest_tree_branch 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="228800573"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_forest_tree_branch 2" ID="{1E064BDD-E580-4FE1-B6FD-122AFE2B0DDB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_forest_tree_branch 3" ID="{50757B41-1961-4C7B-88AB-148A31A16C58}" ShortID="923853250">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_forest_tree_branch 3" ID="{D7CD7A70-CE6C-464E-A44A-E6C0F0BFD583}">
+															<Language>SFX</Language>
+															<AudioFile>amb_forest_tree_branch 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="824860241"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_forest_tree_branch 3" ID="{D7CD7A70-CE6C-464E-A44A-E6C0F0BFD583}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_forest_tree_branch 4" ID="{A742259F-B29F-49D6-85D1-9B031DFD31D2}" ShortID="51950487">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_forest_tree_branch 4" ID="{6572C199-A268-4845-9FD2-7E05F46A3595}">
+															<Language>SFX</Language>
+															<AudioFile>amb_forest_tree_branch 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="578064480"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_forest_tree_branch 4" ID="{6572C199-A268-4845-9FD2-7E05F46A3595}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_forest_tree_branch 5" ID="{5168D117-1231-43B6-9754-AE0F91A4270A}" ShortID="390783849">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_forest_tree_branch 5" ID="{1E1B537D-7A1B-48D1-9C07-6461D0DB5FC7}">
+															<Language>SFX</Language>
+															<AudioFile>amb_forest_tree_branch 5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="779637040"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_forest_tree_branch 5" ID="{1E1B537D-7A1B-48D1-9C07-6461D0DB5FC7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_forest_tree_branch 6" ID="{06B1FF20-6C8C-4441-BBE0-D0C97970852D}" ShortID="714221375">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_forest_tree_branch 6" ID="{8BF28C44-FA44-49AD-B03F-12D0D2337F25}">
+															<Language>SFX</Language>
+															<AudioFile>amb_forest_tree_branch 6.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="598957295"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_forest_tree_branch 6" ID="{8BF28C44-FA44-49AD-B03F-12D0D2337F25}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{1958BD8B-77D4-4B11-B818-85BFC0F9B1F7}">
+											<PropertyList>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="Point_1" ID="{BA7A4EA2-11D8-4418-A3D6-D3568B25A56E}">
+													<PointList>
+														<Point>
+															<XPos>56.34518</XPos>
+															<YPos>64.68927</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Point_2" ID="{EEF37F33-3905-4A82-A1F5-8E9BC18B4116}">
+													<PointList>
+														<Point>
+															<XPos>-4.56853</XPos>
+															<YPos>83.89831</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Point_3" ID="{CC3821FA-E256-477E-95FD-A2636A43D941}">
+													<PointList>
+														<Point>
+															<XPos>-71.5736</XPos>
+															<YPos>85.02825</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Point_4" ID="{E36AF05C-C658-4CB4-B6AB-13D6DE635C6E}">
+													<PointList>
+														<Point>
+															<XPos>-79.69543</XPos>
+															<YPos>-1.9774</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Point_5" ID="{0A37333A-7F4A-48DF-A401-BB5245DF3AB0}">
+													<PointList>
+														<Point>
+															<XPos>-58.37563</XPos>
+															<YPos>-86.15819</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Point_6" ID="{32A02F27-0811-4EEA-A96D-AE313A65C792}">
+													<PointList>
+														<Point>
+															<XPos>-0</XPos>
+															<YPos>-82.76836</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Point_7" ID="{DE10C88C-D483-449D-A027-076A402AD838}">
+													<PointList>
+														<Point>
+															<XPos>76.14213</XPos>
+															<YPos>-72.0339</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+								</BlendContainer>
+								<BlendContainer Name="Wind" ID="{7A27096D-45F1-4BA9-A542-8D80A1FAAD36}" ShortID="426673277">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="amb_forest_wind" ID="{F4F3225A-232D-4C10-9F0C-BD33FD41D77D}" ShortID="693464405">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_forest_wind" ID="{0B2F2615-32F2-4EA0-A6E8-F7214E842E3A}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="2229.861"/>
+														<Property Name="LoopBegin" Type="Real64" Value="4.89855061406675"/>
+														<Property Name="LoopEnd" Type="Real64" Value="39.123091921599"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.97971012281335"/>
+														<Property Name="TrimEnd" Type="Real64" Value="43.1725604292275"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb_forest_wind.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="157927384"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{B8CC6C71-113A-4BDE-B15D-7EF429A9F42B}" ShortID="322970829">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="MakeUpGain"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="WInd" ID="{77D7E0CE-6F2C-40FF-9BF3-228156480BB9}" WorkUnitID="{334E9016-CF44-4C70-8946-DE18FF21B792}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{8D02A9A0-7274-43C1-9723-E2E4B9B54B35}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-0.24284</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>60.6451612903226</XPos>
+																						<YPos>-0.0947607238864493</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>80</XPos>
+																						<YPos>-3.55218</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>-5.72613</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_forest_wind" ID="{0B2F2615-32F2-4EA0-A6E8-F7214E842E3A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="amb_forest_wind_heavy" ID="{5EAD3F8E-1A38-4B6D-8AA4-7C2C69C828E8}" ShortID="543518106">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_forest_wind_heavy" ID="{9E5E6739-0D37-405E-8585-9F286C05869B}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="1965.117"/>
+														<Property Name="LoopBegin" Type="Real64" Value="1.06932747882345"/>
+														<Property Name="LoopEnd" Type="Real64" Value="15.0191913982889"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb_forest_wind_heavy.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="473626195"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{A02D35D6-0987-48B2-8BD9-54853A4402B5}" ShortID="317210759">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="MakeUpGain"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="WInd" ID="{77D7E0CE-6F2C-40FF-9BF3-228156480BB9}" WorkUnitID="{334E9016-CF44-4C70-8946-DE18FF21B792}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{8531CCB3-C61F-494F-918A-29832B1D26E5}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-192</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>52.25807</XPos>
+																						<YPos>-7.81032</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>78.92473</XPos>
+																						<YPos>-3.58194</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_forest_wind_heavy" ID="{9E5E6739-0D37-405E-8585-9F286C05869B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{1F24FA1B-5D7A-45A8-8912-296660E2C835}" ShortID="691437050">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="MakeUpGain"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="WInd" ID="{77D7E0CE-6F2C-40FF-9BF3-228156480BB9}" WorkUnitID="{334E9016-CF44-4C70-8946-DE18FF21B792}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{29EB94B6-A008-458A-A4D2-1FBC27EAFEEB}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0.12078</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0.06011</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</BlendContainer>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
