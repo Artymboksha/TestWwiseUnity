@@ -20,9 +20,16 @@ public class PauseManager : MonoBehaviour
             OnPauseChanged?.Invoke(isActive);
 
             if (isActive)
+            {
+                AkUnitySoundEngine.SetState("Pause", "On");
                 AudioBootstrap.Instance.PlayUI("OpenMenu", gameObject);
+            }
             else
+            {
+                AkUnitySoundEngine.SetState("Pause", "None");
                 AudioBootstrap.Instance.PlayUI("СloseMenu", gameObject);
+            }
+
 
             if (isActive)
             {

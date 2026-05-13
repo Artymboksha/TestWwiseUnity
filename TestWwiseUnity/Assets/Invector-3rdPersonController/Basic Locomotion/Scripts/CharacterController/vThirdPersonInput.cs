@@ -13,6 +13,7 @@ namespace Invector.vCharacterController
         public event OnUpdateEvent onFixedUpdate;
         public event OnUpdateEvent onAnimatorMove;
         public event OnUpdateEvent onUpdate;
+        private bool lastCrouchState;
 
         #region Variables        
 
@@ -124,16 +125,30 @@ namespace Invector.vCharacterController
             cc.ControlLocomotionType();                                                   // handle the controller locomotion type and movespeed   
             if (tpCamera == null || !tpCamera.lockTarget) cc.ControlRotationType();       // handle the controller rotation type
             cc.UpdateAnimator();                                                          // handle the ThirdPersonAnimator methods
-            updateIK = true;           
+            updateIK = true;
         }
 
         protected virtual void Update()
-        {            
+        {
             if (cc == null || Time.timeScale == 0) return;
             if (onUpdate != null) onUpdate.Invoke();
 
             InputHandle();                      // update input methods            
             UpdateHUD();                        // update hud graphics            
+            UpdateWwiseStates();
+        }
+
+        private void UpdateWwiseStates()
+        {
+            if (cc.isCrouching != lastCrouchState)
+            {
+                lastCrouchState = cc.isCrouching;
+
+                if (cc.isCrouching)
+                    AkUnitySoundEngine.SetState("Pause", "On");
+                else
+                    AkUnitySoundEngine.SetState("Pause", "None");
+            }
         }
 
         public virtual void OnAnimatorMove()
@@ -258,7 +273,7 @@ namespace Invector.vCharacterController
         }
 
         protected virtual void SprintInput()
-        { 
+        {
             cc.Sprint(cc.useContinuousSprint ? sprintInput.GetButtonDown() : sprintInput.GetButton());
         }
 
@@ -267,7 +282,9 @@ namespace Invector.vCharacterController
             cc.AutoCrouch();
 
             if (crouchInput.GetButtonDown())
+            {
                 cc.Crouch();
+            }
         }
 
         /// <summary>
