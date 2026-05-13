@@ -4,6 +4,11 @@
 		<WorkUnit Name="Weapon" ID="{E0CCEE36-F8D1-4990-A325-0CCB8943528D}" OwnerID="{475E8F0B-A974-453E-8FD2-BAAB1B452EB5}" PersistMode="Nested">
 			<PropertyList>
 				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="Inclusion" Type="bool">
+					<ValueList>
+						<Value>False</Value>
+					</ValueList>
+				</Property>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>

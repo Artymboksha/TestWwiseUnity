@@ -39,6 +39,13 @@
 						</SoundBank>
 					</ChildrenList>
 				</Folder>
+				<SoundBank Name="InteractiveObjects" ID="{121D73C6-07BA-4326-80C9-CE03342DED2D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="InteractiveObjects" ID="{D6A8870B-DD0A-4393-9448-C276F9DA47FE}" WorkUnitID="{D6A8870B-DD0A-4393-9448-C276F9DA47FE}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

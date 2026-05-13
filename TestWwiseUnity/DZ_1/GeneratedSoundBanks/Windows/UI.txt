@@ -5,8 +5,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	2118900976	ui_hover			\Default Work Unit\UI\ui_hover	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	267160262	ui_close_pause	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\90\{9082A0C5-37D2-1A79-3422-06F452E9BB82}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\ui_close_pause		65544
-	415017690	ui_hover	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\72\{727FCD0C-E3FD-399E-6436-61490066900C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\ui_hover		47844
-	483555112	ui_basic_click	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\08\{08F0245C-559D-443E-08FF-0E92CA21CC8A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\ui_basic_click		53032
-	1004508019	ui_open_pause	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\F7\{F7963D7C-4446-4678-7B23-D472B25DDD66}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\ui_open_pause		58576
+	267160262	ui_close_pause	D:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\90\{9082A0C5-37D2-1A79-3422-06F452E9BB82}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\ui_close_pause		65544
+	415017690	ui_hover	D:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\72\{727FCD0C-E3FD-399E-6436-61490066900C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\ui_hover		47844
+	483555112	ui_basic_click	D:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\08\{08F0245C-559D-443E-08FF-0E92CA21CC8A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\ui_basic_click		53032
+	1004508019	ui_open_pause	D:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\F7\{F7963D7C-4446-4678-7B23-D472B25DDD66}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\ui_open_pause		58576
 

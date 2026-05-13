@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4404465E-CD30-4B12-BD4F-694A726CC568}" SchemaVersion="123">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{4404465E-CD30-4B12-BD4F-694A726CC568}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4404465E-CD30-4B12-BD4F-694A726CC568}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Pause" ID="{37028062-D7B2-4BB5-A86D-8EC9C62CE6E6}">
+					<ChildrenList>
+						<State Name="None" ID="{F70061B3-F0C1-4769-8064-BDB63A35572F}"/>
+						<State Name="On" ID="{B5A8B152-B36A-4073-96AE-5AF1C536AE24}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Crouch" ID="{FE7FF8E7-B20F-4979-AB9E-D23FB7782865}">
+					<ChildrenList>
+						<State Name="None" ID="{6DB35B1E-63B6-43B8-B891-ABA3454E73BA}"/>
+						<State Name="On" ID="{3F96730B-454E-4C68-B7DF-F9B2EB46C296}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

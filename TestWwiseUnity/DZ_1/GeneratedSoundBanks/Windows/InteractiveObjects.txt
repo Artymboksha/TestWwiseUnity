@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1711510750	obj_bush_play			\Default Work Unit\InteractiveObjects\Bush\obj_bush_play	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	123322742	WINDVege_Rustle leaves of the tree_00-24--00-27_PlaybackRate1_02	D:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\8F\{8F148AC3-1581-9CD7-672D-CFAC7CF1EF19}.wem		\Actor-Mixer Hierarchy\Default Work Unit\InteractiveObjects\Objects\Bush\obj_bush\WINDVege_Rustle leaves of the tree_00-24--00-27_PlaybackRate1_02		208420
+	202302110	WINDVege_Rustle leaves of the tree_00-24--00-27_PlaybackRate1_01	D:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\49\{49245DB6-B7E3-265B-D6B9-52DB892B09DF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\InteractiveObjects\Objects\Bush\obj_bush\WINDVege_Rustle leaves of the tree_00-24--00-27_PlaybackRate1_01		230212
+	772398328	WINDVege_Rustle leaves of the tree_00-24--00-27_PlaybackRate1_0	D:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\0B\{0B82FD83-0A4A-0E90-C18D-E2BC57F3AAC8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\InteractiveObjects\Objects\Bush\obj_bush\WINDVege_Rustle leaves of the tree_00-24--00-27_PlaybackRate1_0		227008
+
