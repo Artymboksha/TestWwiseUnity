@@ -49,6 +49,8 @@ public class PauseManager : MonoBehaviour
         uiElement.SetActive(false);
         Time.timeScale = 1f;
 
+        AkUnitySoundEngine.SetState("Pause", "None");
+
         OnPauseChanged?.Invoke(false);
 
         Cursor.visible = false;
