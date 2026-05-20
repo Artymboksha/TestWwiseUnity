@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{CE130C5C-A6D3-4343-A98F-7AABFCB2A8F1}",
     "Language": "SFX",
-    "Hash": "{AC4ACF4F-7DDC-C914-3130-22202CB0246A}",
+    "Hash": "{A3CED199-0400-91B3-86CF-5C9364B46FEB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience\\AMB_Forest",
     "ShortName": "AMB_Forest",
     "Path": "AMB_Forest.bnk",
@@ -105,7 +105,7 @@
     "Type": "User",
     "GUID": "{5258F6A1-7802-454B-8FB4-D924FF70E2A9}",
     "Language": "SFX",
-    "Hash": "{9A16511F-DF9A-77BB-7048-EDC7615CAAFB}",
+    "Hash": "{CC7794A1-384F-3243-1FE3-8BD09219F2F7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Player\\player",
     "ShortName": "player",
     "Path": "player.bnk",
@@ -602,7 +602,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{FADA665B-49AC-24A5-FA90-73C6534F39AC}",
+    "Hash": "{A007A99C-7E33-159B-9926-0FD32D527DC0}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -628,30 +628,6 @@
     },
     "Busses": [
      {
-      "Id": "85412153",
-      "Name": "Ambience",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambience",
-      "GUID": "{2CA56591-9AD3-4C33-B34D-48DF71E4E901}"
-     },
-     {
-      "Id": "1069431850",
-      "Name": "Player",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Player",
-      "GUID": "{63593F18-CFD6-4082-A3CA-A7FCFC52F497}"
-     },
-     {
-      "Id": "1229948536",
-      "Name": "Environment",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambience\\Environment",
-      "GUID": "{3CC3EFE7-C5CC-421F-B1A5-BC81E42C1685}"
-     },
-     {
-      "Id": "1551306167",
-      "Name": "UI",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\UI",
-      "GUID": "{3FB3157D-739D-4F09-A537-14D7BE713A9E}"
-     },
-     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
@@ -676,48 +652,6 @@
       "Name": "Ammo",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ammo",
       "GUID": "{3D05EAFE-8192-4DC4-A736-69BAA492A905}"
-     }
-    ],
-    "StateGroups": [
-     {
-      "Id": "2655407367",
-      "Name": "Crouch",
-      "ObjectPath": "\\States\\Default Work Unit\\Crouch",
-      "GUID": "{FE7FF8E7-B20F-4979-AB9E-D23FB7782865}",
-      "States": [
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\Crouch\\None",
-        "GUID": "{6DB35B1E-63B6-43B8-B891-ABA3454E73BA}"
-       },
-       {
-        "Id": "1651971902",
-        "Name": "On",
-        "ObjectPath": "\\States\\Default Work Unit\\Crouch\\On",
-        "GUID": "{3F96730B-454E-4C68-B7DF-F9B2EB46C296}"
-       }
-      ]
-     },
-     {
-      "Id": "3092587493",
-      "Name": "Pause",
-      "ObjectPath": "\\States\\Default Work Unit\\Pause",
-      "GUID": "{37028062-D7B2-4BB5-A86D-8EC9C62CE6E6}",
-      "States": [
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\Pause\\None",
-        "GUID": "{F70061B3-F0C1-4769-8064-BDB63A35572F}"
-       },
-       {
-        "Id": "1651971902",
-        "Name": "On",
-        "ObjectPath": "\\States\\Default Work Unit\\Pause\\On",
-        "GUID": "{B5A8B152-B36A-4073-96AE-5AF1C536AE24}"
-       }
-      ]
      }
     ],
     "SwitchGroups": [
@@ -1257,7 +1191,7 @@
     "Type": "User",
     "GUID": "{5B6E5F54-1F2F-4EB1-A8FC-13432D0A1063}",
     "Language": "SFX",
-    "Hash": "{039AA4B7-8C50-D43C-3420-3D4DD25B696F}",
+    "Hash": "{B702D55F-994C-8295-CE1B-012AF35CBA0C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI",
     "ShortName": "UI",
     "Path": "UI.bnk",
@@ -1359,7 +1293,7 @@
     "Type": "User",
     "GUID": "{B49924AF-A416-4A44-866F-BEF51680F14C}",
     "Language": "SFX",
-    "Hash": "{F2EC3706-3BE5-8663-5363-8ED826F7F330}",
+    "Hash": "{ED563E36-5668-0AC7-9AE7-B92C1F9323F6}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience\\AMB_Urban",
     "ShortName": "AMB_Urban",
     "Path": "AMB_Urban.bnk",
@@ -2230,67 +2164,8 @@
       "GUID": "{A3B70BAF-D487-450D-9293-D7C556DB918C}"
      }
     ]
-   },
-   {
-    "Id": "3614659429",
-    "Type": "User",
-    "GUID": "{121D73C6-07BA-4326-80C9-CE03342DED2D}",
-    "Language": "SFX",
-    "Hash": "{47858408-D559-B457-27A7-80ED8109A032}",
-    "ObjectPath": "\\SoundBanks\\Default Work Unit\\InteractiveObjects",
-    "ShortName": "InteractiveObjects",
-    "Path": "InteractiveObjects.bnk",
-    "Media": [
-     {
-      "Id": "123322742",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "InteractiveObj\\WINDVege_Rustle leaves of the tree_00-24--00-27_PlaybackRate1.0.wav",
-      "CachePath": "8F/{8F148AC3-1581-9CD7-672D-CFAC7CF1EF19}.wem"
-     },
-     {
-      "Id": "202302110",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "InteractiveObj\\WINDVege_Rustle leaves of the tree_00-24--00-27_PlaybackRate1.0.wav",
-      "CachePath": "49/{49245DB6-B7E3-265B-D6B9-52DB892B09DF}.wem"
-     },
-     {
-      "Id": "772398328",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "InteractiveObj\\WINDVege_Rustle leaves of the tree_00-24--00-27_PlaybackRate1.0.wav",
-      "CachePath": "0B/{0B82FD83-0A4A-0E90-C18D-E2BC57F3AAC8}.wem"
-     }
-    ],
-    "Events": [
-     {
-      "Id": "1711510750",
-      "Name": "obj_bush_play",
-      "ObjectPath": "\\Events\\Default Work Unit\\InteractiveObjects\\Bush\\obj_bush_play",
-      "GUID": "{AB2A02B1-401C-4C27-A801-A4AA9DDD2429}",
-      "MaxAttenuation": "20",
-      "DurationType": "OneShot",
-      "DurationMin": "1.0241206",
-      "DurationMax": "1.2697958",
-      "MediaRefs": [
-       {
-        "Id": "123322742"
-       },
-       {
-        "Id": "202302110"
-       },
-       {
-        "Id": "772398328"
-       }
-      ]
-     }
-    ]
    }
   ],
-  "FileHash": "{C9377DBA-1127-5A86-488E-42D628964E6F}"
+  "FileHash": "{17F075BA-087A-65FF-BA5F-40A20290FD28}"
  }
 }

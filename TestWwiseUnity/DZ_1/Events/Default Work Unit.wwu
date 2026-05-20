@@ -6,7 +6,6 @@
 				<WorkUnit Name="Ambience" ID="{890FC02B-DCD0-486C-87BF-C5488A31BEB0}" PersistMode="Reference"/>
 				<WorkUnit Name="Weapon" ID="{0CCD27C9-09FF-4C56-984A-ED171AABEA36}" PersistMode="Reference"/>
 				<WorkUnit Name="UI" ID="{845F3337-C13B-4E0B-987B-C516AA536673}" PersistMode="Reference"/>
-				<WorkUnit Name="InteractiveObjects" ID="{D6A8870B-DD0A-4393-9448-C276F9DA47FE}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

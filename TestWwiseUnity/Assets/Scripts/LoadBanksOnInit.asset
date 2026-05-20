@@ -15,4 +15,3 @@ MonoBehaviour:
   banks:
   - UI
   - Player
-  - InteractiveObjects

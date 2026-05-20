@@ -303,45 +303,8 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: d0bc5ceef9aec9468efa25de8a3e0520
     GuidInternal: 
-    m_lastTime: -8584229152677435500
+    m_lastTime: -8584246406054775808
     List:
-    - name: Ambience
-      guid: 9165a52cd39a334cb34d48df71e4e901
-      id: 85412153
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: d0bc5ceef9aec9468efa25de8a3e0520
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Ambience
-        ObjectType: 2
-        guid: 9165a52cd39a334cb34d48df71e4e901
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience
-    - name: Environment
-      guid: e7efc33cccc51f42b1a5bc81e42c1685
-      id: 1229948536
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: d0bc5ceef9aec9468efa25de8a3e0520
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Ambience
-        ObjectType: 2
-        guid: 9165a52cd39a334cb34d48df71e4e901
-      - ElementName: Environment
-        ObjectType: 2
-        guid: e7efc33cccc51f42b1a5bc81e42c1685
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience\Environment
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -356,40 +319,6 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
-    - name: Player
-      guid: 183f5963d6cf8240a3caa7fcfc52f497
-      id: 1069431850
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: d0bc5ceef9aec9468efa25de8a3e0520
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Player
-        ObjectType: 2
-        guid: 183f5963d6cf8240a3caa7fcfc52f497
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Player
-    - name: UI
-      guid: 7d15b33f9d73094fa53714d7be713a9e
-      id: 1551306167
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: d0bc5ceef9aec9468efa25de8a3e0520
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: UI
-        ObjectType: 2
-        guid: 7d15b33f9d73094fa53714d7be713a9e
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\UI
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -402,7 +331,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8813eee9a75f76459cd220c806fce012
     GuidInternal: 
-    m_lastTime: -8584229154999217463
+    m_lastTime: -8584229180370133159
     List:
     - name: AMB_Forest
       guid: 5c0c13ced3a64343a98f7aabfcb2a8f1
@@ -452,20 +381,6 @@ MonoBehaviour:
         ObjectType: 4
         guid: aa97916de3f80b4f91780b1ce86e6306
       Path: SoundBanks\Default Work Unit\Ambience
-    - name: InteractiveObjects
-      guid: c6731d12ba07264380c9ce03342ded2d
-      id: 3614659429
-      PathAndIcons:
-      - ElementName: SoundBanks
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 8813eee9a75f76459cd220c806fce012
-      - ElementName: InteractiveObjects
-        ObjectType: 7
-        guid: c6731d12ba07264380c9ce03342ded2d
-      Path: SoundBanks\Default Work Unit\InteractiveObjects
     - name: player
       guid: a1f6585202784b458fb4d924ff70e2a9
       id: 1069431850
@@ -539,7 +454,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8c185faec7317646867e77e32ccea4fa
     GuidInternal: 
-    m_lastTime: -8584229155932537205
+    m_lastTime: -8584235230200630230
     List: []
   - PhysicalPath: Events\Forest.wwu
     PathAndIcons:
@@ -627,8 +542,8 @@ MonoBehaviour:
         guid: 4136e83e5f647f4dbc477d7370f334c3
       Path: Events\Default Work Unit\Ambience\Forest\amb_tree_branch_play
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: amb_tree_branch_stop
       guid: c98bd404b616f44989f1e8ff94fdf286
       id: 2828114560
@@ -650,67 +565,8 @@ MonoBehaviour:
         guid: c98bd404b616f44989f1e8ff94fdf286
       Path: Events\Default Work Unit\Ambience\Forest\amb_tree_branch_stop
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-  - PhysicalPath: Events\InteractiveObjects.wwu
-    PathAndIcons:
-    - ElementName: Events
-      ObjectType: 5
-      guid: 00000000000000000000000000000000
-    - ElementName: Default Work Unit
-      ObjectType: 12
-      guid: 8c185faec7317646867e77e32ccea4fa
-    - ElementName: InteractiveObjects
-      ObjectType: 12
-      guid: 0b87a8d60add93439448c276f9da47fe
-    ParentPath: Events\Default Work Unit\InteractiveObjects
-    guid: 0b87a8d60add93439448c276f9da47fe
-    GuidInternal: 
-    m_lastTime: -8584229152145663434
-    List:
-    - name: Bush
-      guid: 11da7555e40d9a4ba8880b776a2e0d61
-      id: 1427625975
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 8c185faec7317646867e77e32ccea4fa
-      - ElementName: InteractiveObjects
-        ObjectType: 12
-        guid: 0b87a8d60add93439448c276f9da47fe
-      - ElementName: Bush
-        ObjectType: 4
-        guid: 11da7555e40d9a4ba8880b776a2e0d61
-      Path: Events\Default Work Unit\InteractiveObjects\Bush
-      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: obj_bush_play
-      guid: b1022aab1c40274ca801a4aa9ddd2429
-      id: 1711510750
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 8c185faec7317646867e77e32ccea4fa
-      - ElementName: InteractiveObjects
-        ObjectType: 12
-        guid: 0b87a8d60add93439448c276f9da47fe
-      - ElementName: Bush
-        ObjectType: 4
-        guid: 11da7555e40d9a4ba8880b776a2e0d61
-      - ElementName: obj_bush_play
-        ObjectType: 3
-        guid: b1022aab1c40274ca801a4aa9ddd2429
-      Path: Events\Default Work Unit\InteractiveObjects\Bush\obj_bush_play
-      maxAttenuation: 20
-      maxDuration: 1.2697958
-      minDuration: 1.0241206
   - PhysicalPath: Events\Player.wwu
     PathAndIcons:
     - ElementName: Events
@@ -1598,108 +1454,8 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 5e46044430cd124bbd4f694a726cc568
     GuidInternal: 
-    m_lastTime: -8584229164725365031
-    List:
-    - name: Crouch
-      guid: e7f87ffe0fb27949ab9ed23fb7782865
-      id: 2655407367
-      PathAndIcons:
-      - ElementName: States
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 5e46044430cd124bbd4f694a726cc568
-      - ElementName: Crouch
-        ObjectType: 9
-        guid: e7f87ffe0fb27949ab9ed23fb7782865
-      Path: States\Default Work Unit\Crouch
-      values:
-      - name: None
-        guid: 1e5bb36db663b843b891aba3454e73ba
-        id: 748895195
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 5e46044430cd124bbd4f694a726cc568
-        - ElementName: Crouch
-          ObjectType: 9
-          guid: e7f87ffe0fb27949ab9ed23fb7782865
-        - ElementName: None
-          ObjectType: 8
-          guid: 1e5bb36db663b843b891aba3454e73ba
-      - name: On
-        guid: 0b73963f4e45684cb7dff9b2eb46c296
-        id: 1651971902
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 5e46044430cd124bbd4f694a726cc568
-        - ElementName: Crouch
-          ObjectType: 9
-          guid: e7f87ffe0fb27949ab9ed23fb7782865
-        - ElementName: On
-          ObjectType: 8
-          guid: 0b73963f4e45684cb7dff9b2eb46c296
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
-    - name: Pause
-      guid: 62800237b2d7b54ba86d8ec9c62ce6e6
-      id: 3092587493
-      PathAndIcons:
-      - ElementName: States
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 5e46044430cd124bbd4f694a726cc568
-      - ElementName: Pause
-        ObjectType: 9
-        guid: 62800237b2d7b54ba86d8ec9c62ce6e6
-      Path: States\Default Work Unit\Pause
-      values:
-      - name: None
-        guid: b36100f7c1f069478064bdb63a35572f
-        id: 748895195
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 5e46044430cd124bbd4f694a726cc568
-        - ElementName: Pause
-          ObjectType: 9
-          guid: 62800237b2d7b54ba86d8ec9c62ce6e6
-        - ElementName: None
-          ObjectType: 8
-          guid: b36100f7c1f069478064bdb63a35572f
-      - name: On
-        guid: 52b1a8b56ab3734096ae5af1c536ae24
-        id: 1651971902
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 5e46044430cd124bbd4f694a726cc568
-        - ElementName: Pause
-          ObjectType: 9
-          guid: 62800237b2d7b54ba86d8ec9c62ce6e6
-        - ElementName: On
-          ObjectType: 8
-          guid: 52b1a8b56ab3734096ae5af1c536ae24
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
+    m_lastTime: -8584229180531597329
+    List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -1860,7 +1616,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584246406054775808
     List: []
-  ExpandedFileSystemItemIds: 02000000030000000400000005000000070000000a0000000b0000000d00000034000000350000003600000037000000390000003a0000003b0000003f0000004000000041000000
+  ExpandedFileSystemItemIds: 02000000030000000400000005000000070000000d00000034000000350000003600000037000000390000003a0000003b000000
   ExpandedWaapiItemIds: 0100000002000000050000000600000007000000080000000a0000000b0000000c0000000d0000001e0000002000000023000000240000002a0000002b00000036000000860000008700000089000000e7000000e8000000460100004701000048010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

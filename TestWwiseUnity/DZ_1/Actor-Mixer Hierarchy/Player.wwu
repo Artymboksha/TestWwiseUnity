@@ -20,7 +20,7 @@
 									<ObjectRef Name="Ground" ID="{636FB45C-018B-476C-8726-71E238F4DE5D}" WorkUnitID="{9C411BC0-12A9-4450-8405-85FBFEE40955}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Player" ID="{63593F18-CFD6-4082-A3CA-A7FCFC52F497}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
 								</Reference>
 								<Reference Name="SwitchGroupOrStateGroup">
 									<ObjectRef Name="surface" ID="{ECA414C8-B3BD-4BD6-9236-EE42106A9514}" WorkUnitID="{9C411BC0-12A9-4450-8405-85FBFEE40955}"/>

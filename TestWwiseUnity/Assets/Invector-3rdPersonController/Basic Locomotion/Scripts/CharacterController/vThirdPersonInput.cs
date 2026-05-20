@@ -145,9 +145,9 @@ namespace Invector.vCharacterController
                 lastCrouchState = cc.isCrouching;
 
                 if (cc.isCrouching)
-                    AkUnitySoundEngine.SetState("Crouch", "On");
+                    AkUnitySoundEngine.SetState("Pause", "On");
                 else
-                    AkUnitySoundEngine.SetState("Crouch", "None");
+                    AkUnitySoundEngine.SetState("Pause", "None");
             }
         }
 
