@@ -91,7 +91,10 @@
 							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{CB0B8E75-57B3-4C79-9E7B-1D29898BF418}"/>
+						<CurrentStateRef Name="None" ID="{E9CF33AA-503B-4C31-91DC-ED7F82D70F09}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Ground" ID="{636FB45C-018B-476C-8726-71E238F4DE5D}"/>
 						<CurrentSwitchRef Name="out" ID="{9831D3A7-B7EA-4BE3-96DB-57B75D661507}"/>

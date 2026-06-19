@@ -303,8 +303,25 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: d0bc5ceef9aec9468efa25de8a3e0520
     GuidInternal: 
-    m_lastTime: -8584246406054775808
+    m_lastTime: -8584223029713961613
     List:
+    - name: Ambience
+      guid: e5daadebbbb55b4aa01e0543b0866cea
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0bc5ceef9aec9468efa25de8a3e0520
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Ambience
+        ObjectType: 2
+        guid: e5daadebbbb55b4aa01e0543b0866cea
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -319,6 +336,40 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Player
+      guid: 72c6f32abd85174ca5c2bb67b696615b
+      id: 1069431850
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0bc5ceef9aec9468efa25de8a3e0520
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Player
+        ObjectType: 2
+        guid: 72c6f32abd85174ca5c2bb67b696615b
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Player
+    - name: UI
+      guid: 01f0d10dee3bc049b4f3009911bf6273
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0bc5ceef9aec9468efa25de8a3e0520
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: UI
+        ObjectType: 2
+        guid: 01f0d10dee3bc049b4f3009911bf6273
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\UI
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -331,7 +382,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8813eee9a75f76459cd220c806fce012
     GuidInternal: 
-    m_lastTime: -8584229180370133159
+    m_lastTime: -8584223048795391249
     List:
     - name: AMB_Forest
       guid: 5c0c13ced3a64343a98f7aabfcb2a8f1
@@ -454,7 +505,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8c185faec7317646867e77e32ccea4fa
     GuidInternal: 
-    m_lastTime: -8584235230200630230
+    m_lastTime: -8584223048803981407
     List: []
   - PhysicalPath: Events\Forest.wwu
     PathAndIcons:
@@ -473,7 +524,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Ambience\Forest
     guid: fd5037462aae6a4482e200ccab8fe3a8
     GuidInternal: 
-    m_lastTime: -8584229180377506587
+    m_lastTime: -8584223055860297676
     List:
     - name: amb_forest_play
       guid: 9ff29184fb19fc43ad7966f11d6f68e4
@@ -542,8 +593,8 @@ MonoBehaviour:
         guid: 4136e83e5f647f4dbc477d7370f334c3
       Path: Events\Default Work Unit\Ambience\Forest\amb_tree_branch_play
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: amb_tree_branch_stop
       guid: c98bd404b616f44989f1e8ff94fdf286
       id: 2828114560
@@ -565,8 +616,8 @@ MonoBehaviour:
         guid: c98bd404b616f44989f1e8ff94fdf286
       Path: Events\Default Work Unit\Ambience\Forest\amb_tree_branch_stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Player.wwu
     PathAndIcons:
     - ElementName: Events
@@ -1454,8 +1505,58 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 5e46044430cd124bbd4f694a726cc568
     GuidInternal: 
-    m_lastTime: -8584229180531597329
-    List: []
+    m_lastTime: -8584223030652858645
+    List:
+    - name: Pause
+      guid: 9901ac899be92f43902952fd6ed0ae2b
+      id: 3092587493
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5e46044430cd124bbd4f694a726cc568
+      - ElementName: Pause
+        ObjectType: 9
+        guid: 9901ac899be92f43902952fd6ed0ae2b
+      Path: States\Default Work Unit\Pause
+      values:
+      - name: None
+        guid: 758e0bcbb357794c9e7b1d29898bf418
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5e46044430cd124bbd4f694a726cc568
+        - ElementName: Pause
+          ObjectType: 9
+          guid: 9901ac899be92f43902952fd6ed0ae2b
+        - ElementName: None
+          ObjectType: 8
+          guid: 758e0bcbb357794c9e7b1d29898bf418
+      - name: On
+        guid: d0aee6e1224ff441b5891cd040667afc
+        id: 1651971902
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5e46044430cd124bbd4f694a726cc568
+        - ElementName: Pause
+          ObjectType: 9
+          guid: 9901ac899be92f43902952fd6ed0ae2b
+        - ElementName: On
+          ObjectType: 8
+          guid: d0aee6e1224ff441b5891cd040667afc
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:

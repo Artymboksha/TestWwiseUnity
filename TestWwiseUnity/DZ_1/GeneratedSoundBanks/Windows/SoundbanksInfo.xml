@@ -38,7 +38,7 @@
 				<GameParameter Id="1537061107" Name="WInd" ObjectPath="\Game Parameters\Default Work Unit\WInd" GUID="{77D7E0CE-6F2C-40FF-9BF3-228156480BB9}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1069431850" Type="User" GUID="{5258F6A1-7802-454B-8FB4-D924FF70E2A9}" Language="SFX" Hash="{CC7794A1-384F-3243-1FE3-8BD09219F2F7}">
+		<SoundBank Id="1069431850" Type="User" GUID="{5258F6A1-7802-454B-8FB4-D924FF70E2A9}" Language="SFX" Hash="{9A16511F-DF9A-77BB-7048-EDC7615CAAFB}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player\player</ObjectPath>
 			<ShortName>player</ShortName>
 			<Path>player.bnk</Path>
@@ -261,7 +261,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{A007A99C-7E33-159B-9926-0FD32D527DC0}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{DB375009-C7AA-B4DA-9D9F-2E9CAA9430EA}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -272,6 +272,11 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="85412153" Name="Ambience" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience" GUID="{EBADDAE5-B5BB-4A5B-A01E-0543B0866CEA}"/>
+				<Bus Id="1069431850" Name="Player" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Player" GUID="{2AF3C672-85BD-4C17-A5C2-BB67B696615B}"/>
+				<Bus Id="1394335945" Name="Emmiters" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience\Emmiters" GUID="{9E5752A3-AF6D-4ABA-8642-53F988B99FBA}"/>
+				<Bus Id="1551306167" Name="UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\UI" GUID="{0DD1F001-3BEE-49C0-B4F3-009911BF6273}"/>
+				<Bus Id="3161908922" Name="Main" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience\Main" GUID="{557B1E17-3603-4F4D-B8B1-6A679117F34F}"/>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 			<GameParameters>
@@ -279,6 +284,20 @@
 				<GameParameter Id="3412057565" Name="Train" ObjectPath="\Game Parameters\Default Work Unit\Train" GUID="{A3B70BAF-D487-450D-9293-D7C556DB918C}"/>
 				<GameParameter Id="3554434311" Name="Ammo" ObjectPath="\Game Parameters\Default Work Unit\Ammo" GUID="{3D05EAFE-8192-4DC4-A736-69BAA492A905}"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2655407367" Name="Crouch" ObjectPath="\States\Default Work Unit\Crouch" GUID="{8A280D42-A82A-4589-803F-CBABBB2F73FB}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Crouch\None" GUID="{E9CF33AA-503B-4C31-91DC-ED7F82D70F09}"/>
+						<State Id="1651971902" Name="On" ObjectPath="\States\Default Work Unit\Crouch\On" GUID="{597B64D3-6E56-47F2-8350-34FDD29BB912}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3092587493" Name="Pause" ObjectPath="\States\Default Work Unit\Pause" GUID="{89AC0199-E99B-432F-9029-52FD6ED0AE2B}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Pause\None" GUID="{CB0B8E75-57B3-4C79-9E7B-1D29898BF418}"/>
+						<State Id="1651971902" Name="On" ObjectPath="\States\Default Work Unit\Pause\On" GUID="{E1E6AED0-4F22-41F4-B589-1CD040667AFC}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="1834394558" Name="surface" ObjectPath="\Switches\Default Work Unit\surface" GUID="{ECA414C8-B3BD-4BD6-9236-EE42106A9514}">
 					<Switches>
@@ -424,7 +443,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" GUID="{5B6E5F54-1F2F-4EB1-A8FC-13432D0A1063}" Language="SFX" Hash="{B702D55F-994C-8295-CE1B-012AF35CBA0C}">
+		<SoundBank Id="1551306167" Type="User" GUID="{5B6E5F54-1F2F-4EB1-A8FC-13432D0A1063}" Language="SFX" Hash="{039AA4B7-8C50-D43C-3420-3D4DD25B696F}">
 			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
@@ -469,7 +488,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2434576750" Type="User" GUID="{B49924AF-A416-4A44-866F-BEF51680F14C}" Language="SFX" Hash="{ED563E36-5668-0AC7-9AE7-B92C1F9323F6}">
+		<SoundBank Id="2434576750" Type="User" GUID="{B49924AF-A416-4A44-866F-BEF51680F14C}" Language="SFX" Hash="{227990B6-2E9A-DA63-1C99-C2F59F4D6AAC}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambience\AMB_Urban</ObjectPath>
 			<ShortName>AMB_Urban</ShortName>
 			<Path>AMB_Urban.bnk</Path>
@@ -818,5 +837,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{25011A59-F7D9-4DE9-0037-DC3167E5C5EF}</FileHash>
+	<FileHash>{288957BB-DB41-0CB7-E8F2-C5C63996B114}</FileHash>
 </SoundBanksInfo>

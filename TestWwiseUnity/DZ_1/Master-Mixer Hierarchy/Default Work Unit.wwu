@@ -9,6 +9,92 @@
 							<ObjectRef Name="System" ID="{D10D71AC-5C99-4832-BC86-C64CACD2D531}" WorkUnitID="{8F7F0565-22FE-49F6-AB20-9BAEA0B1B8F7}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Ambience" ID="{EBADDAE5-B5BB-4A5B-A01E-0543B0866CEA}">
+							<ChildrenList>
+								<Bus Name="Main" ID="{557B1E17-3603-4F4D-B8B1-6A679117F34F}">
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Crouch" ID="{8A280D42-A82A-4589-803F-CBABBB2F73FB}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="On" ID="{597B64D3-6E56-47F2-8350-34FDD29BB912}"/>
+												<CustomState Name="" ID="{019FD64A-75E0-49CF-BA60-776274B71677}" ShortID="347960775">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="3"/>
+														<Property Name="Lowpass" Type="int16" Value="72"/>
+														<Property Name="Pitch" Type="int32" Value="-2100"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+								<Bus Name="Emmiters" ID="{9E5752A3-AF6D-4ABA-8642-53F988B99FBA}">
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Crouch" ID="{8A280D42-A82A-4589-803F-CBABBB2F73FB}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="On" ID="{597B64D3-6E56-47F2-8350-34FDD29BB912}"/>
+												<CustomState Name="" ID="{7D55276B-D1FF-4F4C-8790-F5A6110F50C3}" ShortID="1026856094">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="10"/>
+														<Property Name="Lowpass" Type="int16" Value="-1"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Pause" ID="{89AC0199-E99B-432F-9029-52FD6ED0AE2B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="On" ID="{E1E6AED0-4F22-41F4-B589-1CD040667AFC}"/>
+										<CustomState Name="" ID="{F29F16DC-AC02-4DA8-9221-C85BB4467196}" ShortID="558491811">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-7"/>
+												<Property Name="Lowpass" Type="int16" Value="62"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+						<Bus Name="UI" ID="{0DD1F001-3BEE-49C0-B4F3-009911BF6273}"/>
+						<Bus Name="Player" ID="{2AF3C672-85BD-4C17-A5C2-BB67B696615B}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Crouch" ID="{8A280D42-A82A-4589-803F-CBABBB2F73FB}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="On" ID="{597B64D3-6E56-47F2-8350-34FDD29BB912}"/>
+										<CustomState Name="" ID="{B3C01797-72CB-4029-8B67-762296BBBCEC}" ShortID="163770952">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-6"/>
+												<Property Name="Lowpass" Type="int16" Value="56"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
