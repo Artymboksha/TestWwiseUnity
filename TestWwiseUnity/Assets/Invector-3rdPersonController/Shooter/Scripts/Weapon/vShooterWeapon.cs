@@ -158,6 +158,9 @@ namespace Invector.vShooter
             StartEmitters();
             lightOnShot.enabled = true;
             source.PlayOneShot(fireClip);
+
+
+
             Invoke("StopShootTest", .037f);
         }
 

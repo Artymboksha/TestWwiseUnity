@@ -75,6 +75,8 @@ namespace Invector.vShooter
         protected float _shootFrequency;
         #endregion
 
+        private GameObject mainCameraObject;
+
         #region Public Methods
         /// <summary>
         /// Apply additional velocity to the Shot projectile 
@@ -179,6 +181,13 @@ namespace Invector.vShooter
         protected virtual void OnDestroy()
         {
             onDestroy.Invoke(gameObject);
+        }
+
+
+
+        private void Awake()
+        {
+            mainCameraObject = Camera.main != null ? Camera.main.gameObject : null;
         }
 
         protected virtual void HandleShot(Vector3 aimPosition)
@@ -291,6 +300,8 @@ namespace Invector.vShooter
         {
             onShot.Invoke();
 
+            Debug.Log("ВЫСТРЕЛ!!!");
+
             StopCoroutine(LightOnShoot());
             if (source)
             {
@@ -298,7 +309,12 @@ namespace Invector.vShooter
                 source.PlayOneShot(fireClip);
             }
 
-            StartCoroutine(LightOnShoot( 0.037f));
+            if (mainCameraObject != null)
+                AkUnitySoundEngine.PostEvent("M4_Play", mainCameraObject);
+            else
+                Debug.LogWarning("MainCamera не найдена для Wwise PostEvent!");
+
+            StartCoroutine(LightOnShoot(0.037f));
             StartEmitters();
         }
 
