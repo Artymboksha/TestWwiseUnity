@@ -13,11 +13,14 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+							<ObjectRef Name="Weapon" ID="{D5950560-B78E-4DD6-90CA-59952BD856B5}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<BlendContainer Name="New Blend Container" ID="{76AE8D16-FE84-4522-888B-2CF608AF50BC}" ShortID="799596048">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
@@ -29,12 +32,44 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="Shot" ID="{3ED6E4F9-EDC4-4A0D-A8D2-D5C1EA8969C2}" ShortID="290229283">
 									<PropertyList>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>14</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{BE896020-D778-4E46-ACD6-1750B3DF5DB4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{30CF4681-E64B-4460-89BF-07251818359D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -46,6 +81,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 2_01" ID="{7DE505DB-F091-4CB5-AD83-673118F3DD7F}" ShortID="297167699">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
@@ -74,6 +116,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Guns, Pistol, Handgun, Shot, No Tail SND117385 2-01" ID="{AF6FB7E0-EA37-4AFA-8629-002D40F299C7}" ShortID="570074821">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
@@ -102,6 +151,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Guns, Pistol, Handgun, Shot, No Tail SND117385 3-01" ID="{5397C7DE-20DC-47DD-AF86-3D9156F1409F}" ShortID="143676430">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
@@ -130,6 +186,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Guns, Pistol, Handgun, Shot, No Tail SND117385" ID="{9C1E227F-714B-4122-90D1-33128EBD084E}" ShortID="303976977">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
@@ -157,7 +220,51 @@
 												<ActiveSource Name="Guns, Pistol, Handgun, Shot, No Tail SND117385" ID="{91582052-D0B9-4F73-943C-17228FC333B8}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Weapons Handun Shot by unfa Id-565130 1" ID="{C6BE5949-D491-430D-8D33-8AE89C474657}" ShortID="757829386">
+											<PropertyList>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3CA8A6AF-9340-4FBB-B918-3D772CB013F1}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Weapons Handun Shot by unfa Id-565130 1" ID="{6F8A807C-1A7C-49AF-8AC4-7F83D86FF6A7}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.425591749604147"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.510519247551018"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Weapons Handun Shot by unfa Id-565130 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="292113314"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Weapons Handun Shot by unfa Id-565130 1" ID="{6F8A807C-1A7C-49AF-8AC4-7F83D86FF6A7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{26BCFBCA-D697-4D6D-8495-FD9B91582D9D}"/>
+									</PositioningInfo>
 									<ObjectLists>
 										<ObjectList Name="RTPC">
 											<Reference>
@@ -246,12 +353,13 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Mechanism" ID="{FF0679C0-1C5A-4D68-9628-5F92A3CDED38}" ShortID="263003554">
 									<PropertyList>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -375,6 +483,9 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{91E4E9A4-9681-4BE0-9F47-D7781E217544}"/>
+									</PositioningInfo>
 									<ObjectLists>
 										<ObjectList Name="RTPC">
 											<Reference>
@@ -415,7 +526,287 @@
 										</ObjectList>
 									</ObjectLists>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Bullets" ID="{B7117989-7C33-4C21-B94A-F0CA03FCFC55}" ShortID="536168002">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="GameAuxSendVolume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>0.2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551" ID="{857D68D6-B05B-4DEC-98F6-6EA1D54017F8}" ShortID="341588973">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551" ID="{92CA971E-0B14-40FD-9A86-1CDB2D45B59B}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0328637030114772"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0328637030114772"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="460666277"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551" ID="{92CA971E-0B14-40FD-9A86-1CDB2D45B59B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 1" ID="{E76CAAF7-E898-4369-B37C-C2275460C27E}" ShortID="759955754">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 1" ID="{7A89A98D-4C8B-4957-90BE-8C6CCD5F3F4A}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0182748968670477"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0182748968670477"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="845811936"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 1" ID="{7A89A98D-4C8B-4957-90BE-8C6CCD5F3F4A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 2" ID="{83817E54-1BB5-4109-B83E-57382600985D}" ShortID="359351746">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 2" ID="{0D71C790-7439-4194-BCEB-D7740EDE8659}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0212977179847812"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0212977179847812"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="290201377"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 2" ID="{0D71C790-7439-4194-BCEB-D7740EDE8659}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 3" ID="{C37062E5-74D2-4857-B697-A03F87D0BEEE}" ShortID="338583094">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 3" ID="{0FE45C87-9F4B-411B-B82F-01F41118CBEB}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0260707989932755"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0260707989932755"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="230183352"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 3" ID="{0FE45C87-9F4B-411B-B82F-01F41118CBEB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 4" ID="{8A6A107E-41FE-406B-9BF8-492CE42F2A3F}" ShortID="646327370">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 4" ID="{FB0A92A2-F5A9-41BE-BE38-E011E48D3545}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0291744455756983"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="286420046"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 4" ID="{FB0A92A2-F5A9-41BE-BE38-E011E48D3545}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 5" ID="{FA1820B7-0A94-49F1-B9C9-3C9FB7CF66AA}" ShortID="280203208">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 5" ID="{259193B5-089D-4BDF-A9E1-F05CC0A30741}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.429744740904284"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.429744740904284"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="659338174"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 5" ID="{259193B5-089D-4BDF-A9E1-F05CC0A30741}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 6" ID="{D5985155-7C64-4C31-BB84-57B727939DF0}" ShortID="686503803">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 6" ID="{D834F43D-8614-48BF-B704-0601E4339016}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0264541271811204"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0264541271811204"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="697657171"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 6" ID="{D834F43D-8614-48BF-B704-0601E4339016}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{7082FDC2-4C39-4E09-AF81-17A2B7C7D714}"/>
+										<Position Name="" ID="{4ECAC262-D10A-4DA9-8E7C-2B31D2BD864C}">
+											<PropertyList>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="Bullets_Path" ID="{A9C98EEC-EA69-4663-B22B-13E5DB499B15}">
+													<PointList>
+														<Point>
+															<XPos>7.1066</XPos>
+															<YPos>25.70622</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Bullets_Path_01" ID="{D79E4DB1-3769-457F-805F-B10E3DAB8E97}">
+													<PointList>
+														<Point>
+															<XPos>20.81219</XPos>
+															<YPos>45.48023</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Bullets_Path_02" ID="{F5968966-7B07-488F-AB21-09F30411D3EA}">
+													<PointList>
+														<Point>
+															<XPos>11.16752</XPos>
+															<YPos>-18.36158</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Bullets_Path_03" ID="{73255FFA-5506-403A-9D93-578B62D2B7C0}">
+													<PointList>
+														<Point>
+															<XPos>15.22842</XPos>
+															<YPos>0.84746</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Bullets_Path_04" ID="{9864F282-7D60-41D3-8BBE-80A393DF2151}">
+													<PointList>
+														<Point>
+															<XPos>12.18274</XPos>
+															<YPos>-9.32203</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+								</RandomSequenceContainer>
 							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{B15BA27B-1863-4A9E-B31F-6CF00AFEC2F9}"/>
+							</PositioningInfo>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
 									<Reference>
@@ -469,7 +860,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
 								</Reference>
 								<Reference Name="DefaultSwitchOrState">
-									<ObjectRef Name="room" ID="{52035A76-B372-414F-8733-8E517C01A862}" WorkUnitID="{9C411BC0-12A9-4450-8405-85FBFEE40955}"/>
+									<ObjectRef Name="out" ID="{9831D3A7-B7EA-4BE3-96DB-57B75D661507}" WorkUnitID="{9C411BC0-12A9-4450-8405-85FBFEE40955}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
@@ -600,6 +991,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="indoor" ID="{1BAA7605-6F29-4565-AEC4-A67EC480F8DB}" ShortID="54779124">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>33</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
@@ -741,6 +1139,120 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
+						<RandomSequenceContainer Name="Reload" ID="{914266E7-1562-4874-9FDC-ABC9B4A11A71}" ShortID="517513656">
+							<PropertyList>
+								<Property Name="GameAuxSendHPF" Type="int16">
+									<ValueList>
+										<Value>44</Value>
+									</ValueList>
+								</Property>
+								<Property Name="GameAuxSendVolume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 1" ID="{D11E99EE-C33B-44BD-8B3E-A52CA216B7CF}" ShortID="878983271">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 1" ID="{49BD5372-0000-4D81-8EAA-06EBFF37CC67}">
+											<Language>SFX</Language>
+											<AudioFile>Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="467086784"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 1" ID="{49BD5372-0000-4D81-8EAA-06EBFF37CC67}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 3" ID="{1B23BC5B-E130-46B3-9DED-87D0757D74A5}" ShortID="557292713">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 3" ID="{DE1511CA-2657-49DF-B231-05FBCD57FAB4}">
+											<Language>SFX</Language>
+											<AudioFile>Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="918615604"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 3" ID="{DE1511CA-2657-49DF-B231-05FBCD57FAB4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 4" ID="{1D9B624C-FD5E-48F7-B0DE-7B6D883FE4AC}" ShortID="1059252950">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 4" ID="{1627126F-B029-419D-B200-A2F7F992E13B}">
+											<Language>SFX</Language>
+											<AudioFile>Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="828507954"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 4" ID="{1627126F-B029-419D-B200-A2F7F992E13B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 6" ID="{D2A17967-D82A-4558-B9DE-DF5F1D85B84B}" ShortID="475295852">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CDFDBDF8-0E8F-44A2-9B49-23088C235760}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EE5CBCD0-AEF9-46C9-8EFA-25DE8A3E0520}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 6" ID="{E5A6BE03-F4EB-49BA-8C99-CD3D3A1551EB}">
+											<Language>SFX</Language>
+											<AudioFile>Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="164334269"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 6" ID="{E5A6BE03-F4EB-49BA-8C99-CD3D3A1551EB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

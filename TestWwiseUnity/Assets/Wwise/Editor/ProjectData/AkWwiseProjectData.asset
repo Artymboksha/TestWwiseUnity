@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: d0bc5ceef9aec9468efa25de8a3e0520
     GuidInternal: 
-    m_lastTime: -8584223029713961613
+    m_lastTime: -8584160331863578811
     List:
     - name: Ambience
       guid: e5daadebbbb55b4aa01e0543b0866cea
@@ -322,6 +322,83 @@ MonoBehaviour:
         ObjectType: 2
         guid: e5daadebbbb55b4aa01e0543b0866cea
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience
+    - name: Big_Reverb
+      guid: 6a809fb5f7dfb0448afb7a2d4cee9ab3
+      id: 301363172
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0bc5ceef9aec9468efa25de8a3e0520
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: DSP
+        ObjectType: 1
+        guid: 627c173094e2954ea2ace763b429c0e1
+      - ElementName: Big_Reverb
+        ObjectType: 1
+        guid: 6a809fb5f7dfb0448afb7a2d4cee9ab3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DSP\Big_Reverb
+    - name: DSP
+      guid: 627c173094e2954ea2ace763b429c0e1
+      id: 613761766
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0bc5ceef9aec9468efa25de8a3e0520
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: DSP
+        ObjectType: 1
+        guid: 627c173094e2954ea2ace763b429c0e1
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DSP
+    - name: Emmiters
+      guid: a352579e6dafba4a864253f988b99fba
+      id: 1394335945
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0bc5ceef9aec9468efa25de8a3e0520
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Ambience
+        ObjectType: 2
+        guid: e5daadebbbb55b4aa01e0543b0866cea
+      - ElementName: Emmiters
+        ObjectType: 2
+        guid: a352579e6dafba4a864253f988b99fba
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience\Emmiters
+    - name: Main
+      guid: 171e7b5503364d4fb8b16a679117f34f
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0bc5ceef9aec9468efa25de8a3e0520
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Ambience
+        ObjectType: 2
+        guid: e5daadebbbb55b4aa01e0543b0866cea
+      - ElementName: Main
+        ObjectType: 2
+        guid: 171e7b5503364d4fb8b16a679117f34f
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience\Main
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -336,6 +413,26 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Outdoor_Reverb
+      guid: 12b7c6d2cec6804da92ffb7df6a49aab
+      id: 487886702
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0bc5ceef9aec9468efa25de8a3e0520
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: DSP
+        ObjectType: 1
+        guid: 627c173094e2954ea2ace763b429c0e1
+      - ElementName: Outdoor_Reverb
+        ObjectType: 1
+        guid: 12b7c6d2cec6804da92ffb7df6a49aab
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DSP\Outdoor_Reverb
     - name: Player
       guid: 72c6f32abd85174ca5c2bb67b696615b
       id: 1069431850
@@ -370,6 +467,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: 01f0d10dee3bc049b4f3009911bf6273
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\UI
+    - name: Weapon
+      guid: 600595d58eb7d64d90ca59952bd856b5
+      id: 3893417221
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0bc5ceef9aec9468efa25de8a3e0520
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Weapon
+        ObjectType: 2
+        guid: 600595d58eb7d64d90ca59952bd856b5
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Weapon
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -382,7 +496,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8813eee9a75f76459cd220c806fce012
     GuidInternal: 
-    m_lastTime: -8584223048795391249
+    m_lastTime: -8584160384820507952
     List:
     - name: AMB_Forest
       guid: 5c0c13ced3a64343a98f7aabfcb2a8f1
@@ -477,6 +591,37 @@ MonoBehaviour:
         ObjectType: 7
         guid: 545f6e5b2f1fb14ea8fc13432d0a1063
       Path: SoundBanks\Default Work Unit\UI
+    - name: Weapon
+      guid: 421ca6bc04a8494e958aa99dc682b9a2
+      id: 3893417221
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8813eee9a75f76459cd220c806fce012
+      - ElementName: Weapon
+        ObjectType: 4
+        guid: 421ca6bc04a8494e958aa99dc682b9a2
+      Path: SoundBanks\Default Work Unit\Weapon
+    - name: Weapon
+      guid: eb62b86af180b642830a31371498d3e8
+      id: 3893417221
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8813eee9a75f76459cd220c806fce012
+      - ElementName: Weapon
+        ObjectType: 4
+        guid: 421ca6bc04a8494e958aa99dc682b9a2
+      - ElementName: Weapon
+        ObjectType: 7
+        guid: eb62b86af180b642830a31371498d3e8
+      Path: SoundBanks\Default Work Unit\Weapon\Weapon
   EventWwu:
   - PhysicalPath: Events\Ambience.wwu
     PathAndIcons:
@@ -629,8 +774,25 @@ MonoBehaviour:
     ParentPath: Events\Player
     guid: 5d97105123857b44afa3e05ac9d91e12
     GuidInternal: 
-    m_lastTime: -8584235224570050949
+    m_lastTime: -8584160426508003243
     List:
+    - name: player_roll
+      guid: 1d0e7c60287a4f41b0e81069ee6365a4
+      id: 841226244
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: 5d97105123857b44afa3e05ac9d91e12
+      - ElementName: player_roll
+        ObjectType: 3
+        guid: 1d0e7c60287a4f41b0e81069ee6365a4
+      Path: Events\Player\player_roll
+      maxAttenuation: 0
+      maxDuration: 1.3111145
+      minDuration: 0
     - name: player_steps
       guid: 24b8a4df6eb3b3479cbf72a61f11cf08
       id: 4272057794
@@ -761,7 +923,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Ambience\Urban
     guid: 596a06175882c748a356b93263158e41
     GuidInternal: 
-    m_lastTime: -8584235225824411710
+    m_lastTime: -8584179252116614911
     List:
     - name: amb_bark_play
       guid: a0a8d0ce040cea4dacdc60484fa94fae
@@ -1127,6 +1289,58 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: amb_urban_indoor_stop
+      guid: 054e2df7653e8846bd63f7b8d2053664
+      id: 2513410771
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: 2bc00f89d0dc6c4887bfc5488a31beb0
+      - ElementName: Urban
+        ObjectType: 12
+        guid: 596a06175882c748a356b93263158e41
+      - ElementName: Main
+        ObjectType: 4
+        guid: 57f9b2abf695704e89b41c9b6115dedf
+      - ElementName: amb_urban_indoor_stop
+        ObjectType: 3
+        guid: 054e2df7653e8846bd63f7b8d2053664
+      Path: Events\Default Work Unit\Ambience\Urban\Main\amb_urban_indoor_stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: amb_urban_indor_play
+      guid: 15f453a1665245419eecdfe9d131f36b
+      id: 2848148440
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: 2bc00f89d0dc6c4887bfc5488a31beb0
+      - ElementName: Urban
+        ObjectType: 12
+        guid: 596a06175882c748a356b93263158e41
+      - ElementName: Main
+        ObjectType: 4
+        guid: 57f9b2abf695704e89b41c9b6115dedf
+      - ElementName: amb_urban_indor_play
+        ObjectType: 3
+        guid: 15f453a1665245419eecdfe9d131f36b
+      Path: Events\Default Work Unit\Ambience\Urban\Main\amb_urban_indor_play
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: amb_urban_metal_fan_play
       guid: c4b77af79e0c1a45a98fd49f3836e64d
       id: 2130696569
@@ -1395,7 +1609,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Weapon
     guid: c927cd0cff09564c984aed171aabea36
     GuidInternal: 
-    m_lastTime: -8584246406054775808
+    m_lastTime: -8584160335604832865
     List:
     - name: M4_Play
       guid: 96fd728c15b8a24b9932480a44b01729
@@ -1415,8 +1629,28 @@ MonoBehaviour:
         guid: 96fd728c15b8a24b9932480a44b01729
       Path: Events\Default Work Unit\Weapon\M4_Play
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.8080009
+      minDuration: 1.7052736
+    - name: M4_Reload
+      guid: 1f2b8227e54aa546ad09da52a029b7f0
+      id: 755517494
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c185faec7317646867e77e32ccea4fa
+      - ElementName: Weapon
+        ObjectType: 12
+        guid: c927cd0cff09564c984aed171aabea36
+      - ElementName: M4_Reload
+        ObjectType: 3
+        guid: 1f2b8227e54aa546ad09da52a029b7f0
+      Path: Events\Default Work Unit\Weapon\M4_Reload
+      maxAttenuation: 0
+      maxDuration: 1.6506146
+      minDuration: 1.4756354
     - name: M4_Stop
       guid: 20c35435d817334fa2f5da54f27e74ed
       id: 881992129
@@ -1435,8 +1669,8 @@ MonoBehaviour:
         guid: 20c35435d817334fa2f5da54f27e74ed
       Path: Events\Default Work Unit\Weapon\M4_Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.8080009
+      minDuration: 1.7052736
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -1505,8 +1739,58 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 5e46044430cd124bbd4f694a726cc568
     GuidInternal: 
-    m_lastTime: -8584223030652858645
+    m_lastTime: -8584222961819337123
     List:
+    - name: Crouch
+      guid: 420d288a2aa88945803fcbabbb2f73fb
+      id: 2655407367
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5e46044430cd124bbd4f694a726cc568
+      - ElementName: Crouch
+        ObjectType: 9
+        guid: 420d288a2aa88945803fcbabbb2f73fb
+      Path: States\Default Work Unit\Crouch
+      values:
+      - name: None
+        guid: aa33cfe93b50314c91dced7f82d70f09
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5e46044430cd124bbd4f694a726cc568
+        - ElementName: Crouch
+          ObjectType: 9
+          guid: 420d288a2aa88945803fcbabbb2f73fb
+        - ElementName: None
+          ObjectType: 8
+          guid: aa33cfe93b50314c91dced7f82d70f09
+      - name: On
+        guid: d3647b59566ef247835034fdd29bb912
+        id: 1651971902
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5e46044430cd124bbd4f694a726cc568
+        - ElementName: Crouch
+          ObjectType: 9
+          guid: 420d288a2aa88945803fcbabbb2f73fb
+        - ElementName: On
+          ObjectType: 8
+          guid: d3647b59566ef247835034fdd29bb912
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: Pause
       guid: 9901ac899be92f43902952fd6ed0ae2b
       id: 3092587493
@@ -1717,7 +2001,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584246406054775808
     List: []
-  ExpandedFileSystemItemIds: 02000000030000000400000005000000070000000d00000034000000350000003600000037000000390000003a0000003b000000
+  ExpandedFileSystemItemIds: 02000000030000000400000005000000070000000a0000000d00000011000000210000002d000000300000003100000034000000350000003600000037000000390000003a0000003b0000004700000048000000490000004a0000004b0000004d000000
   ExpandedWaapiItemIds: 0100000002000000050000000600000007000000080000000a0000000b0000000c0000000d0000001e0000002000000023000000240000002a0000002b00000036000000860000008700000089000000e7000000e8000000460100004701000048010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

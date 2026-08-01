@@ -105,7 +105,7 @@
     "Type": "User",
     "GUID": "{5258F6A1-7802-454B-8FB4-D924FF70E2A9}",
     "Language": "SFX",
-    "Hash": "{9A16511F-DF9A-77BB-7048-EDC7615CAAFB}",
+    "Hash": "{533F3522-596E-7D63-14C1-0149E846C22B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Player\\player",
     "ShortName": "player",
     "Path": "player.bnk",
@@ -133,6 +133,22 @@
       "Location": "Memory",
       "ShortName": "Player\\Footsteps\\Water\\Footsteps, Human, Sneakers, Walk, Fast, on Water SND147223 5.wav",
       "CachePath": "78/{7806623F-8249-9ED7-E890-455E52FA06B0}.wem"
+     },
+     {
+      "Id": "80958068",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fight, Bodyfall, Asphalt, Concrete, Rolling Fall 03 SND120930 8.wav",
+      "CachePath": "CF/{CFB91FBC-7A25-1C27-99D9-B69345A5291F}.wem"
+     },
+     {
+      "Id": "88389400",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fight, Bodyfall, Asphalt, Concrete, Rolling Fall 03 SND120930 5.wav",
+      "CachePath": "34/{34FA5DCE-0E0C-6270-C946-07C20E930D9D}.wem"
      },
      {
       "Id": "96240924",
@@ -247,6 +263,14 @@
       "CachePath": "09/{09845AB5-3AD7-388D-8589-A78F4F3137FF}.wem"
      },
      {
+      "Id": "359654071",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fight, Bodyfall, Asphalt, Concrete, Rolling Fall 03 SND120930 7.wav",
+      "CachePath": "47/{4728F65F-12ED-7AE0-4E8B-855E4AF091D9}.wem"
+     },
+     {
       "Id": "410347208",
       "Language": "SFX",
       "Streaming": "false",
@@ -269,6 +293,14 @@
       "Location": "Memory",
       "ShortName": "Player\\Footsteps\\Metal\\Footsteps, Human, Boots, Walking, Metal, Resonance, Hard, Irregular Rhythm SND85371 3.wav",
       "CachePath": "A9/{A9A81741-D257-F293-3F5C-3786B069A603}.wem"
+     },
+     {
+      "Id": "497464872",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fight, Bodyfall, Asphalt, Concrete, Rolling Fall 03 SND120930 6.wav",
+      "CachePath": "CC/{CCB8D1E6-61AD-F3AC-9A83-BF6F40AF0071}.wem"
      },
      {
       "Id": "518775116",
@@ -401,6 +433,63 @@
     ],
     "Events": [
      {
+      "Id": "841226244",
+      "Name": "player_roll",
+      "ObjectPath": "\\Events\\Player\\player_roll",
+      "GUID": "{607C0E1D-7A28-414F-B0E8-1069EE6365A4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "1.3111145",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "2528658256",
+         "GUID": "{636FB45C-018B-476C-8726-71E238F4DE5D}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "80958068"
+         },
+         {
+          "Id": "88389400"
+         },
+         {
+          "Id": "359654071"
+         },
+         {
+          "Id": "497464872"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "2528658256",
+         "GUID": "{636FB45C-018B-476C-8726-71E238F4DE5D}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "80958068"
+         },
+         {
+          "Id": "88389400"
+         },
+         {
+          "Id": "359654071"
+         },
+         {
+          "Id": "497464872"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "4272057794",
       "Name": "player_steps",
       "ObjectPath": "\\Events\\Player\\player_steps",
@@ -410,6 +499,155 @@
       "DurationMin": "0.21095109",
       "DurationMax": "0.54442585",
       "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "2473969246",
+         "GUID": "{8E8B5A2A-7323-4DCE-883C-F6E7CA0699DB}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "252136149"
+         },
+         {
+          "Id": "458399376"
+         },
+         {
+          "Id": "484901138"
+         },
+         {
+          "Id": "713392700"
+         },
+         {
+          "Id": "722194289"
+         },
+         {
+          "Id": "777553607"
+         },
+         {
+          "Id": "916545632"
+         },
+         {
+          "Id": "941276914"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "2528658256",
+         "GUID": "{636FB45C-018B-476C-8726-71E238F4DE5D}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "49232586"
+         },
+         {
+          "Id": "96240924"
+         },
+         {
+          "Id": "240016245"
+         },
+         {
+          "Id": "311276100"
+         },
+         {
+          "Id": "523217812"
+         },
+         {
+          "Id": "712620854"
+         },
+         {
+          "Id": "747546559"
+         },
+         {
+          "Id": "765057206"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "787898836",
+         "GUID": "{D285F370-9C38-4A6A-B074-00E4CE46AFED}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "9317616"
+         },
+         {
+          "Id": "177555584"
+         },
+         {
+          "Id": "305974628"
+         },
+         {
+          "Id": "340294393"
+         },
+         {
+          "Id": "354551264"
+         },
+         {
+          "Id": "355547538"
+         },
+         {
+          "Id": "410347208"
+         },
+         {
+          "Id": "518775116"
+         },
+         {
+          "Id": "595197169"
+         },
+         {
+          "Id": "613945652"
+         },
+         {
+          "Id": "902073959"
+         },
+         {
+          "Id": "975649057"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "2654748154",
+         "GUID": "{A307EFC0-3E1A-4415-8C59-E020B9041B6E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "57233090"
+         },
+         {
+          "Id": "161481960"
+         },
+         {
+          "Id": "178065842"
+         },
+         {
+          "Id": "187611660"
+         },
+         {
+          "Id": "272844803"
+         },
+         {
+          "Id": "308041443"
+         },
+         {
+          "Id": "581933890"
+         },
+         {
+          "Id": "643671364"
+         }
+        ]
+       },
        {
         "SwitchValue": {
          "GroupType": "Switch",
@@ -602,11 +840,21 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{DB375009-C7AA-B4DA-9D9F-2E9CAA9430EA}",
+    "Hash": "{CCA77CCD-90C0-0158-D3FB-FBC1C29A621A}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2098638826",
+       "Name": "Underground_Parking1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Underground_Parking1",
+       "GUID": "{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -662,6 +910,55 @@
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3893417221",
+      "Name": "Weapon",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Weapon",
+      "GUID": "{D5950560-B78E-4DD6-90CA-59952BD856B5}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "301363172",
+      "Name": "Big_Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\DSP\\Big_Reverb",
+      "GUID": "{B59F806A-DFF7-44B0-8AFB-7A2D4CEE9AB3}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2098638826"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "613761766",
+        "Name": "DSP",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\DSP",
+        "GUID": "{30177C62-E294-4E95-A2AC-E763B429C0E1}"
+       }
+      ]
+     },
+     {
+      "Id": "487886702",
+      "Name": "Outdoor_Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\DSP\\Outdoor_Reverb",
+      "GUID": "{D2C6B712-C6CE-4D80-A92F-FB7DF6A49AAB}",
+      "AuxBusRefs": [
+       {
+        "Id": "613761766",
+        "Name": "DSP",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\DSP",
+        "GUID": "{30177C62-E294-4E95-A2AC-E763B429C0E1}"
+       }
+      ]
+     },
+     {
+      "Id": "613761766",
+      "Name": "DSP",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\DSP",
+      "GUID": "{30177C62-E294-4E95-A2AC-E763B429C0E1}"
      }
     ],
     "GameParameters": [
@@ -1365,7 +1662,7 @@
     "Type": "User",
     "GUID": "{B49924AF-A416-4A44-866F-BEF51680F14C}",
     "Language": "SFX",
-    "Hash": "{227990B6-2E9A-DA63-1C99-C2F59F4D6AAC}",
+    "Hash": "{B13E9134-A01E-0FE1-9BBD-E32FFCEF7BBF}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience\\AMB_Urban",
     "ShortName": "AMB_Urban",
     "Path": "AMB_Urban.bnk",
@@ -2064,6 +2361,85 @@
       "DurationMax": "0"
      },
      {
+      "Id": "2513410771",
+      "Name": "amb_urban_indoor_stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Main\\amb_urban_indoor_stop",
+      "GUID": "{F72D4E05-3E65-4688-BD63-F7B8D2053664}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2848148440",
+      "Name": "amb_urban_indor_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Main\\amb_urban_indor_play",
+      "GUID": "{A153F415-5266-4145-9EEC-DFE9D131F36B}",
+      "Color": "2",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "5304509"
+       },
+       {
+        "Id": "20233282"
+       },
+       {
+        "Id": "23883577"
+       },
+       {
+        "Id": "147636027"
+       },
+       {
+        "Id": "194457529"
+       },
+       {
+        "Id": "350555364"
+       },
+       {
+        "Id": "384427282"
+       },
+       {
+        "Id": "433752717"
+       },
+       {
+        "Id": "456805709"
+       },
+       {
+        "Id": "539655229"
+       },
+       {
+        "Id": "652452574"
+       },
+       {
+        "Id": "699574247"
+       },
+       {
+        "Id": "811950197"
+       },
+       {
+        "Id": "829489727"
+       },
+       {
+        "Id": "851954209"
+       },
+       {
+        "Id": "934341727"
+       },
+       {
+        "Id": "967402316"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1008402193"
+        }
+       ]
+      }
+     },
+     {
       "Id": "2130696569",
       "Name": "amb_urban_metal_fan_play",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Urban\\Emitters\\amb_urban_metal_fan_play",
@@ -2236,8 +2612,420 @@
       "GUID": "{A3B70BAF-D487-450D-9293-D7C556DB918C}"
      }
     ]
+   },
+   {
+    "Id": "3893417221",
+    "Type": "User",
+    "GUID": "{6AB862EB-80F1-42B6-830A-31371498D3E8}",
+    "Language": "SFX",
+    "Hash": "{D4BAEC52-65A1-B476-8FB2-F747A11C03C0}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Weapon\\Weapon",
+    "ShortName": "Weapon",
+    "Path": "Weapon.bnk",
+    "Media": [
+     {
+      "Id": "125019664",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 3_02.wav",
+      "CachePath": "47/{47C55953-1B1B-3C6A-385A-37ECF2AD98C7}.wem"
+     },
+     {
+      "Id": "164334269",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 6.wav",
+      "CachePath": "49/{493E5533-5A8C-11E7-82AB-7D5CD3CE2A11}.wem"
+     },
+     {
+      "Id": "219633040",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GUN\\TAIL\\Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 3_03.wav",
+      "CachePath": "1C/{1C55B281-6211-AFEE-694C-A3BBA56CB7EB}.wem"
+     },
+     {
+      "Id": "230183352",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 3.wav",
+      "CachePath": "43/{43C02687-31D7-B90F-AEA7-690DCE5E57E8}.wem"
+     },
+     {
+      "Id": "274391041",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GUN\\TAIL\\Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 1_03.wav",
+      "CachePath": "71/{715E7CA2-30C1-3D7B-D8B3-0BA3B04345DB}.wem"
+     },
+     {
+      "Id": "286420046",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 4.wav",
+      "CachePath": "1A/{1AABAFF0-F361-94C0-9409-762425CD8544}.wem"
+     },
+     {
+      "Id": "290201377",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 2.wav",
+      "CachePath": "6E/{6E702613-7539-4F9D-9742-00A4036AB8DB}.wem"
+     },
+     {
+      "Id": "292113314",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapons Handun Shot by unfa Id-565130 1.wav",
+      "CachePath": "E1/{E1BA2643-D9B2-200A-A284-0F1823E5FB89}.wem"
+     },
+     {
+      "Id": "310433000",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 1_02.wav",
+      "CachePath": "00/{00D6B99D-C150-2470-8490-B34EC5F3D6F8}.wem"
+     },
+     {
+      "Id": "406962243",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GUN\\TAIL\\Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 1_03.wav",
+      "CachePath": "CB/{CB02866F-3EC4-DB47-AAD7-C554AD0649E7}.wem"
+     },
+     {
+      "Id": "460666277",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551.wav",
+      "CachePath": "B8/{B8B9D08B-24F7-A230-317F-C3AC88BF77BB}.wem"
+     },
+     {
+      "Id": "467086784",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 1.wav",
+      "CachePath": "1C/{1C94F432-C0FB-C59E-8A72-A641AE3F4A11}.wem"
+     },
+     {
+      "Id": "476198375",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GUN\\TAIL\\Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 2_01.wav",
+      "CachePath": "2B/{2B7414E3-1944-B726-FA14-C47ED0967F55}.wem"
+     },
+     {
+      "Id": "630275917",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 1_02.wav",
+      "CachePath": "F5/{F570A9F3-5DCA-E2F4-FF8D-411131F49A31}.wem"
+     },
+     {
+      "Id": "633735336",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 3_02.wav",
+      "CachePath": "1E/{1E8E41C9-E1EF-FEB3-2B57-54188CC112E9}.wem"
+     },
+     {
+      "Id": "659338174",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 5.wav",
+      "CachePath": "8B/{8BDEBD81-58D5-D6B9-227C-CF6B19742BED}.wem"
+     },
+     {
+      "Id": "697657171",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 6.wav",
+      "CachePath": "F1/{F1CFC637-C3D4-D64A-FFBD-167C7AFDF7E7}.wem"
+     },
+     {
+      "Id": "709237918",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GUN\\TAIL\\Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303_01.wav",
+      "CachePath": "33/{330AFDAA-85EB-420D-19D1-8E85A2A20FB5}.wem"
+     },
+     {
+      "Id": "820615464",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GUN\\TAIL\\Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 2_02.wav",
+      "CachePath": "08/{0805FD85-5AA0-6D93-6A75-56E0DC37CB78}.wem"
+     },
+     {
+      "Id": "828507954",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 4.wav",
+      "CachePath": "A0/{A0A75BF7-2434-5F02-5469-47FF95BE1BDD}.wem"
+     },
+     {
+      "Id": "845811936",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 1.wav",
+      "CachePath": "38/{38EBABD1-23EC-D81B-4AB7-94C13C786564}.wem"
+     },
+     {
+      "Id": "891807436",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GUN\\TAIL\\Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038_01.wav",
+      "CachePath": "13/{13AD8FB4-CB30-3F72-BE94-27A2268A0277}.wem"
+     },
+     {
+      "Id": "891978691",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "GUN\\TAIL\\Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 3_03.wav",
+      "CachePath": "B1/{B1DBAE3F-B106-29F4-2086-6D8CBC9A052C}.wem"
+     },
+     {
+      "Id": "918615604",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 3.wav",
+      "CachePath": "F6/{F6A5458A-1C55-5343-46E9-D75C5A1445E2}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2059328811",
+      "Name": "M4_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapon\\M4_Play",
+      "GUID": "{8C72FD96-B815-4BA2-9932-480A44B01729}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7052736",
+      "DurationMax": "1.8080009",
+      "MediaRefs": [
+       {
+        "Id": "125019664"
+       },
+       {
+        "Id": "230183352"
+       },
+       {
+        "Id": "286420046"
+       },
+       {
+        "Id": "290201377"
+       },
+       {
+        "Id": "292113314"
+       },
+       {
+        "Id": "310433000"
+       },
+       {
+        "Id": "460666277"
+       },
+       {
+        "Id": "630275917"
+       },
+       {
+        "Id": "633735336"
+       },
+       {
+        "Id": "659338174"
+       },
+       {
+        "Id": "697657171"
+       },
+       {
+        "Id": "845811936"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3122859639",
+         "Id": "2077253480",
+         "GUID": "{52035A76-B372-414F-8733-8E517C01A862}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "219633040"
+         },
+         {
+          "Id": "274391041"
+         },
+         {
+          "Id": "406962243"
+         },
+         {
+          "Id": "891978691"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3122859639",
+         "Id": "645492555",
+         "GUID": "{9831D3A7-B7EA-4BE3-96DB-57B75D661507}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "476198375"
+         },
+         {
+          "Id": "709237918"
+         },
+         {
+          "Id": "820615464"
+         },
+         {
+          "Id": "891807436"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "755517494",
+      "Name": "M4_Reload",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapon\\M4_Reload",
+      "GUID": "{27822B1F-4AE5-46A5-AD09-DA52A029B7F0}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4756354",
+      "DurationMax": "1.6506146",
+      "MediaRefs": [
+       {
+        "Id": "164334269"
+       },
+       {
+        "Id": "467086784"
+       },
+       {
+        "Id": "828507954"
+       },
+       {
+        "Id": "918615604"
+       }
+      ]
+     },
+     {
+      "Id": "881992129",
+      "Name": "M4_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapon\\M4_Stop",
+      "GUID": "{3554C320-17D8-4F33-A2F5-DA54F27E74ED}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7052736",
+      "DurationMax": "1.8080009",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3122859639",
+         "Id": "2077253480",
+         "GUID": "{52035A76-B372-414F-8733-8E517C01A862}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "219633040"
+         },
+         {
+          "Id": "274391041"
+         },
+         {
+          "Id": "406962243"
+         },
+         {
+          "Id": "891978691"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3122859639",
+         "Id": "645492555",
+         "GUID": "{9831D3A7-B7EA-4BE3-96DB-57B75D661507}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "476198375"
+         },
+         {
+          "Id": "709237918"
+         },
+         {
+          "Id": "820615464"
+         },
+         {
+          "Id": "891807436"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3554434311",
+      "Name": "Ammo",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ammo",
+      "GUID": "{3D05EAFE-8192-4DC4-A736-69BAA492A905}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3122859639",
+      "Name": "tail",
+      "ObjectPath": "\\Switches\\Default Work Unit\\tail",
+      "GUID": "{F90A8781-C3C0-4CA5-A17C-1D53ECC7A621}",
+      "Switches": [
+       {
+        "Id": "645492555",
+        "Name": "out",
+        "ObjectPath": "\\Switches\\Default Work Unit\\tail\\out",
+        "GUID": "{9831D3A7-B7EA-4BE3-96DB-57B75D661507}"
+       },
+       {
+        "Id": "2077253480",
+        "Name": "room",
+        "ObjectPath": "\\Switches\\Default Work Unit\\tail\\room",
+        "GUID": "{52035A76-B372-414F-8733-8E517C01A862}"
+       }
+      ]
+     }
+    ]
    }
   ],
-  "FileHash": "{1DE7A612-4808-729F-36D6-627A8ED2640D}"
+  "FileHash": "{B9382FED-1C97-B9B5-713D-1DADA2277448}"
  }
 }

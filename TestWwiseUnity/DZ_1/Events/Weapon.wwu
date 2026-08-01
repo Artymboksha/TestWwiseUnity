@@ -16,6 +16,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{38A04F81-47F0-4F1F-ACFB-7A569DCF6297}" ShortID="424773209">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="tail" ID="{5A1AF728-CC3C-42C5-A2DA-3902227CCFBE}" WorkUnitID="{E0CCEE36-F8D1-4990-A325-0CCB8943528D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="M4_Stop" ID="{3554C320-17D8-4F33-A2F5-DA54F27E74ED}">
@@ -35,6 +42,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="tail" ID="{5A1AF728-CC3C-42C5-A2DA-3902227CCFBE}" WorkUnitID="{E0CCEE36-F8D1-4990-A325-0CCB8943528D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="M4_Reload" ID="{27822B1F-4AE5-46A5-AD09-DA52A029B7F0}">
+					<ChildrenList>
+						<Action Name="" ID="{6E37522F-EE6F-47DC-B1F4-8EF54DBBF0B6}" ShortID="680235215">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Reload" ID="{914266E7-1562-4874-9FDC-ABC9B4A11A71}" WorkUnitID="{E0CCEE36-F8D1-4990-A325-0CCB8943528D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -286,7 +286,7 @@ namespace Invector.vShooter
                 return 1 + damageMultiplierMod;
             }
         }
-
+        
         protected virtual float velocityMultiplier
         {
             get

@@ -1,0 +1,41 @@
+Event	ID	Name			Wwise Object Path	Notes
+	755517494	M4_Reload			\Default Work Unit\Weapon\M4_Reload	
+	881992129	M4_Stop			\Default Work Unit\Weapon\M4_Stop	
+	2059328811	M4_Play			\Default Work Unit\Weapon\M4_Play	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3122859639	tail			\Default Work Unit\tail	
+
+Switch	ID	Name	Switch Group			Notes
+	645492555	out	tail			
+	2077253480	room	tail			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3554434311	Ammo			\Default Work Unit\Ammo	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	125019664	Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 3_02	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\47\{47C55953-1B1B-3C6A-385A-37ECF2AD98C7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\New Blend Container\Mechanism\Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 3_02		38248
+	164334269	Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 6	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\49\{493E5533-5A8C-11E7-82AB-7D5CD3CE2A11}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\Reload\Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 6		283416
+	219633040	Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 3_03	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\1C\{1C55B281-6211-AFEE-694C-A3BBA56CB7EB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\tail\indoor\Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 3_03		340468
+	230183352	Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 3	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\43\{43C02687-31D7-B90F-AEA7-690DCE5E57E8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\New Blend Container\Reload\Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 3		92830
+	274391041	Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 1_03	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\71\{715E7CA2-30C1-3D7B-D8B3-0BA3B04345DB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\tail\indoor\Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 1_03		343288
+	286420046	Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 4	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\1A\{1AABAFF0-F361-94C0-9409-762425CD8544}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\New Blend Container\Reload\Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 4		132290
+	290201377	Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 2	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\6E\{6E702613-7539-4F9D-9742-00A4036AB8DB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\New Blend Container\Reload\Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 2		121236
+	292113314	Weapons Handun Shot by unfa Id-565130 1	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\E1\{E1BA2643-D9B2-200A-A284-0F1823E5FB89}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\New Blend Container\Shot\Weapons Handun Shot by unfa Id-565130 1		98116
+	310433000	Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 1_02	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\00\{00D6B99D-C150-2470-8490-B34EC5F3D6F8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\New Blend Container\Mechanism\Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 1_02		38248
+	406962243	Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 1_03	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\CB\{CB02866F-3EC4-DB47-AAD7-C554AD0649E7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\tail\indoor\Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 1_03		340468
+	460666277	Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\B8\{B8B9D08B-24F7-A230-317F-C3AC88BF77BB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\New Blend Container\Reload\Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551		100622
+	467086784	Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 1	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\1C\{1C94F432-C0FB-C59E-8A72-A641AE3F4A11}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\Reload\Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 1		309284
+	476198375	Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 2_01	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\2B\{2B7414E3-1944-B726-FA14-C47ED0967F55}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\tail\outdoor\Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 2_01		332016
+	630275917	Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 1_02	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\F5\{F570A9F3-5DCA-E2F4-FF8D-411131F49A31}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\New Blend Container\Mechanism\Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 1_02		37896
+	633735336	Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 3_02	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\1E\{1E8E41C9-E1EF-FEB3-2B57-54188CC112E9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\New Blend Container\Mechanism\Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 3_02		38252
+	659338174	Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 5	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\8B\{8BDEBD81-58D5-D6B9-227C-CF6B19742BED}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\New Blend Container\Reload\Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 5		106502
+	697657171	Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 6	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\F1\{F1CFC637-C3D4-D64A-FFBD-167C7AFDF7E7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\New Blend Container\Reload\Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 6		128708
+	709237918	Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303_01	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\33\{330AFDAA-85EB-420D-19D1-8E85A2A20FB5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\tail\outdoor\Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303_01		327508
+	820615464	Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 2_02	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\08\{0805FD85-5AA0-6D93-6A75-56E0DC37CB78}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\tail\outdoor\Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 2_02		338780
+	828507954	Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 4	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\A0\{A0A75BF7-2434-5F02-5469-47FF95BE1BDD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\Reload\Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 4		308200
+	845811936	Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 1	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\38\{38EBABD1-23EC-D81B-4AB7-94C13C786564}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\New Blend Container\Reload\Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 1		104044
+	891807436	Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038_01	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\13\{13AD8FB4-CB30-3F72-BE94-27A2268A0277}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\tail\outdoor\Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038_01		337088
+	891978691	Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 3_03	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\B1\{B1DBAE3F-B106-29F4-2086-6D8CBC9A052C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\tail\indoor\Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 3_03		347232
+	918615604	Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 3	C:\TestWwiseUnity\TestWwiseUnity\DZ_1\.cache\F6\{F6A5458A-1C55-5343-46E9-D75C5A1445E2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Gun\Reload\Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 3		317012
+

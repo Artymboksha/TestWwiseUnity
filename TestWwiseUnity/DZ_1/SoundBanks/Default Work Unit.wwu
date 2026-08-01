@@ -32,7 +32,19 @@
 					<ChildrenList>
 						<SoundBank Name="player" ID="{5258F6A1-7802-454B-8FB4-D924FF70E2A9}">
 							<ObjectInclusionList>
+								<ObjectRef Name="Player" ID="{5110975D-8523-447B-AFA3-E05AC9D91E12}" WorkUnitID="{5110975D-8523-447B-AFA3-E05AC9D91E12}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="Player" ID="{514BDEB8-E316-46B8-A86D-0B32226AF305}" WorkUnitID="{514BDEB8-E316-46B8-A86D-0B32226AF305}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Weapon" ID="{BCA61C42-A804-4E49-958A-A99DC682B9A2}" ShortID="207988598">
+					<ChildrenList>
+						<SoundBank Name="Weapon" ID="{6AB862EB-80F1-42B6-830A-31371498D3E8}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Weapon" ID="{0CCD27C9-09FF-4C56-984A-ED171AABEA36}" WorkUnitID="{0CCD27C9-09FF-4C56-984A-ED171AABEA36}" Origin="Manual" Filter="7"/>
 							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>

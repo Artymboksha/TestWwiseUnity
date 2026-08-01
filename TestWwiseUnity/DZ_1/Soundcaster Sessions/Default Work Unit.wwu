@@ -90,9 +90,13 @@
 							<GameParameterRef Name="WInd" ID="{77D7E0CE-6F2C-40FF-9BF3-228156480BB9}"/>
 							<Value>0</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ammo" ID="{3D05EAFE-8192-4DC4-A736-69BAA492A905}"/>
+							<Value>100</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{CB0B8E75-57B3-4C79-9E7B-1D29898BF418}"/>
+						<CurrentStateRef Name="On" ID="{E1E6AED0-4F22-41F4-B589-1CD040667AFC}"/>
 						<CurrentStateRef Name="None" ID="{E9CF33AA-503B-4C31-91DC-ED7F82D70F09}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

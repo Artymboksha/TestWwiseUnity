@@ -38,7 +38,7 @@
 				<GameParameter Id="1537061107" Name="WInd" ObjectPath="\Game Parameters\Default Work Unit\WInd" GUID="{77D7E0CE-6F2C-40FF-9BF3-228156480BB9}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1069431850" Type="User" GUID="{5258F6A1-7802-454B-8FB4-D924FF70E2A9}" Language="SFX" Hash="{9A16511F-DF9A-77BB-7048-EDC7615CAAFB}">
+		<SoundBank Id="1069431850" Type="User" GUID="{5258F6A1-7802-454B-8FB4-D924FF70E2A9}" Language="SFX" Hash="{533F3522-596E-7D63-14C1-0149E846C22B}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Player\player</ObjectPath>
 			<ShortName>player</ShortName>
 			<Path>player.bnk</Path>
@@ -54,6 +54,14 @@
 				<File Id="57233090" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player\Footsteps\Water\Footsteps, Human, Sneakers, Walk, Fast, on Water SND147223 5.wav</ShortName>
 					<CachePath>78/{7806623F-8249-9ED7-E890-455E52FA06B0}.wem</CachePath>
+				</File>
+				<File Id="80958068" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fight, Bodyfall, Asphalt, Concrete, Rolling Fall 03 SND120930 8.wav</ShortName>
+					<CachePath>CF/{CFB91FBC-7A25-1C27-99D9-B69345A5291F}.wem</CachePath>
+				</File>
+				<File Id="88389400" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fight, Bodyfall, Asphalt, Concrete, Rolling Fall 03 SND120930 5.wav</ShortName>
+					<CachePath>34/{34FA5DCE-0E0C-6270-C946-07C20E930D9D}.wem</CachePath>
 				</File>
 				<File Id="96240924" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player\Footsteps, Human, Dirty Ground, Walk SND62078 12.wav</ShortName>
@@ -111,6 +119,10 @@
 					<ShortName>Player\Footsteps\Snow\Footsteps, Human, Snow, -5C, Running SND1622 4.wav</ShortName>
 					<CachePath>09/{09845AB5-3AD7-388D-8589-A78F4F3137FF}.wem</CachePath>
 				</File>
+				<File Id="359654071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fight, Bodyfall, Asphalt, Concrete, Rolling Fall 03 SND120930 7.wav</ShortName>
+					<CachePath>47/{4728F65F-12ED-7AE0-4E8B-855E4AF091D9}.wem</CachePath>
+				</File>
 				<File Id="410347208" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player\Footsteps\Snow\Footsteps, Human, Snow, -5C, Running SND1622 5.wav</ShortName>
 					<CachePath>A4/{A4BA9CBA-8F72-5FAE-E7B6-B161C86BE8B5}.wem</CachePath>
@@ -122,6 +134,10 @@
 				<File Id="484901138" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player\Footsteps\Metal\Footsteps, Human, Boots, Walking, Metal, Resonance, Hard, Irregular Rhythm SND85371 3.wav</ShortName>
 					<CachePath>A9/{A9A81741-D257-F293-3F5C-3786B069A603}.wem</CachePath>
+				</File>
+				<File Id="497464872" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fight, Bodyfall, Asphalt, Concrete, Rolling Fall 03 SND120930 6.wav</ShortName>
+					<CachePath>CC/{CCB8D1E6-61AD-F3AC-9A83-BF6F40AF0071}.wem</CachePath>
 				</File>
 				<File Id="518775116" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player\Footsteps\Snow\Footsteps, Human, Snow, -5C, Running SND1622 1.wav</ShortName>
@@ -189,8 +205,86 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="841226244" Name="player_roll" ObjectPath="\Events\Player\player_roll" GUID="{607C0E1D-7A28-414F-B0E8-1069EE6365A4}" DurationType="OneShot" DurationMin="0" DurationMax="1.3111145">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2528658256" GUID="{636FB45C-018B-476C-8726-71E238F4DE5D}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="80958068"/>
+								<MediaRef Id="88389400"/>
+								<MediaRef Id="359654071"/>
+								<MediaRef Id="497464872"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2528658256" GUID="{636FB45C-018B-476C-8726-71E238F4DE5D}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="80958068"/>
+								<MediaRef Id="88389400"/>
+								<MediaRef Id="359654071"/>
+								<MediaRef Id="497464872"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="4272057794" Name="player_steps" ObjectPath="\Events\Player\player_steps" GUID="{DFA4B824-B36E-47B3-9CBF-72A61F11CF08}" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.21095109" DurationMax="0.54442585">
 					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2473969246" GUID="{8E8B5A2A-7323-4DCE-883C-F6E7CA0699DB}"/>
+							<MediaRefs>
+								<MediaRef Id="252136149"/>
+								<MediaRef Id="458399376"/>
+								<MediaRef Id="484901138"/>
+								<MediaRef Id="713392700"/>
+								<MediaRef Id="722194289"/>
+								<MediaRef Id="777553607"/>
+								<MediaRef Id="916545632"/>
+								<MediaRef Id="941276914"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2528658256" GUID="{636FB45C-018B-476C-8726-71E238F4DE5D}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="49232586"/>
+								<MediaRef Id="96240924"/>
+								<MediaRef Id="240016245"/>
+								<MediaRef Id="311276100"/>
+								<MediaRef Id="523217812"/>
+								<MediaRef Id="712620854"/>
+								<MediaRef Id="747546559"/>
+								<MediaRef Id="765057206"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="787898836" GUID="{D285F370-9C38-4A6A-B074-00E4CE46AFED}"/>
+							<MediaRefs>
+								<MediaRef Id="9317616"/>
+								<MediaRef Id="177555584"/>
+								<MediaRef Id="305974628"/>
+								<MediaRef Id="340294393"/>
+								<MediaRef Id="354551264"/>
+								<MediaRef Id="355547538"/>
+								<MediaRef Id="410347208"/>
+								<MediaRef Id="518775116"/>
+								<MediaRef Id="595197169"/>
+								<MediaRef Id="613945652"/>
+								<MediaRef Id="902073959"/>
+								<MediaRef Id="975649057"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2654748154" GUID="{A307EFC0-3E1A-4415-8C59-E020B9041B6E}"/>
+							<MediaRefs>
+								<MediaRef Id="57233090"/>
+								<MediaRef Id="161481960"/>
+								<MediaRef Id="178065842"/>
+								<MediaRef Id="187611660"/>
+								<MediaRef Id="272844803"/>
+								<MediaRef Id="308041443"/>
+								<MediaRef Id="581933890"/>
+								<MediaRef Id="643671364"/>
+							</MediaRefs>
+						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2473969246" GUID="{8E8B5A2A-7323-4DCE-883C-F6E7CA0699DB}"/>
 							<MediaRefs>
@@ -261,11 +355,14 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{DB375009-C7AA-B4DA-9D9F-2E9CAA9430EA}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{CCA77CCD-90C0-0158-D3FB-FBC1C29A621A}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="2098638826" Name="Underground_Parking1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Underground_Parking1" GUID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{E4BAA524-AAB2-4B4F-9BF2-7B799EE3F975}" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{D10D71AC-5C99-4832-BC86-C64CACD2D531}" LibName="System" LibId="11403271"/>
@@ -278,7 +375,26 @@
 				<Bus Id="1551306167" Name="UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\UI" GUID="{0DD1F001-3BEE-49C0-B4F3-009911BF6273}"/>
 				<Bus Id="3161908922" Name="Main" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience\Main" GUID="{557B1E17-3603-4F4D-B8B1-6A679117F34F}"/>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3893417221" Name="Weapon" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Weapon" GUID="{D5950560-B78E-4DD6-90CA-59952BD856B5}"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="301363172" Name="Big_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DSP\Big_Reverb" GUID="{B59F806A-DFF7-44B0-8AFB-7A2D4CEE9AB3}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2098638826"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="613761766" Name="DSP" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DSP" GUID="{30177C62-E294-4E95-A2AC-E763B429C0E1}"/>
+					</AuxBusRefs>
+				</AuxBus>
+				<AuxBus Id="487886702" Name="Outdoor_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DSP\Outdoor_Reverb" GUID="{D2C6B712-C6CE-4D80-A92F-FB7DF6A49AAB}">
+					<AuxBusRefs>
+						<AuxBusRef Id="613761766" Name="DSP" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DSP" GUID="{30177C62-E294-4E95-A2AC-E763B429C0E1}"/>
+					</AuxBusRefs>
+				</AuxBus>
+				<AuxBus Id="613761766" Name="DSP" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DSP" GUID="{30177C62-E294-4E95-A2AC-E763B429C0E1}"/>
+			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="1537061107" Name="WInd" ObjectPath="\Game Parameters\Default Work Unit\WInd" GUID="{77D7E0CE-6F2C-40FF-9BF3-228156480BB9}"/>
 				<GameParameter Id="3412057565" Name="Train" ObjectPath="\Game Parameters\Default Work Unit\Train" GUID="{A3B70BAF-D487-450D-9293-D7C556DB918C}"/>
@@ -488,7 +604,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2434576750" Type="User" GUID="{B49924AF-A416-4A44-866F-BEF51680F14C}" Language="SFX" Hash="{227990B6-2E9A-DA63-1C99-C2F59F4D6AAC}">
+		<SoundBank Id="2434576750" Type="User" GUID="{B49924AF-A416-4A44-866F-BEF51680F14C}" Language="SFX" Hash="{B13E9134-A01E-0FE1-9BBD-E32FFCEF7BBF}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambience\AMB_Urban</ObjectPath>
 			<ShortName>AMB_Urban</ShortName>
 			<Path>AMB_Urban.bnk</Path>
@@ -784,6 +900,33 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="2887440470" Name="amb_urban_heavy_wind_stop" ObjectPath="\Events\Default Work Unit\Ambience\Urban\Emitters\amb_urban_heavy_wind_stop" GUID="{785BC0C0-137A-4CE3-9D9F-BF5305DD3914}" Color="2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2513410771" Name="amb_urban_indoor_stop" ObjectPath="\Events\Default Work Unit\Ambience\Urban\Main\amb_urban_indoor_stop" GUID="{F72D4E05-3E65-4688-BD63-F7B8D2053664}" Color="2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2848148440" Name="amb_urban_indor_play" ObjectPath="\Events\Default Work Unit\Ambience\Urban\Main\amb_urban_indor_play" GUID="{A153F415-5266-4145-9EEC-DFE9D131F36B}" Color="2" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="5304509"/>
+						<MediaRef Id="20233282"/>
+						<MediaRef Id="23883577"/>
+						<MediaRef Id="147636027"/>
+						<MediaRef Id="194457529"/>
+						<MediaRef Id="350555364"/>
+						<MediaRef Id="384427282"/>
+						<MediaRef Id="433752717"/>
+						<MediaRef Id="456805709"/>
+						<MediaRef Id="539655229"/>
+						<MediaRef Id="652452574"/>
+						<MediaRef Id="699574247"/>
+						<MediaRef Id="811950197"/>
+						<MediaRef Id="829489727"/>
+						<MediaRef Id="851954209"/>
+						<MediaRef Id="934341727"/>
+						<MediaRef Id="967402316"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1008402193"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
 				<Event Id="2130696569" Name="amb_urban_metal_fan_play" ObjectPath="\Events\Default Work Unit\Ambience\Urban\Emitters\amb_urban_metal_fan_play" GUID="{F77AB7C4-0C9E-451A-A98F-D49F3836E64D}" Color="2" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="376287099"/>
@@ -836,6 +979,188 @@
 				<GameParameter Id="3412057565" Name="Train" ObjectPath="\Game Parameters\Default Work Unit\Train" GUID="{A3B70BAF-D487-450D-9293-D7C556DB918C}"/>
 			</GameParameters>
 		</SoundBank>
+		<SoundBank Id="3893417221" Type="User" GUID="{6AB862EB-80F1-42B6-830A-31371498D3E8}" Language="SFX" Hash="{D4BAEC52-65A1-B476-8FB2-F747A11C03C0}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Weapon\Weapon</ObjectPath>
+			<ShortName>Weapon</ShortName>
+			<Path>Weapon.bnk</Path>
+			<Media>
+				<File Id="125019664" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 3_02.wav</ShortName>
+					<CachePath>47/{47C55953-1B1B-3C6A-385A-37ECF2AD98C7}.wem</CachePath>
+				</File>
+				<File Id="164334269" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 6.wav</ShortName>
+					<CachePath>49/{493E5533-5A8C-11E7-82AB-7D5CD3CE2A11}.wem</CachePath>
+				</File>
+				<File Id="219633040" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GUN\TAIL\Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 3_03.wav</ShortName>
+					<CachePath>1C/{1C55B281-6211-AFEE-694C-A3BBA56CB7EB}.wem</CachePath>
+				</File>
+				<File Id="230183352" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 3.wav</ShortName>
+					<CachePath>43/{43C02687-31D7-B90F-AEA7-690DCE5E57E8}.wem</CachePath>
+				</File>
+				<File Id="274391041" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GUN\TAIL\Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 1_03.wav</ShortName>
+					<CachePath>71/{715E7CA2-30C1-3D7B-D8B3-0BA3B04345DB}.wem</CachePath>
+				</File>
+				<File Id="286420046" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 4.wav</ShortName>
+					<CachePath>1A/{1AABAFF0-F361-94C0-9409-762425CD8544}.wem</CachePath>
+				</File>
+				<File Id="290201377" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 2.wav</ShortName>
+					<CachePath>6E/{6E702613-7539-4F9D-9742-00A4036AB8DB}.wem</CachePath>
+				</File>
+				<File Id="292113314" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapons Handun Shot by unfa Id-565130 1.wav</ShortName>
+					<CachePath>E1/{E1BA2643-D9B2-200A-A284-0F1823E5FB89}.wem</CachePath>
+				</File>
+				<File Id="310433000" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 1_02.wav</ShortName>
+					<CachePath>00/{00D6B99D-C150-2470-8490-B34EC5F3D6F8}.wem</CachePath>
+				</File>
+				<File Id="406962243" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GUN\TAIL\Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 1_03.wav</ShortName>
+					<CachePath>CB/{CB02866F-3EC4-DB47-AAD7-C554AD0649E7}.wem</CachePath>
+				</File>
+				<File Id="460666277" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551.wav</ShortName>
+					<CachePath>B8/{B8B9D08B-24F7-A230-317F-C3AC88BF77BB}.wem</CachePath>
+				</File>
+				<File Id="467086784" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 1.wav</ShortName>
+					<CachePath>1C/{1C94F432-C0FB-C59E-8A72-A641AE3F4A11}.wem</CachePath>
+				</File>
+				<File Id="476198375" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GUN\TAIL\Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 2_01.wav</ShortName>
+					<CachePath>2B/{2B7414E3-1944-B726-FA14-C47ED0967F55}.wem</CachePath>
+				</File>
+				<File Id="630275917" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 1_02.wav</ShortName>
+					<CachePath>F5/{F570A9F3-5DCA-E2F4-FF8D-411131F49A31}.wem</CachePath>
+				</File>
+				<File Id="633735336" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 3_02.wav</ShortName>
+					<CachePath>1E/{1E8E41C9-E1EF-FEB3-2B57-54188CC112E9}.wem</CachePath>
+				</File>
+				<File Id="659338174" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 5.wav</ShortName>
+					<CachePath>8B/{8BDEBD81-58D5-D6B9-227C-CF6B19742BED}.wem</CachePath>
+				</File>
+				<File Id="697657171" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 6.wav</ShortName>
+					<CachePath>F1/{F1CFC637-C3D4-D64A-FFBD-167C7AFDF7E7}.wem</CachePath>
+				</File>
+				<File Id="709237918" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GUN\TAIL\Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303_01.wav</ShortName>
+					<CachePath>33/{330AFDAA-85EB-420D-19D1-8E85A2A20FB5}.wem</CachePath>
+				</File>
+				<File Id="820615464" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GUN\TAIL\Guns, Mechanism, Pistol, HK USP, Slide Forward 02 SND154303 2_02.wav</ShortName>
+					<CachePath>08/{0805FD85-5AA0-6D93-6A75-56E0DC37CB78}.wem</CachePath>
+				</File>
+				<File Id="828507954" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 4.wav</ShortName>
+					<CachePath>A0/{A0A75BF7-2434-5F02-5469-47FF95BE1BDD}.wem</CachePath>
+				</File>
+				<File Id="845811936" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bullets, Shell, 762x39, Fall, Concrete, Harder, Distant SND49551 1.wav</ShortName>
+					<CachePath>38/{38EBABD1-23EC-D81B-4AB7-94C13C786564}.wem</CachePath>
+				</File>
+				<File Id="891807436" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GUN\TAIL\Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038_01.wav</ShortName>
+					<CachePath>13/{13AD8FB4-CB30-3F72-BE94-27A2268A0277}.wem</CachePath>
+				</File>
+				<File Id="891978691" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GUN\TAIL\Guns, Misc, Paintball Gun, Shoot, Fire, Exterior, Strong Detail And Mechanism SND146038 3_03.wav</ShortName>
+					<CachePath>B1/{B1DBAE3F-B106-29F4-2086-6D8CBC9A052C}.wem</CachePath>
+				</File>
+				<File Id="918615604" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Guns, Pistol, Handgun, Reload, Mag Out, Mag In SND117387 3.wav</ShortName>
+					<CachePath>F6/{F6A5458A-1C55-5343-46E9-D75C5A1445E2}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2059328811" Name="M4_Play" ObjectPath="\Events\Default Work Unit\Weapon\M4_Play" GUID="{8C72FD96-B815-4BA2-9932-480A44B01729}" Color="10" DurationType="OneShot" DurationMin="1.7052736" DurationMax="1.8080009">
+					<MediaRefs>
+						<MediaRef Id="125019664"/>
+						<MediaRef Id="230183352"/>
+						<MediaRef Id="286420046"/>
+						<MediaRef Id="290201377"/>
+						<MediaRef Id="292113314"/>
+						<MediaRef Id="310433000"/>
+						<MediaRef Id="460666277"/>
+						<MediaRef Id="630275917"/>
+						<MediaRef Id="633735336"/>
+						<MediaRef Id="659338174"/>
+						<MediaRef Id="697657171"/>
+						<MediaRef Id="845811936"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3122859639" Id="2077253480" GUID="{52035A76-B372-414F-8733-8E517C01A862}"/>
+							<MediaRefs>
+								<MediaRef Id="219633040"/>
+								<MediaRef Id="274391041"/>
+								<MediaRef Id="406962243"/>
+								<MediaRef Id="891978691"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3122859639" Id="645492555" GUID="{9831D3A7-B7EA-4BE3-96DB-57B75D661507}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="476198375"/>
+								<MediaRef Id="709237918"/>
+								<MediaRef Id="820615464"/>
+								<MediaRef Id="891807436"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="755517494" Name="M4_Reload" ObjectPath="\Events\Default Work Unit\Weapon\M4_Reload" GUID="{27822B1F-4AE5-46A5-AD09-DA52A029B7F0}" Color="10" DurationType="OneShot" DurationMin="1.4756354" DurationMax="1.6506146">
+					<MediaRefs>
+						<MediaRef Id="164334269"/>
+						<MediaRef Id="467086784"/>
+						<MediaRef Id="828507954"/>
+						<MediaRef Id="918615604"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="881992129" Name="M4_Stop" ObjectPath="\Events\Default Work Unit\Weapon\M4_Stop" GUID="{3554C320-17D8-4F33-A2F5-DA54F27E74ED}" Color="10" DurationType="OneShot" DurationMin="1.7052736" DurationMax="1.8080009">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3122859639" Id="2077253480" GUID="{52035A76-B372-414F-8733-8E517C01A862}"/>
+							<MediaRefs>
+								<MediaRef Id="219633040"/>
+								<MediaRef Id="274391041"/>
+								<MediaRef Id="406962243"/>
+								<MediaRef Id="891978691"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3122859639" Id="645492555" GUID="{9831D3A7-B7EA-4BE3-96DB-57B75D661507}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="476198375"/>
+								<MediaRef Id="709237918"/>
+								<MediaRef Id="820615464"/>
+								<MediaRef Id="891807436"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="3554434311" Name="Ammo" ObjectPath="\Game Parameters\Default Work Unit\Ammo" GUID="{3D05EAFE-8192-4DC4-A736-69BAA492A905}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3122859639" Name="tail" ObjectPath="\Switches\Default Work Unit\tail" GUID="{F90A8781-C3C0-4CA5-A17C-1D53ECC7A621}">
+					<Switches>
+						<Switch Id="645492555" Name="out" ObjectPath="\Switches\Default Work Unit\tail\out" GUID="{9831D3A7-B7EA-4BE3-96DB-57B75D661507}"/>
+						<Switch Id="2077253480" Name="room" ObjectPath="\Switches\Default Work Unit\tail\room" GUID="{52035A76-B372-414F-8733-8E517C01A862}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{288957BB-DB41-0CB7-E8F2-C5C63996B114}</FileHash>
+	<FileHash>{C7B3AC47-FF19-656E-0536-CEAD7CFAE88E}</FileHash>
 </SoundBanksInfo>

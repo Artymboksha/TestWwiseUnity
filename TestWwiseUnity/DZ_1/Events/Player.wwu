@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="player_roll" ID="{607C0E1D-7A28-414F-B0E8-1069EE6365A4}">
+					<ChildrenList>
+						<Action Name="" ID="{03AEFB88-04AF-42FD-9964-2017BA2B9670}" ShortID="166639217">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roll" ID="{E05B0CA4-E920-448C-8F29-4C8541814339}" WorkUnitID="{514BDEB8-E316-46B8-A86D-0B32226AF305}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

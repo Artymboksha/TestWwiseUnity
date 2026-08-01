@@ -96,6 +96,57 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="amb_urban_indor_play" ID="{A153F415-5266-4145-9EEC-DFE9D131F36B}">
+							<ChildrenList>
+								<Action Name="" ID="{257FFA6F-8189-402B-AB3D-C4B60AA533BE}" ShortID="40273471">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main_indoor" ID="{B1171F0A-D72F-48CC-9842-C5AC39E500B3}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BF1D3A59-C9F5-42F4-8A71-DDFA82EE6045}" ShortID="115398540">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DD104CEF-992F-4097-8C4A-5DB7738F76C4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_urban_main_Wind, General, Wind Urban Strong Wind Blows Howling, Metal Squeaks 01 SND71919" ID="{AB9B1370-F4E0-4FC7-B7EB-8DF885BC5363}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="amb_urban_indoor_stop" ID="{F72D4E05-3E65-4688-BD63-F7B8D2053664}">
+							<ChildrenList>
+								<Action Name="" ID="{B9C56BF2-D627-4E20-BD53-E280B7131B39}" ShortID="310803637">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main_indoor" ID="{B1171F0A-D72F-48CC-9842-C5AC39E500B3}" WorkUnitID="{84B12144-0F44-42C3-9A97-17ED85FCC13A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Emitters" ID="{DCCF4E26-CCFF-4E7B-88C2-E040CF986909}" ShortID="44395802">

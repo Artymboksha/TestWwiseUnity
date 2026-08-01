@@ -94,6 +94,29 @@
 								</CustomStateList>
 							</StateInfo>
 						</Bus>
+						<AuxBus Name="DSP" ID="{30177C62-E294-4E95-A2AC-E763B429C0E1}">
+							<ChildrenList>
+								<AuxBus Name="Big_Reverb" ID="{B59F806A-DFF7-44B0-8AFB-7A2D4CEE9AB3}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{1DFDBC76-72BF-4549-AB91-0081DBECD38B}" ShortID="257790494">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+																<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Outdoor_Reverb" ID="{D2C6B712-C6CE-4D80-A92F-FB7DF6A49AAB}"/>
+							</ChildrenList>
+						</AuxBus>
+						<Bus Name="Weapon" ID="{D5950560-B78E-4DD6-90CA-59952BD856B5}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
